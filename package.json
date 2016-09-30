@@ -5,6 +5,7 @@
     "laravel-elixir-browsersync-official": "^1.0.0"
   },
   "dependencies": {
-    "bootstrap-sass": "^3.3.7"
+    "bootstrap-sass": "^3.3.7",
+    "laravel-elixir": "^4.0.0"
   }
 }
