@@ -12,3 +12,5 @@
 */
 
 $app->get('/', 'HomeController@index');
+
+$app->get('/portfolio/roberto', 'PortfolioController@index');
