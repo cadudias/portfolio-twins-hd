@@ -4,6 +4,7 @@
 
 <div class="portfolio container">    
     <!-- left column -->
+    <h1 class="heading">Portfolio Roberto Hofstetter Dias</h1>
     <div class="five columns">                    
         <div class="twelve columns profile">
             <img class="four columns" src="../images/profile-image.jpg" />
