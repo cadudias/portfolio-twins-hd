@@ -6,6 +6,9 @@ body {
   color: #FFFAE8;
   background: url(../images/scraped5.jpg); }
 
+.home {
+  padding: 150px 0; }
+
 .portfolio {
   padding-top: 40px; }
 

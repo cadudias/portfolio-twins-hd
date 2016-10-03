@@ -16,7 +16,7 @@
     <div class="row">
         <div class="character">
             <!--div class="photo"></div-->
-            <img src="/assets/images/ricardo.jpg" alt="Ricardo H. Dias">
+            <img src="../images/ricardo.png" alt="Ricardo H. Dias">
             <div class="name">Ricardo H. Dias</div>
         </div>
 
@@ -34,7 +34,7 @@
 
         <div class="character">
             <!--div class="photo"></div-->
-            <img src="/assets/images/ricardo.jpg" alt="Roberto H. Dias">
+            <img src="../images/roberto.png" alt="Roberto H. Dias">
             <div class="name">Roberto H. Dias</div>
         </div>
    </div>
