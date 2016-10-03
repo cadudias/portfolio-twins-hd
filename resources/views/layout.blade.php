@@ -13,9 +13,6 @@
     </head>
 
     <body>
-    
-        <h1>Asasassa asaaaaaaaaaaaaaas</h1>
-
         @yield('content')
     </body>
 </html>
