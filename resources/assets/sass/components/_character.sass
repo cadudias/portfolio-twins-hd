@@ -1,6 +1,10 @@
 .character 
     position: relative
 
+    &:not(.is-active)
+            opacity: 0.5
+            filter: alpha(opacity=40)
+
     > .name
         font-family: "SSF4 ABUKET", Open Sans, sans-serif
 
@@ -11,5 +15,3 @@
         color: $color_light_orange 
         -webkit-text-stroke: 2px $color_dark_orange
         font-weight: 700
-
-.character-image

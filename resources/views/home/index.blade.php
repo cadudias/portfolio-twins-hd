@@ -19,17 +19,17 @@
     </div>
 
     <div class="row">
-        <div class="character five columns">
+        <div id="js-character-ricardo" class="character six columns">
             <!--div class="photo"></div-->
             <img src="../images/ricardo.png" class="character-image u-max-full-width" alt="Ricardo H. Dias">
             <div class="name">Ricardo</div>
         </div>
 
-        <div class="two columns">
+        <!--div class="two columns">
             &nbsp;
-        </div>
+        </div-->
 
-        <div class="character five columns">
+        <div id="js-character-roberto" class="character six columns">
             <!--div class="photo"></div-->
             <img src="../images/roberto.png" class="u-max-full-width" alt="Roberto H. Dias">
             <div class="name">Roberto</div>
@@ -50,8 +50,6 @@
                     <span class="question-mark">?</span>
                 </div>
 
-               
-
                 <div class="square three columns">
                      <span class="question-mark">?</span>
                 </div>
@@ -63,11 +61,11 @@
                      <span class="question-mark">?</span>
                 </div>
 
-                 <div id="js-square-ricardo" class="square three columns">
+                 <div id="js-square-ricardo" class="square three columns is-selectable">
                     <img src="../images/ricardo-face2.png" class="u-max-full-width" alt="Selecionar Ricardo H. Dias">
                 </div>
 
-                <div id="js-square-roberto" class="square three columns">
+                <div id="js-square-roberto" class="square three columns is-selectable">
                     <img src="../images/roberto-face.png" class="u-max-full-width" alt="Selecionar Ricardo H. Dias">
                 </div>
 

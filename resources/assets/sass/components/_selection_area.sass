@@ -23,10 +23,15 @@
 
         @include rounded()
         @include animate("popIn", 2s, "ease-in-out", 0.8s, 1, "normal", "forwards")
+        
 
         &.is-active
             box-shadow: inset 0 0 15px $color_yellow, 0 0 15px $color_yellow
             border: 2px solid $color_light_yellow
+        
+        &:not(.is-active):not(.is-selectable)
+                opacity: 0.7
+                filter: alpha(opacity=40)
 
     .question-mark
         font-size: 64px
