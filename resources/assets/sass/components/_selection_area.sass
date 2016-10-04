@@ -1,5 +1,33 @@
 .selection-area
-    margin-top: 40px
+    margin-top: 70px
+    position: absolute
+    width: 400px
+    left: 50%
+    margin-left: -200px
 
-.square 
-    border: 1px solid $color_yellow
+    > .row .square
+        //transform: rotateX(-130deg)
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+        perspective: 1200px
+
+        @include rounded()
+        padding: 5px 0
+        background-color: $color_black
+        border: 1px solid $color_light_gray
+
+        animation-name: popIn
+        animation-duration: 500ms
+        animation-timing-function: ease-in
+        animation-delay: 0s
+        animation-iteration-count: 1
+        animation-direction: normal
+        animation-fill-mode: forwards
+
+.infinity-symbol > .image
+    padding: 10px
+
+@keyframes popIn
+    from 
+        opacity: 0
+    to
+        opacify: 1
