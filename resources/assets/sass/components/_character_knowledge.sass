@@ -19,15 +19,18 @@
         padding-bottom: 5px
 
     .list
-        list-style: none
-        display: table        
+        list-style: none         
 
         .list-item            
-            display: table-row                                            
+            display: -ms-flexbox
+            display: -webkit-flex
+            display: flex
+            -ms-flex-align: center
+            -webkit-align-items: center
+            -webkit-box-align: center
+            align-items: center                                            
             
-            .name
-                display: table-cell            
-                vertical-align: middle
+            .name                
                 padding-left: 20px
                 text-transform: uppercase                         
 

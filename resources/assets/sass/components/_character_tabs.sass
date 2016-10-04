@@ -8,14 +8,38 @@
 
     .list
         list-style: none
+        
 
         .list-item
             float: left
-            margin-right: 20px
-            width: 50px            
-            padding: 20px 25px
+            margin-right: 20px               
+            padding: 10px
+            padding-right: 15px
             border: 2px solid #FDF5EA
             border-radius: 10px
+            display: -ms-flexbox
+            display: -webkit-flex
+            display: flex
+            -ms-flex-align: center
+            -webkit-align-items: center
+            -webkit-box-align: center
+            align-items: center
+            cursor: pointer
+
+            &:hover
+                border: 2px solid $color_yellow   
+                .title
+                    color: $color_yellow             
+
+            .title
+                color: white
+                text-transform: none
+                text-decoration: none
+                font-size: 16px            
+
+            .image
+                height: 55px
+                margin-right: 10px
 
         .list-item.active
             border: 2px solid $color_yellow
