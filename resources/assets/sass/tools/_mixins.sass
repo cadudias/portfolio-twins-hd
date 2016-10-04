@@ -15,3 +15,8 @@
 //         @for $i from $from through $to
 //             h#{$i}
 //                 @extend %base-heading;
+
+@mixin rounded($radius: 0.5em)
+  -webkit-border-radius: $radius
+  -moz-border-radius: $radius
+  border-radius: $radius
