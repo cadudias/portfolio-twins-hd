@@ -13,23 +13,23 @@
             Olá! Nós somos os Gêmeos, <strong>Ricardo Hofstetter Dias</strong> e <strong>Roberto Hofstetter Dias</strong>. <br/> 
             Somos apaixonados por desenvolvimento e, como dá pra perceber, por jogos! <br/>
             Trabalhamos na área web há mais de 7 anos, em agências, como freelancers e atualmente no <strong>ClassAdvisor</strong>. <br/>
-            Se quiser conhecer melhor nosso trabalho seleciona um dos persomagems abaixo <br/>
-            <strong>(já aproveita e tenta adivinhar todas as referências que a gente colocou por aqui :)</strong> 
+            Se quiser conhecer melhor nosso trabalho seleciona um dos personagems abaixo :) <br/>
+            <strong>(já aproveita e tenta adivinhar todas as referências que a gente colocou por aqui!)</strong> 
          </p>
     </div>
 
     <div class="row">
-        <div class="character six columns">
+        <div class="character five columns">
             <!--div class="photo"></div-->
             <img src="../images/ricardo.png" class="character-image u-max-full-width" alt="Ricardo H. Dias">
             <div class="name">Ricardo</div>
         </div>
 
-        <!--div class="two columns">
+        <div class="two columns">
             &nbsp;
-        </div-->
+        </div>
 
-        <div class="character six columns">
+        <div class="character five columns">
             <!--div class="photo"></div-->
             <img src="../images/roberto.png" class="u-max-full-width" alt="Roberto H. Dias">
             <div class="name">Roberto</div>
@@ -63,11 +63,11 @@
                      <span class="question-mark">?</span>
                 </div>
 
-                 <div class="square three columns">
-                    <img src="../images/ricardo-face.png" class="u-max-full-width" alt="Selecionar Ricardo H. Dias">
+                 <div id="js-square-ricardo" class="square three columns">
+                    <img src="../images/ricardo-face2.png" class="u-max-full-width" alt="Selecionar Ricardo H. Dias">
                 </div>
 
-                <div class="square three columns">
+                <div id="js-square-roberto" class="square three columns">
                     <img src="../images/roberto-face.png" class="u-max-full-width" alt="Selecionar Ricardo H. Dias">
                 </div>
 
@@ -103,7 +103,6 @@
         </div>
    </div>
 
-
 </div>
-
+<script src="../../js/home.js"></script>
 @stop
