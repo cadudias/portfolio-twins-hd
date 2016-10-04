@@ -5,7 +5,7 @@
 <div class="home container container-wide">
 
     <div class="row">
-        <h2 class="title">Choose Your Character</h2>
+        <h2 class="title">Character Select</h2>
     </div>
 
     <div class="row">
@@ -14,17 +14,17 @@
     </div>
 
     <div class="row">
-        <div class="character five columns">
+        <div class="character six columns">
             <!--div class="photo"></div-->
-            <img src="../images/ricardo.png" class="character-image u-max-full-width" alt="Ricardo H. Dias" width="500px">
+            <img src="../images/ricardo.png" class="character-image u-max-full-width" alt="Ricardo H. Dias">
             <div class="name">Ricardo</div>
         </div>
 
-        <div class="two columns">
+        <!--div class="two columns">
             &nbsp;
-        </div>
+        </div-->
 
-        <div class="character five columns">
+        <div class="character six columns">
             <!--div class="photo"></div-->
             <img src="../images/roberto.png" class="u-max-full-width" alt="Roberto H. Dias">
             <div class="name">Roberto</div>
@@ -34,40 +34,40 @@
             <div class="row">
 
                 <div class="square three columns">
-                    <img src="../images/question-mark.png" class="u-max-full-width" alt="Selecionar Ricardo H. Dias">
+                    <span class="question-mark">?</span>
                 </div>
 
                  <div class="square three columns">
-                    <img src="../images/question-mark.png" class="u-max-full-width" alt="Selecionar Ricardo H. Dias">
+                    <span class="question-mark">?</span>
                 </div>
 
                  <div class="square three columns">
-                    <img src="../images/question-mark.png" class="u-max-full-width" alt="Selecionar Ricardo H. Dias">
+                    <span class="question-mark">?</span>
                 </div>
 
                
 
                 <div class="square three columns">
-                    <img src="../images/question-mark.png" class="u-max-full-width" alt="Selecionar Ricardo H. Dias">
+                     <span class="question-mark">?</span>
                 </div>
 
             </div>
             
             <div class="row">
                 <div class="square three columns">
-                    <img src="../images/question-mark.png" class="u-max-full-width" alt="Selecionar Ricardo H. Dias">
+                     <span class="question-mark">?</span>
                 </div>
 
                  <div class="square three columns">
-                    <img src="../images/ricardo.png" class="u-max-full-width" alt="Selecionar Ricardo H. Dias">
+                    <img src="../images/ricardo-face.png" class="u-max-full-width" alt="Selecionar Ricardo H. Dias">
                 </div>
 
                 <div class="square three columns">
-                    <img src="../images/ricardo.png" class="u-max-full-width" alt="Selecionar Ricardo H. Dias">
+                    <img src="../images/roberto-face.png" class="u-max-full-width" alt="Selecionar Ricardo H. Dias">
                 </div>
 
                 <div class="square three columns">
-                    <img src="../images/question-mark.png" class="u-max-full-width" alt="Selecionar Ricardo H. Dias">
+                     <span class="question-mark">?</span>
                 </div>
             </div>
             
@@ -75,19 +75,19 @@
             <div class="row">
 
                 <div class="square three columns">
-                    <img src="../images/question-mark.png" class="u-max-full-width" alt="Selecionar Ricardo H. Dias">
+                     <span class="question-mark">?</span>
                 </div>
 
                 <div class="square three columns">
-                    <img src="../images/question-mark.png" class="u-max-full-width" alt="Selecionar Ricardo H. Dias">
+                     <span class="question-mark">?</span>
                 </div>
                 
                 <div class="square three columns">
-                    <img src="../images/question-mark.png" class="u-max-full-width" alt="Selecionar Ricardo H. Dias">
+                     <span class="question-mark">?</span>
                 </div>
 
                 <div class="square three columns">
-                    <img src="../images/question-mark.png" class="u-max-full-width" alt="Selecionar Ricardo H. Dias">
+                     <span class="question-mark">?</span>
                 </div>
             </div>
 
