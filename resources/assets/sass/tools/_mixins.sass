@@ -1,3 +1,6 @@
+@mixin font-size($size)
+  font-size: $size
+
 @mixin font-weight($font-weight)
 
     @if ($font-weight == "regular")
@@ -17,6 +20,21 @@
 //                 @extend %base-heading;
 
 @mixin rounded($radius: 0.5em)
-  -webkit-border-radius: $radius
-  -moz-border-radius: $radius
-  border-radius: $radius
+    -webkit-border-radius: $radius
+    -moz-border-radius: $radius
+    border-radius: $radius
+
+@mixin animate($name, $duration, $timing-function, $delay, $iteration-count, $direction, $fill-mode)
+    animation-name: $name
+    animation-duration: $duration
+    animation-timing-function: $timing-function
+    animation-delay: $delay
+    animation-iteration-count: $iteration-count
+    animation-direction: $direction
+    animation-fill-mode: $fill-mode
+    
+@keyframes popIn
+    from 
+        opacity: 0
+    to
+        opacify: 1

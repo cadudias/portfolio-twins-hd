@@ -2,14 +2,20 @@
     padding: 90px 0 0 0
 
 .title
+    @include animate("popIn", 1s, "ease-in-out", 0s, 1, "normal", "forwards")
+
+    @include font-size(48px)
     font-family: "SSF4 ABUKET", Open Sans, sans-serif
-    margin-bottom: 10px
     text-transform: uppercase
     text-align: center
     -webkit-text-stroke: 2px $color_dark_orange
 
 
 .text-about
+    //opacity: 0
+    @include animate("popIn", 1s, "ease-in-out", 0.5s, 1, "normal", "forwards")
+
+    @include font-size(18px)
     margin-top: 30px
     text-align: center
-    font-size: 18px
+    
