@@ -9,20 +9,15 @@
         //transform: rotateX(-130deg)
         text-align: center
 
+        background-color: $color_black
+        border: 1px solid $color_light_gray
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 
         @include rounded()
 
-        background-color: $color_black
-        border: 1px solid $color_light_gray
+        
 
-        animation-name: popIn
-        animation-duration: 500ms
-        animation-timing-function: ease-in
-        animation-delay: 0s
-        animation-iteration-count: 1
-        animation-direction: normal
-        animation-fill-mode: forwards
+        @include animate("popIn", 2s, "ease-in-out", 0.8s, 1, "normal", "forwards")
 
     .question-mark
         font-size: 64px
@@ -32,9 +27,3 @@
 
 .infinity-symbol > .image
     padding: 10px
-
-@keyframes popIn
-    from 
-        opacity: 0
-    to
-        opacify: 1
