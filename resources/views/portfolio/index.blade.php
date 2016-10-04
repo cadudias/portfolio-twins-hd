@@ -2,55 +2,56 @@
 
 @section('content')
 
+<h1 class="container heading">Portfolio Roberto Hofstetter Dias</h1>
+
 <div class="portfolio container">    
-    <!-- left column -->
-    <h1 class="heading">Portfolio Roberto Hofstetter Dias</h1>
+    <!-- left column -->    
     <div class="five columns">                    
-        <div class="twelve columns profile">
+        <div class="twelve columns character-info">
             <img class="four columns" src="../images/profile-image.jpg" />
             <div class="eight columns">
                 <h2 class="twelve columns name">Roberto Hofstetter Dias</h2>
-                <span class="twelve columns">Warlord</span>
+                <span class="twelve columns status">Full Stack Developer</span>
             </div>
         </div>
-        <div class="twelve columns knowledge">
-            <h3>Conhecimentos</h3>
+        <div class="twelve columns character-knowledge">
+            <h3 class="title">Conhecimentos</h3>
             <ul class="list">
-                <li>
-                    <i></i>
-                    <span>Html5</span>
+                <li class="list-item">
+                    <img class="icon" src="../images/profile-image.jpg" />
+                    <span class="name">Html5</span>
                 </li>
-                <li>
-                    <i></i>
-                    <span>Html5</span>
+                <li class="list-item">
+                    <img class="icon" src="../images/profile-image.jpg" />
+                    <span class="name">Conhecimentos avançados em tudo e mais um pouco, enchendo lignuuiça pra quebrar a linha, mais um poooouco</span>
                 </li>
-                <li>
-                    <i></i>
-                    <span>Html5</span>
+                <li class="list-item">
+                    <img class="icon" src="../images/profile-image.jpg" />
+                    <span class="name">Html5</span>
                 </li>
-                <li>
-                    <i></i>
-                    <span>Html5</span>
+                <li class="list-item last">
+                    <img class="icon" src="../images/profile-image.jpg" />
+                    <span class="name">Html5</span>
                 </li>
             </ul>
         </div>        
     </div>    
 
     <!-- right column -->
-    <div class="seven columns tabs">
+    <div class="seven columns character-tabs">
         <div class="twelve columns">
             <ul class="list">
-                <li class="list-item">                    
-                    <span>Sobre</span>
+                <li class="list-item active">                    
+                    <a href="">Sobre</a>
                 </li>
                 <li class="list-item">                    
-                    <span>Sobre</span>
+                    <a href="">Frameworks</a>
                 </li>
                 <li class="list-item">                    
-                    <span>Sobre</span>
+                    <a href="">DBs</a>
                 </li>
                 <li class="list-item">                    
-                    <span>Sobre</span>
+                    <a href="">Portfolio</a>
                 </li>
             </ul>
         </div>
@@ -59,5 +60,10 @@
         </div>        
     </div>    
 </div>
+
+<!-- particles.js container --> 
+<div id="particles-js"></div>
+<script src="/js/particles.min.js" /></script>
+<script src="/js/particles-snow.js" /></script>
 
 @stop
