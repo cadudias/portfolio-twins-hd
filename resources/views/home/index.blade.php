@@ -9,8 +9,13 @@
     </div>
 
     <div class="row">
-        <p class="text-about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat inventore possimus quisquam libero aspernatur deleniti explicabo, 
-        magnam quaerat sed. Quae deleniti aperiam ut cumque reiciendis modi est, tempora ratione aliquid.</p>
+        <p class="text-about">
+            Olá! Nós somos os Gêmeos, <strong>Ricardo Hofstetter Dias</strong> e <strong>Roberto Hofstetter Dias</strong>. <br/> 
+            Somos apaixonados por desenvolvimento e, como dá pra perceber, por jogos! <br/>
+            Trabalhamos na área web há mais de 7 anos, em agências, como freelancers e atualmente no <strong>ClassAdvisor</strong>. <br/>
+            Se quiser conhecer melhor nosso trabalho seleciona um dos persomagems abaixo <br/>
+            <strong>(já aproveita e tenta adivinhar todas as referências que a gente colocou por aqui :)</strong> 
+         </p>
     </div>
 
     <div class="row">
