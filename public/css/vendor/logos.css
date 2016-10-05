@@ -1,0 +1,161 @@
+.sprite {
+    background-image: url(../../../images/logos_tra2.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-HTML5_Logo_512 {
+    width: 198px;
+    height: 223px;
+    background-position: 15px 15px;
+}
+
+.sprite-MySQL {
+    width: 200px;
+    height: 103px;
+    background-position: -215px -5px;
+}
+
+.sprite-Npm-logo {
+    width: 200px;
+    height: 78px;
+    background-position: -425px -5px;
+}
+
+.sprite-Oracle-Logo-HD {
+    width: 200px;
+    height: 41px;
+    background-position: -635px -5px;
+}
+
+.sprite-PHP-logo {
+    width: 200px;
+    height: 108px;
+    background-position: -635px -56px;
+}
+
+.sprite-Visual_Studio_2013_Logo {
+    width: 200px;
+    height: 207px;
+    background-position: -215px -174px;
+}
+
+.sprite-angular {
+    width: 200px;
+    height: 200px;
+    background-position: -425px -174px;
+}
+
+.sprite-bitbucket {
+    width: 193px;
+    height: 180px;
+    background-position: -635px -174px;
+}
+
+.sprite-bootstrap {
+    width: 203px;
+    height: 200px;
+    background-position: -635px -364px;
+}
+
+.sprite-color-1c4aab2b {
+    width: 200px;
+    height: 150px;
+    background-position: -5px -364px;
+}
+
+.sprite-cordova {
+    width: 239px;
+    height: 216px;
+    background-position: -5px -574px;
+}
+
+.sprite-csharp {
+    width: 250px;
+    height: 210px;
+    background-position: -254px -574px;
+}
+
+.sprite-css3 {
+    width: 198px;
+    height: 223px;
+    background-position: -504px -574px;
+}
+
+.sprite-dotnet {
+    width: 200px;
+    height: 200px;
+    background-position: -845px -5px;
+}
+
+.sprite-github {
+    width: 30px;
+    height: 30px;
+    background-position: -1055px -5px;
+}
+
+.sprite-gmail {
+    width: 30px;
+    height: 30px;
+    background-position: -1055px -45px;
+}
+
+.sprite-grunt-logo {
+    width: 210px;
+    height: 236px;
+    background-position: -838px -215px;
+}
+
+.sprite-ionic-logo-blog {
+    width: 192px;
+    height: 192px;
+    background-position: -848px -461px;
+}
+
+.sprite-jquery {
+    width: 200px;
+    height: 200px;
+    background-position: -722px -663px;
+}
+
+.sprite-js {
+    width: 210px;
+    height: 200px;
+    background-position: 5px -873px;
+}
+
+.sprite-linkedin {
+    width: 30px;
+    height: 30px;
+    background-position: -1055px -85px;
+}
+
+.sprite-stackoverflow {
+    width: 30px;
+    height: 30px;
+    background-position: -215px -125px;
+}
+
+.sprite-tumblr {
+    width: 30px;
+    height: 30px;
+    background-position: -255px -125px;
+}
+
+.sprite-twitter {
+    width: 30px;
+    height: 30px;
+    background-position: -295px -125px;
+}
+
+.sprite-vagrant {
+    width: 200px;
+    height: 238px;
+    background-position: -215px -873px;
+}
+
+.sprite-wordpress-logo-notext-rgb {
+    width: 200px;
+    height: 200px;
+    background-position: -425px -873px;
+}

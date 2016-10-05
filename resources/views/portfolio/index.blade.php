@@ -73,42 +73,48 @@
             <!-- FRONTEND -->
             <div id="character-frontend" class="row character-text-content">                                                                                                
                 <ul class="list-languages">
-                    <li class="list-languages-item">
-                        <i class="html5-logo"></i>
-                        <span>HTML 5</span>
+                    <li class="three columns list-languages-item">
+                        <span class="list-item-title">HTML 5</span>
+                        <i class="sprite sprite-HTML5_Logo_512"></i>
+                        
+                    </li>
+                    <li class="three columns list-languages-item">
+                        <span class="list-item-title">CSS 3</span>
+                        <i class="sprite sprite-css3"></i>
+                        
+                    </li>
+                    <li class="three columns list-languages-item">
+                        <span class="list-item-title">Javascript</span>
+                        <i class="sprite sprite-js"></i>
+                        
+                    </li>
+                    <li class="three columns list-languages-item">
+                        <span class="list-item-title">Sass</span>
+                        <i class="sprite sprite-color-1c4aab2b"></i>
+                        
                     </li>
                     <li class="list-languages-item">
-                        <i class="css3-logo"></i>
-                        <span>CSS 3</span>
+                        <i class="sprite sprite-gulp-logo"></i>
+                        <span class="list-item-title">Gulp</span>
                     </li>
-                    <li class="list-languages-item">
-                        <i class="js-logo"></i>
-                        <span>Javascript</span>
+                    <li class="three columns list-languages-item no-margin">
+                        <span class="list-item-title">Grunt</span>
+                        <i class="sprite sprite-grunt-logo"></i>
+                        
                     </li>
-                    <li class="list-languages-item">
-                        <i class="sass-logo"></i>
-                        <span>Sass</span>
+                    <!--<li class="list-languages-item">
+                        <i class="sprite bower-logo"></i>
+                        <span class="list-item-title">Bower</span>
+                    </li>-->
+                    <li class="three columns list-languages-item">
+                        <span class="list-item-title">NPM</span>
+                        <i class="sprite sprite-Npm-logo"></i>
+                        
                     </li>
-                    <li class="list-languages-item">
-                        <i class="gulp-logo"></i>
-                        <span>Gulp</span>
-                    </li>
-                    <li class="list-languages-item">
-                        <i class="grunt-logo"></i>
-                        <span>Grunt</span>
-                    </li>
-                    <li class="list-languages-item">
-                        <i class="bower-logo"></i>
-                        <span>Bower</span>
-                    </li>
-                    <li class="list-languages-item">
-                        <i class="npm-logo"></i>
-                        <span>NPM</span>
-                    </li>
-                    <li class="list-languages-item">
-                        <i class="seo-logo"></i>
-                        <span>SEO</span>
-                    </li>
+                    <!--<li class="list-languages-item">
+                        <i class="sprite seo-logo"></i>
+                        <span class="list-item-title">SEO</span>
+                    </li>-->
                 </ul>                
             </div>      
 
@@ -116,32 +122,32 @@
             <div id="character-frameworks-frontend" class="row character-text-content">                                                                
                 <ul class="list-languages">
                     <li class="list-languages-item">
-                        <i class="bootstrap-logo"></i>
-                        <span>Bootstrap</span>
+                        <i class="sprite bootstrap-logo"></i>
+                        <span class="list-item-title">Bootstrap</span>
                     </li>
                     <li class="list-languages-item">
-                        <i class="sketeton-logo"></i>
-                        <span>Skeleton</span>
+                        <i class="sprite sketeton-logo"></i>
+                        <span class="list-item-title">Skeleton</span>
                     </li>
                     <li class="list-languages-item">
-                        <i class="angular-logo"></i>
-                        <span>AngularJS</span>
+                        <i class="sprite angular-logo"></i>
+                        <span class="list-item-title">AngularJS</span>
                     </li>
                     <li class="list-languages-item">
-                        <i class="require-js-logo"></i>
-                        <span>Require JS</span>
+                        <i class="sprite require-js-logo"></i>
+                        <span class="list-item-title">Require JS</span>
                     </li>
                     <li class="list-languages-item">
-                        <i class="jquery-logo"></i>
-                        <span>JQuery</span>
+                        <i class="sprite jquery-logo"></i>
+                        <span class="list-item-title">JQuery</span>
                     </li>
                     <li class="list-languages-item">
-                        <i class="cordova-logo"></i>
-                        <span>Apache Cordova</span>
+                        <i class="sprite cordova-logo"></i>
+                        <span class="list-item-title">Apache Cordova</span>
                     </li>
                     <li class="list-languages-item">
-                        <i class="ionic-logo"></i>
-                        <span>Ionic</span>
+                        <i class="sprite ionic-logo"></i>
+                        <span class="list-item-title">Ionic</span>
                     </li>
                 </ul>                                                         
             </div>    
@@ -150,16 +156,16 @@
             <div id="character-backend" class="row character-text-content">                                                                                                
                 <ul class="list-languages">
                     <li class="list-languages-item">
-                        <i class="csharp-logo"></i>
-                        <span>C#</span>
+                        <i class="sprite csharp-logo"></i>
+                        <span class="list-item-title">C#</span>
                     </li>
                     <li class="list-languages-item">
-                        <i class="php-logo"></i>
-                        <span>PHP</span>
+                        <i class="sprite php-logo"></i>
+                        <span class="list-item-title">PHP</span>
                     </li>
                     <li class="list-languages-item">
-                        <i class="restfull-logo"></i>
-                        <span>Restfull API</span>
+                        <i class="sprite restfull-logo"></i>
+                        <span class="list-item-title">Restfull API</span>
                     </li>
                 </ul>              
             </div>      
@@ -169,12 +175,12 @@
                 <h4>Back-end</h4>
                 <ul class="list-languages">
                     <li class="list-languages-item">
-                        <i class="dotnet-logo"></i>
-                        <span>.NET</span>
+                        <i class="sprite dotnet-logo"></i>
+                        <span class="list-item-title">.NET</span>
                     </li>
                     <li class="list-languages-item">
-                        <i class="laravel-logo"></i>
-                        <span>Laravel</span>
+                        <i class="sprite laravel-logo"></i>
+                        <span class="list-item-title">Laravel</span>
                     </li>                    
                 </ul>            
             </div>     
@@ -183,24 +189,24 @@
             <div id="character-dbs" class="row character-text-content">                                                
                 <ul class="list-languages">
                     <li class="list-languages-item">
-                        <i class="sqlserver-logo"></i>
-                        <span>Sql Server</span>
+                        <i class="sprite sqlserver-logo"></i>
+                        <span class="list-item-title">Sql Server</span>
                     </li>
                     <li class="list-languages-item">
-                        <i class="mysql-logo"></i>
-                        <span>MySQL</span>
+                        <i class="sprite mysql-logo"></i>
+                        <span class="list-item-title">MySQL</span>
                     </li>
                     <li class="list-languages-item">
-                        <i class="oracle-logo"></i>
-                        <span>Oracle</span>
+                        <i class="sprite oracle-logo"></i>
+                        <span class="list-item-title">Oracle</span>
                     </li>
                     <li class="list-languages-item">
-                        <i class="indexdb-logo"></i>
-                        <span>IndexDB</span>
+                        <i class="sprite indexdb-logo"></i>
+                        <span class="list-item-title">IndexDB</span>
                     </li>
                     <li class="list-languages-item">
-                        <i class="sqlite-logo"></i>
-                        <span>SQLite</span>
+                        <i class="sprite sqlite-logo"></i>
+                        <span class="list-item-title">SQLite</span>
                     </li>
                 </ul>                       
             </div>
@@ -209,32 +215,32 @@
             <div id="character-tools" class="row character-text-content">                                                
                 <ul class="list-tools">
                     <li class="list-tools-item">
-                        <i class="photoshop-logo"></i>
-                        <span>Photoshop</span>
+                        <i class="sprite photoshop-logo"></i>
+                        <span class="list-item-title">Photoshop</span>
                     </li>
                     <li class="list-tools-item">
-                        <i class="visual-studio-logo"></i>
-                        <span>Visual Studio</span>
+                        <i class="sprite visual-studio-logo"></i>
+                        <span class="list-item-title">Visual Studio</span>
                     </li>
                     <li class="list-tools-item">
-                        <i class="vs-code-logo"></i>
-                        <span>Visual Studio Code</span>
+                        <i class="sprite vs-code-logo"></i>
+                        <span class="list-item-title">Visual Studio Code</span>
                     </li>
                     <li class="list-tools-item">
-                        <i class="sublime-logo"></i>
-                        <span>Sublime</span>
+                        <i class="sprite sublime-logo"></i>
+                        <span class="list-item-title">Sublime</span>
                     </li>
                     <li class="list-tools-item">
-                        <i class="bitbucket-logo"></i>
-                        <span>Bitbucket</span>
+                        <i class="sprite bitbucket-logo"></i>
+                        <span class="list-item-title">Bitbucket</span>
                     </li>
                     <li class="list-tools-item">
-                        <i class="vagrant-logo"></i>
-                        <span>Vagrant</span>
+                        <i class="sprite vagrant-logo"></i>
+                        <span class="list-item-title">Vagrant</span>
                     </li>
                     <li class="list-tools-item">
-                        <i class="wordpress-logo"></i>
-                        <span>Wordpress</span>
+                        <i class="sprite wordpress-logo"></i>
+                        <span class="list-item-title">Wordpress</span>
                     </li>
                 </ul>                       
             </div>        
