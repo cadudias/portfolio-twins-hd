@@ -39,26 +39,26 @@
             <div class="row">
 
                 <div class="square three columns">
-                    <span class="question-mark">?</span>
+                    <span class="question-mark">)</span>
                 </div>
 
                  <div class="square three columns">
-                    <span class="question-mark">?</span>
+                    <span class="question-mark">)</span>
                 </div>
 
                  <div class="square three columns">
-                    <span class="question-mark">?</span>
+                    <span class="question-mark">)</span>
                 </div>
 
                 <div class="square three columns">
-                     <span class="question-mark">?</span>
+                     <span class="question-mark">)</span>
                 </div>
 
             </div>
             
             <div class="row">
                 <div class="square three columns">
-                     <span class="question-mark">?</span>
+                     <span class="question-mark">)</span>
                 </div>
 
                  <div id="js-square-ricardo" class="square three columns is-selectable">
@@ -70,7 +70,7 @@
                 </div>
 
                 <div class="square three columns">
-                     <span class="question-mark">?</span>
+                     <span class="question-mark">)</span>
                 </div>
             </div>
             
@@ -78,19 +78,19 @@
             <div class="row">
 
                 <div class="square three columns">
-                     <span class="question-mark">?</span>
+                     <span class="question-mark">)</span>
                 </div>
 
                 <div class="square three columns">
-                     <span class="question-mark">?</span>
+                     <span class="question-mark">)</span>
                 </div>
                 
                 <div class="square three columns">
-                     <span class="question-mark">?</span>
+                     <span class="question-mark">)</span>
                 </div>
 
                 <div class="square three columns">
-                     <span class="question-mark">?</span>
+                     <span class="question-mark">)</span>
                 </div>
             </div>
 
