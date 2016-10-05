@@ -13,7 +13,9 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700" rel="stylesheet">
         <link rel="stylesheet" href="/css/vendor/skeleton.css">       
         <link rel="stylesheet" href="/css/vendor/particles.css">        
-        <link rel="stylesheet" href="/css/app.css">                
+        <link rel="stylesheet" href="/css/vendor/logos.css">
+        <link rel="stylesheet" href="/css/app.css">
+                         
     </head>
 
     <body>
