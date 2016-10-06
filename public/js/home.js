@@ -11,14 +11,14 @@ var characterRoberto = document.getElementById("js-character-roberto")
       boxRoberto.className = 'square three columns'
       boxRicardo.className = 'square three columns is-active'
 
-      characterRoberto.className = 'character six columns'
-      characterRicardo.className = 'character six columns is-active'
+      characterRoberto.className = 'character five columns'
+      characterRicardo.className = 'character five columns is-active'
     }else if (event.which == 39) { //rigth
       boxRicardo.className = 'square three columns'
       boxRoberto.className = 'square three columns is-active'
 
-      characterRicardo.className = 'character six columns'
-      characterRoberto.className = 'character six columns is-active'
+      characterRicardo.className = 'character five columns'
+      characterRoberto.className = 'character five columns is-active'
     }
     
     if(event.which == 13){

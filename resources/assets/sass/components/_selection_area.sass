@@ -8,7 +8,7 @@
     .question-mark
         font-size: 40px
         font-family: "SSF4 ABUKET", Open Sans, sans-serif
-        -webkit-text-stroke: 0.25rem $color_dark_orange
+        -webkit-text-stroke: 0.15rem $color_dark_orange
         line-height: 3.3
         position: relative
         left: 5px
@@ -29,10 +29,22 @@
         // -o-transition: box-shadow 200ms ease
         // -ms-transition: box-shadow 200ms ease
         // transition: box-shadow 200ms ease
-
+        
         @include rounded()
         //@include animate("popIn", 2s, "ease-in-out", 0.8s, 1, "normal", "forwards")
         
+            &:hover
+                -webkit-animation: glowing 300ms ease-in-out infinite
+                -webkit-animation-direction: alternate
+
+                -moz-animation: glowing 300ms ease-in-out infinite
+                -moz-animation-direction: alternate
+    
+                -o-animation: glowing 300ms ease-in-out infinite
+                -o-animation-direction: alternate
+
+                animation: glowing 300ms ease-in-out infinite
+                animation-direction: alternate
 
         &.is-active
             //box-shadow: 0px 0px 5px 4px $color_black
