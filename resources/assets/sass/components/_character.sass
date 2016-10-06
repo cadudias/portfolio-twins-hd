@@ -1,12 +1,27 @@
+          
 .character 
+    opacity: 0
     position: relative
 
-    &:not(.is-active)
-            opacity: 0.5
-            filter: alpha(opacity=40)
+    -webkit-animation-duration: $fade-speed
+    animation-duration: $fade-speed
+
+    -webkit-animation-fill-mode: both
+    animation-fill-mode: both
+
+    //&:not(.is-active)
+            //opacity: 0.5
+            //filter: alpha(opacity=40)
 
     > .name
+        opacity: 0
         font-family: "SSF4 ABUKET", Open Sans, sans-serif
+
+        -webkit-animation-duration: $fade-speed
+        animation-duration: $fade-speed
+
+        -webkit-animation-fill-mode: both
+        animation-fill-mode: both
 
         position: absolute
         bottom: 70px

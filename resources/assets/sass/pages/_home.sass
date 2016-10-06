@@ -2,8 +2,16 @@
     padding: 80px 0 0 0
 
 .title
+    opacity: 0
     margin-bottom: 10px
-    @include animate("popIn", 1s, "ease-in-out", 0s, 1, "normal", "forwards")
+    //@include animate("fade-in", 1s, "ease-in-out", 0s, 1, "normal", "forwards")
+
+    -webkit-animation-duration: $fade-speed
+    animation-duration: $fade-speed
+
+    -webkit-animation-fill-mode: both
+    animation-fill-mode: both
+
     @include font-size(48px)
     font-family: "SSF4 ABUKET", Open Sans, sans-serif
     text-transform: uppercase

@@ -29,3 +29,21 @@ var characterRoberto = document.getElementById("js-character-roberto")
         window.location.href = "/" + (activeRicardo ? "ricardo" : "roberto")
     }
   })
+
+DomReady.ready(function() { 
+  //TODO rodar no carregamento das imagens
+  //add character animation classes
+  setTimeout(function(){
+    document.getElementById('js-title-character-select').classList.add('fade-in')
+  },500)
+
+  setTimeout(function(){
+    document.getElementById('js-character-ricardo').classList.add('fade-in-left')
+    document.getElementById('js-character-roberto').classList.add('fade-in-right')
+  },1000)
+
+  setTimeout(function(){
+    document.getElementById('js-character-ricardo-name').classList.add('fade-in-left')
+    document.getElementById('js-character-roberto-name').classList.add('fade-in-right')
+  },1400)
+})
