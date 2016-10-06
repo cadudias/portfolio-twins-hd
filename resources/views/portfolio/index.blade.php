@@ -71,50 +71,40 @@
             </div>
 
             <!-- FRONTEND -->
-            <div id="character-frontend" class="row character-text-content">                                                                                                
-                <ul class="list-languages">
-                    <li class="three columns list-languages-item">
+            <div id="character-frontend" class="twelve columns character-text-content">                                                                                                
+                <ul class="list-languages twelve columns">
+                    <li class="one-third column list-languages-item">
                         <span class="list-item-title">HTML 5</span>
-                        <i class="sprite sprite-HTML5_Logo_512"></i>
-                        
+                        <i class="sprite sprite-HTML5_Logo_512"></i>                        
                     </li>
-                    <li class="three columns list-languages-item">
+                    <li class="one-third column list-languages-item">
                         <span class="list-item-title">CSS 3</span>
-                        <i class="sprite sprite-css3"></i>
-                        
+                        <i class="sprite sprite-css3"></i>                        
                     </li>
-                    <li class="three columns list-languages-item">
+                    <li class="one-third column list-languages-item">
                         <span class="list-item-title">Javascript</span>
-                        <i class="sprite sprite-js"></i>
-                        
+                        <i class="sprite sprite-js"></i>                        
                     </li>
-                    <li class="three columns list-languages-item">
+                    <li class="one-third column list-languages-item">
                         <span class="list-item-title">Sass</span>
-                        <i class="sprite sprite-color-1c4aab2b"></i>
-                        
+                        <i class="sprite sprite-color-1c4aab2b"></i>                        
                     </li>
-                    <li class="list-languages-item">
-                        <i class="sprite sprite-gulp-logo"></i>
+                    <li class="one-third column list-languages-item">                        
                         <span class="list-item-title">Gulp</span>
+                        <i class="sprite sprite-gulp"></i>
                     </li>
-                    <li class="three columns list-languages-item no-margin">
+                    <li class="one-third column list-languages-item no-margin">
                         <span class="list-item-title">Grunt</span>
-                        <i class="sprite sprite-grunt-logo"></i>
-                        
+                        <i class="sprite sprite-grunt-logo"></i>                        
                     </li>
-                    <!--<li class="list-languages-item">
-                        <i class="sprite bower-logo"></i>
-                        <span class="list-item-title">Bower</span>
-                    </li>-->
-                    <li class="three columns list-languages-item">
+                    <li class="one-third column list-languages-item">
                         <span class="list-item-title">NPM</span>
-                        <i class="sprite sprite-Npm-logo"></i>
-                        
+                        <i class="sprite sprite-Npm-logo"></i>                        
                     </li>
-                    <!--<li class="list-languages-item">
+                    <li class="one-third column list-languages-item">
                         <i class="sprite seo-logo"></i>
                         <span class="list-item-title">SEO</span>
-                    </li>-->
+                    </li>
                 </ul>                
             </div>      
 

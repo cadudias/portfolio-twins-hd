@@ -1,11 +1,29 @@
+/* Larger than mobile */
+@media (max-width: 400px)
+    .container-wide 
+        max-width: 440px !important
+
+/* Larger than phablet */
+@media (max-width: 550px)
+    .container-wide
+        max-width: 550px !important
+
+/* Larger than tablet */
+@media (max-width: 750px)
+    .container-wide
+        max-width: 750px !important
+
 .character-text    
     border-top: 2px solid #A4A6A5
     margin-top: 15px    
     font-size: 18px
-    padding-top: 10px
+    padding-top: 10px    
+
+    #character-frontend
+            background-color: rgba(0,0,0, 0.3)
 
     .character-text-content
-        display: none
+        display: none        
 
         &.visible
             display: block
@@ -24,8 +42,4 @@
 
                     .list-item-title
                         text-transform: uppercase
-                        font-size: 20px
-                                    
-
-                .no-margin
-                    margin-left: 0
+                        font-size: 20px                   

@@ -60,8 +60,8 @@
 
 .sprite-color-1c4aab2b {
     width: 200px;
-    height: 150px;
-    background-position: -5px -364px;
+    height: 180px;
+    background-position: -897px -884px;
 }
 
 .sprite-cordova {
@@ -158,4 +158,10 @@
     width: 200px;
     height: 200px;
     background-position: -425px -873px;
+}
+
+.sprite-gulp {
+    width: 200px;
+    height: 205px;
+    background-position: -628px -857px;
 }
