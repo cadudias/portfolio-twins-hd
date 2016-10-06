@@ -1,5 +1,5 @@
 .selection-area
-    margin-top: 100px
+    margin-top: 80px
     position: absolute
     width: 400px
     left: 50%
@@ -15,27 +15,29 @@
         top: 3px
 
     > .row .square
+        cursor: pointer
         height: 122px
         margin-bottom: 2%
         text-align: center
         background-color: $color_black
         border: 1px solid $color_light_gray
+        box-shadow: 5px 5px 5px 1px $color_black
         
         @include rounded()
         //@include animate("popIn", 2s, "ease-in-out", 0.8s, 1, "normal", "forwards")
         
-            .square:hover
-                -webkit-animation: glowing 300ms ease-in-out infinite
-                -webkit-animation-direction: alternate
+        &.is-selectable:hover 
+            -webkit-animation: c-glowing 300ms ease-in-out infinite
+            -webkit-animation-direction: alternate
 
-                -moz-animation: glowing 300ms ease-in-out infinite
-                -moz-animation-direction: alternate
-    
-                -o-animation: glowing 300ms ease-in-out infinite
-                -o-animation-direction: alternate
+            -moz-animation: c-glowing 300ms ease-in-out infinite
+            -moz-animation-direction: alternate
+   
+            -o-animation: c-glowing 300ms ease-in-out infinite
+            -o-animation-direction: alternate
 
-                animation: glowing 300ms ease-in-out infinite
-                animation-direction: alternate
+            animation: c-glowing 300ms ease-in-out infinite
+            animation-direction: alternate
 
         &.is-active
             //$name, $duration, $timing-function, $delay, $iteration-count, $direction, $fill-mode
@@ -57,8 +59,8 @@
         
         &:not(.is-active):not(.is-selectable)
                 opacity: 0.7
-                filter: alpha(opacity=40)
-                box-shadow: 5px 5px 5px 1px $color_black
+                //filter: alpha(opacity=70)
+                //box-shadow: 5px 5px 5px 1px $color_black
 
 /*animations*/
 @-webkit-keyframes c-glowing 

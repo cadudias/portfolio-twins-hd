@@ -30,7 +30,23 @@ var characterRoberto = document.getElementById("js-character-roberto")
     }
   })
 
-DomReady.ready(function() { 
+ boxRicardo.addEventListener("mouseover", function(event) { 
+   document.getElementById('js-character-ricardo').classList.add('is-active')
+ })
+
+  boxRicardo.addEventListener("mouseleave", function(event) { 
+   document.getElementById('js-character-ricardo').classList.remove('is-active')
+ })
+
+  boxRoberto.addEventListener("mouseover", function(event) { 
+   document.getElementById('js-character-roberto').classList.add('is-active')
+ })
+
+  boxRoberto.addEventListener("mouseleave", function(event) { 
+   document.getElementById('js-character-roberto').classList.remove('is-active')
+ })
+
+DomReady.ready(function() {
   //TODO rodar no carregamento das imagens
   //add character animation classes
   setTimeout(function(){
@@ -47,7 +63,7 @@ DomReady.ready(function() {
   setTimeout(function(){
     document.getElementById('js-character-ricardo').classList.add("is-animated");
     document.getElementById('js-character-roberto').classList.add("is-animated");
-    
+
     document.getElementById('js-character-ricardo-name').classList.add('fade-in-left')
     document.getElementById('js-character-roberto-name').classList.add('fade-in-right')
   },1400)
