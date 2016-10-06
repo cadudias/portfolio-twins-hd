@@ -8,7 +8,7 @@
     .question-mark
         font-size: 40px
         font-family: "SSF4 ABUKET", Open Sans, sans-serif
-        -webkit-text-stroke: 0.25rem $color_dark_orange
+        -webkit-text-stroke: 0.15rem $color_dark_orange
         line-height: 3.3
         position: relative
         left: 5px
@@ -17,85 +17,64 @@
     > .row .square
         height: 122px
         margin-bottom: 2%
-        //transform: rotateX(-130deg)
         text-align: center
-
         background-color: $color_black
         border: 1px solid $color_light_gray
-        //box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
-
-        // -webkit-transition: box-shadow 200ms ease
-        // -moz-transition: box-shadow 200ms ease
-        // -o-transition: box-shadow 200ms ease
-        // -ms-transition: box-shadow 200ms ease
-        // transition: box-shadow 200ms ease
-
+        
         @include rounded()
         //@include animate("popIn", 2s, "ease-in-out", 0.8s, 1, "normal", "forwards")
         
+            .square:hover
+                -webkit-animation: glowing 300ms ease-in-out infinite
+                -webkit-animation-direction: alternate
+
+                -moz-animation: glowing 300ms ease-in-out infinite
+                -moz-animation-direction: alternate
+    
+                -o-animation: glowing 300ms ease-in-out infinite
+                -o-animation-direction: alternate
+
+                animation: glowing 300ms ease-in-out infinite
+                animation-direction: alternate
 
         &.is-active
-            //box-shadow: 0px 0px 5px 4px $color_black
-            
-            //border: 2px solid $color_light_gray
-            
             //$name, $duration, $timing-function, $delay, $iteration-count, $direction, $fill-mode
             //The animation-fill-mode property specifies a style for the element when the animation is 
             //not playing (when it is finished, or when it has a delay).
 
             //@include animate("glowing", 700ms, "ease-in-out", 0s, infinite, "alternate", "fowards")
-            -webkit-animation: glowing 300ms ease-in-out infinite
+            -webkit-animation: c-glowing 300ms ease-in-out infinite
             -webkit-animation-direction: alternate
 
-            -moz-animation: glowing 300ms ease-in-out infinite
+            -moz-animation: c-glowing 300ms ease-in-out infinite
             -moz-animation-direction: alternate
    
-            -o-animation: glowing 300ms ease-in-out infinite
+            -o-animation: c-glowing 300ms ease-in-out infinite
             -o-animation-direction: alternate
 
-            animation: glowing 300ms ease-in-out infinite
+            animation: c-glowing 300ms ease-in-out infinite
             animation-direction: alternate
-            // -webkit-animation: glowing 700ms ease-in-out 0s normal infinite alternate
-            // -moz-animation: glowing 700ms ease-in-out 0s normal infinite alternate
-            // -o-animation: glowing 700ms ease-in-out 0s normal infinite alternate
-            // animation: glowing 700ms ease-in-out 0s normal infinite alternate
         
         &:not(.is-active):not(.is-selectable)
                 opacity: 0.7
                 filter: alpha(opacity=40)
                 box-shadow: 5px 5px 5px 1px $color_black
 
-
-@-webkit-keyframes glowing 
+/*animations*/
+@-webkit-keyframes c-glowing 
     from
         box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 15px #fff, 0 0 20px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow
     to 
         box-shadow: 0 0 2.5px #fff, 0 0 2.5px #fff, 0 0 7.5px #fff, 0 0 10px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 2px $color_light_yellow
 
-@-moz-keyframes glowing 
+@-moz-keyframes c-glowing
     from
         box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 15px #fff, 0 0 20px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow
     to 
         box-shadow: 0 0 2.5px #fff, 0 0 2.5px #fff, 0 0 7.5px #fff, 0 0 10px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 2px $color_light_yellow
 
-@keyframes glowing 
+@keyframes c-glowing
     from
         box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 15px #fff, 0 0 20px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow
     to 
         box-shadow: 0 0 2.5px #fff, 0 0 2.5px #fff, 0 0 7.5px #fff, 0 0 10px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 2px $color_light_yellow
-
-
-// @-moz-keyframes glowing 
-//   0%  background-color: #B20000 -moz-box-shadow: 0 0 3px #B20000
-//   50%  background-color: #FF0000 -moz-box-shadow: 0 0 40px #FF0000
-//   100%  background-color: #B20000 -moz-box-shadow: 0 0 3px #B20000
-
-// @-o-keyframes glowing 
-//   0%  background-color: #B20000 box-shadow: 0 0 3px #B20000
-//   50%  background-color: #FF0000 box-shadow: 0 0 40px #FF0000
-//   100%  background-color: #B20000 box-shadow: 0 0 3px #B20000
-
-// @keyframes glowing 
-//   0%  background-color: #B20000 box-shadow: 0 0 3px #B20000
-//   50%  background-color: #FF0000 box-shadow: 0 0 40px #FF0000
-//   100%  background-color: #B20000 box-shadow: 0 0 3px #B20000

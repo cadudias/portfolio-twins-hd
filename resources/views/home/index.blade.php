@@ -5,10 +5,11 @@
 <div class="home container container-wide">
 
     <div class="row">
-        <h2 class="title">Character Select</h2>
+        <h2 id="js-title-character-select" class="title">Character Select</h2>
     </div>
 
     <div class="row">
+<<<<<<< HEAD
         <p class="text-about">
             Olá! Nós somos os Gêmeos, <strong>Ricardo Hofstetter Dias</strong> e <strong>Roberto Hofstetter Dias</strong>. <br/> 
             Somos apaixonados por desenvolvimento e, como dá pra perceber, por jogos! <br/>
@@ -19,10 +20,12 @@
     </div>
 
     <div class="row">
+=======
+>>>>>>> 4166f23ad63c145a37036e69662e3b5f42d5c1f7
         <div id="js-character-ricardo" class="character five columns">
             <!--div class="photo"></div-->
             <img src="../images/ricardo.png" class="character-image u-max-full-width" alt="Ricardo H. Dias">
-            <div class="name">Ricardo</div>
+            <div id="js-character-ricardo-name" class="name">Ricardo</div>
         </div>
 
         <div class="two columns">
@@ -32,7 +35,7 @@
         <div id="js-character-roberto" class="character five columns">
             <!--div class="photo"></div-->
             <img src="../images/roberto.png" class="u-max-full-width" alt="Roberto H. Dias">
-            <div class="name">Roberto</div>
+            <div id="js-character-roberto-name" class="name">Roberto</div>
         </div>
 
         <div class="selection-area">
@@ -101,6 +104,16 @@
         </div>
    </div>
 
+    <div class="row">
+        <p class="text-about">
+            Olá! Nós somos os Gêmeos, <strong>Ricardo Hofstetter Dias</strong> e <strong>Roberto Hofstetter Dias</strong>. <br/> 
+            Somos apaixonados por desenvolvimento e, como dá pra perceber, por jogos! <br/>
+            Trabalhamos na área web há mais de 7 anos, em agências, como freelancers e atualmente no <strong>ClassAdvisor</strong>. <br/>
+            Se quiser conhecer melhor nosso trabalho seleciona um dos personagems acima :) <br/>
+            <strong>(já aproveita e tenta adivinhar todas as referências que a gente colocou por aqui!)</strong> 
+         </p>
+    </div>
+
 </div>
-<script src="../../js/home.js"></script>
+
 @stop
