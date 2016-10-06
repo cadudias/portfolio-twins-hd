@@ -6,29 +6,15 @@
     -webkit-animation-duration: $fade-speed
     animation-duration: $fade-speed
 
-    -webkit-animation-fill-mode: both
-    animation-fill-mode: both
-
-    //&:not(.is-active)
-            //opacity: 0.5
-            //filter: alpha(opacity=40)
-
-
-    //&.is-active
-       // -webkit-animation-name: fade-in
-       // animation-name: fade-in
-       // -webkit-animation-direction: alternate
-       // animation-direction: alternate
-      //  -webkit-animation-fill-mode: both
-       // animation-fill-mode: both
-
-    //&:not(.is-active)
-       // -webkit-animation-name: fade-out
-      //  animation-name: fade-out
-      //  -webkit-animation-direction: alternate
-       // animation-direction: alternate
-       // -webkit-animation-fill-mode: both
-      //  animation-fill-mode: both
+    &.is-active
+       opacity: 1
+       -webkit-transition: opacity $fade-speed
+       transition: opacity $fade-speed
+       
+    &.is-animated:not(.is-active)
+       opacity: .5
+       -webkit-transition: opacity $fade-speed
+       transition: opacity $fade-speed
 
     > .name
         opacity: 0
@@ -37,9 +23,6 @@
         -webkit-animation-duration: $fade-speed
         animation-duration: $fade-speed
 
-        -webkit-animation-fill-mode: both
-        animation-fill-mode: both
-
         position: absolute
         bottom: 70px
         right: 100px
@@ -47,3 +30,14 @@
         color: $color_light_orange 
         -webkit-text-stroke: 2px $color_dark_orange
         font-weight: 700
+
+    &.is-animated:not(.is-active) .name
+       opacity: .5
+       -webkit-transition: opacity $fade-speed
+       transition: opacity $fade-speed
+
+.is-active .name
+  opacity: 1
+  -webkit-transition: opacity $fade-speed
+  transition: opacity $fade-speed
+     

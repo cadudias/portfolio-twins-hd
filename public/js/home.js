@@ -38,11 +38,16 @@ DomReady.ready(function() {
   },500)
 
   setTimeout(function(){
+    
+
     document.getElementById('js-character-ricardo').classList.add('fade-in-left')
     document.getElementById('js-character-roberto').classList.add('fade-in-right')
   },1000)
 
   setTimeout(function(){
+    document.getElementById('js-character-ricardo').classList.add("is-animated");
+    document.getElementById('js-character-roberto').classList.add("is-animated");
+    
     document.getElementById('js-character-ricardo-name').classList.add('fade-in-left')
     document.getElementById('js-character-roberto-name').classList.add('fade-in-right')
   },1400)
