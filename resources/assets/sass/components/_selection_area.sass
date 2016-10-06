@@ -5,8 +5,17 @@
     left: 50%
     margin-left: -186px
 
+    .question-mark
+        font-size: 40px
+        font-family: "SSF4 ABUKET", Open Sans, sans-serif
+        -webkit-text-stroke: 0.25rem $color_dark_orange
+        line-height: 3.3
+        position: relative
+        left: 5px
+        top: 3px
+
     > .row .square
-        height: 118px
+        height: 122px
         margin-bottom: 2%
         //transform: rotateX(-130deg)
         text-align: center
@@ -15,42 +24,46 @@
         border: 1px solid $color_light_gray
         //box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 
-        -webkit-transition: box-shadow 200ms ease
-        -moz-transition: box-shadow 200ms ease
-        -o-transition: box-shadow 200ms ease
-        -ms-transition: box-shadow 200ms ease
-        transition: box-shadow 200ms ease
+        // -webkit-transition: box-shadow 200ms ease
+        // -moz-transition: box-shadow 200ms ease
+        // -o-transition: box-shadow 200ms ease
+        // -ms-transition: box-shadow 200ms ease
+        // transition: box-shadow 200ms ease
 
         @include rounded()
         //@include animate("popIn", 2s, "ease-in-out", 0.8s, 1, "normal", "forwards")
         
 
         &.is-active
-            box-shadow: inset 0 0 15px $color_yellow, 0 0 15px $color_yellow
-            border: 3px solid $color_light_gray
+            //box-shadow: 0px 0px 5px 4px $color_black
+            
+            //border: 2px solid $color_light_gray
+            
+            //$name, $duration, $timing-function, $delay, $iteration-count, $direction, $fill-mode
+            //The animation-fill-mode property specifies a style for the element when the animation is 
+            //not playing (when it is finished, or when it has a delay).
 
-            -webkit-animation: glowing 700ms ease-in-out 0s normal infinite
-            -moz-animation: glowing 700ms ease-in-out 0s normal infinite
-            -o-animation: glowing 700ms ease-in-out 0s normal infinite
-            animation: glowing 700ms ease-in-out 0s normal infinite
+            //@include animate("glowing", 700ms, "ease-in-out", 0s, infinite, "alternate", "fowards")
+            -webkit-animation: glowing 300ms ease-in-out infinite
+            -webkit-animation-direction: alternate
+            // -webkit-animation: glowing 700ms ease-in-out 0s normal infinite alternate
+            // -moz-animation: glowing 700ms ease-in-out 0s normal infinite alternate
+            // -o-animation: glowing 700ms ease-in-out 0s normal infinite alternate
+            // animation: glowing 700ms ease-in-out 0s normal infinite alternate
         
         &:not(.is-active):not(.is-selectable)
                 opacity: 0.7
                 filter: alpha(opacity=40)
+                box-shadow: 5px 5px 5px 1px $color_black
 
-    .question-mark
-        font-size: 40px
-        font-family: "SSF4 ABUKET", Open Sans, sans-serif
-        -webkit-text-stroke: 2px $color_dark_orange
-        line-height: 3.3
-        position: relative
-        left: 7px
 
 @-webkit-keyframes glowing 
   0%
-    border: 3px solid $color_light_gray
+    border: 2px solid $color_light_gray
+    box-shadow: 0 0 3px 2px $color_light_gray
   100%
-    border: 3px solid $color_light_yellow
+    border: 2px solid $color_light_yellow
+    box-shadow: 0 0 3px 2px $color_light_yellow
 
 // @-moz-keyframes glowing 
 //   0%  background-color: #B20000 -moz-box-shadow: 0 0 3px #B20000
