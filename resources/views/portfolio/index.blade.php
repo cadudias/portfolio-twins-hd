@@ -74,36 +74,35 @@
             <div id="character-frontend" class="twelve columns character-text-content">                                                                                                
                 <ul class="list-languages twelve columns">
                     <li class="one-third column list-languages-item">
-                        <span class="list-item-title">HTML 5</span>
-                        <i class="sprite sprite-HTML5_Logo_512"></i>                        
+                        <span class="twelve columns list-item-title">HTML 5</span>
+                        <img src="../images/logos/html.png" class="" width="150" alt="HTML 5" title="HTML 5" />                                           
                     </li>
                     <li class="one-third column list-languages-item">
-                        <span class="list-item-title">CSS 3</span>
-                        <i class="sprite sprite-css3"></i>                        
+                        <span class="twelve columns list-item-title">CSS 3</span>                                     
+                        <img src="../images/logos/css3.png" width="110" alt="CSS 3" title="CSS 3" />
                     </li>
                     <li class="one-third column list-languages-item">
-                        <span class="list-item-title">Javascript</span>
-                        <i class="sprite sprite-js"></i>                        
+                        <span class="twelve columns list-item-title">JavaScript</span>
+                        <img src="../images/logos/js.png" width="130" alt="JavaScript" title="JavaScript" />        
                     </li>
                     <li class="one-third column list-languages-item">
-                        <span class="list-item-title">Sass</span>
-                        <i class="sprite sprite-color-1c4aab2b"></i>                        
+                        <span class="twelve columns list-item-title">Sass</span>
+                        <img src="../images/logos/sass.png" width="130" alt="Sass" title="Sass" />                    
                     </li>
                     <li class="one-third column list-languages-item">                        
-                        <span class="list-item-title">Gulp</span>
-                        <i class="sprite sprite-gulp"></i>
+                        <span class="twelve columns list-item-title">Gulp</span>
+                        <img src="../images/logos/gulp.png" width="80" alt="Gulp" title="Gulp" />
                     </li>
                     <li class="one-third column list-languages-item no-margin">
-                        <span class="list-item-title">Grunt</span>
-                        <i class="sprite sprite-grunt-logo"></i>                        
+                        <span class="twelve columns list-item-title">Grunt</span>
+                        <img src="../images/logos/grunt.png" width="140" alt="Grunt" title="Grunt" />                      
                     </li>
                     <li class="one-third column list-languages-item">
-                        <span class="list-item-title">NPM</span>
-                        <i class="sprite sprite-Npm-logo"></i>                        
+                        <span class="twelve columns list-item-title">NPM</span>
+                        <img src="../images/logos/npm.png" width="130" alt="NPM" title="NPM" />                        
                     </li>
-                    <li class="one-third column list-languages-item">
-                        <i class="sprite seo-logo"></i>
-                        <span class="list-item-title">SEO</span>
+                    <li class="one-third column list-languages-item">                        
+                        <span class="twelve columns list-item-title">SEO</span>                        
                     </li>
                 </ul>                
             </div>      

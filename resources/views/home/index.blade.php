@@ -19,17 +19,17 @@
     </div>
 
     <div class="row">
-        <div id="js-character-ricardo" class="character six columns">
+        <div id="js-character-ricardo" class="character five columns">
             <!--div class="photo"></div-->
             <img src="../images/ricardo.png" class="character-image u-max-full-width" alt="Ricardo H. Dias">
             <div class="name">Ricardo</div>
         </div>
 
-        <!--div class="two columns">
+        <div class="two columns">
             &nbsp;
-        </div-->
+        </div>
 
-        <div id="js-character-roberto" class="character six columns">
+        <div id="js-character-roberto" class="character five columns">
             <!--div class="photo"></div-->
             <img src="../images/roberto.png" class="u-max-full-width" alt="Roberto H. Dias">
             <div class="name">Roberto</div>
