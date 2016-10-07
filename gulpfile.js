@@ -1,7 +1,11 @@
 var elixir = require('laravel-elixir')
 
+require('laravel-elixir-imagemin');
+
 elixir(function(mix) {
   mix.sass('*.sass')
+  .scripts('*.js')
+  .imagemin()
   .browserSync({
         proxy: 'localhost:8000'
     });

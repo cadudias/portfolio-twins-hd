@@ -1,42 +1,30 @@
 .character 
-    opacity: 0
     position: relative
 
     @include animate()
 
     &.is-active
-       opacity: 1
-       -webkit-transition: opacity $fade-speed
-       transition: opacity $fade-speed
+       @include animate-active-transition(1)
        
     &.is-animated:not(.is-active)
-       opacity: .5
-       
-       -webkit-transition: opacity $fade-speed
-       transition: opacity $fade-speed
+       @include animate-active-transition(.5)
 
     > a .name
-        opacity: 0
-        font-family: "SSF4 ABUKET", Open Sans, sans-serif
-
-        -webkit-animation-duration: $fade-speed
-        animation-duration: $fade-speed
-
         position: absolute
         bottom: 70px
         right: 100px
+
+        font-family: "SSF4 ABUKET", Open Sans, sans-serif
         font-size: 3rem
-        color: $color_light_orange 
+        color: $color_light_orange
         -webkit-text-stroke: 2px $color_dark_orange
-        font-weight: 700
+        @include font-weight("bold")
+
+        @include animate()
 
     &.is-animated:not(.is-active) .name
-       opacity: .5
-       -webkit-transition: opacity $fade-speed
-       transition: opacity $fade-speed
+       @include animate-active-transition(.5)
 
-.is-active a .name
-  opacity: 1
-  -webkit-transition: opacity $fade-speed
-  transition: opacity $fade-speed
+.is-active a .name  
+  @include animate-active-transition(1)
      

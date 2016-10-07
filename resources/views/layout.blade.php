@@ -21,7 +21,6 @@
     <body>
         @yield('content')
 
-        <script src="/js/domready.js"></script>
-        <script src="/js/home.js"></script>     
+        <script src="/js/all.js"></script>     
     </body>        
 </html>

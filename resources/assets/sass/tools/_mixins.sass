@@ -13,16 +13,34 @@
     -moz-border-radius: $radius
     border-radius: $radius
 
+//TODO change name to something more meaningfull
 @mixin animate()
+    opacity: 0
+
     -moz-animation-duration: $fade-speed
     -o-animation-duration: $fade-speed
     -webkit-animation-duration: $fade-speed
     animation-duration: $fade-speed
 
-    -moz-animation-fill-mode: "both"
-    -o-animation-fill-mode: "both"
-    -webkit-animation-fill-mode: "both"
-    animation-fill-mode: "both"
+@mixin animate-fade-in()
+    opacity: 0
+    
+    animation: fade-in ease-in 1
+    -moz-animation: fade-in ease-in 1
+    -o-animation: fade-in ease-in 1
+    
+    animation-fill-mode: forwards
+    -moz-animation-fill-mode: forwards
+    -o-animation-fill-mode: forwards
+	
+    animation-duration: $fade-speed
+    -moz-animation-duration: $fade-speed
+    -o-animation-duration: $fade-speed
+	
+@mixin animate-active-transition($opacity-value)
+    opacity: $opacity-value
+    -webkit-transition: opacity $fade-speed
+    transition: opacity $fade-speed
 // @mixin animate($name, $duration, $timing-function, $delay, $iteration-count, $direction, "both")
 //     animation-name: $name
 //     animation-duration: $duration

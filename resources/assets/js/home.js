@@ -30,6 +30,7 @@ var characterRoberto = document.getElementById("js-character-roberto")
     }
   })
 
+
  boxRicardo.addEventListener("mouseover", function(event) { 
    document.getElementById('js-character-ricardo').classList.add('is-active')
  })
@@ -54,8 +55,6 @@ DomReady.ready(function() {
   },500)
 
   setTimeout(function(){
-    
-
     document.getElementById('js-character-ricardo').classList.add('fade-in-left')
     document.getElementById('js-character-roberto').classList.add('fade-in-right')
   },1000)
