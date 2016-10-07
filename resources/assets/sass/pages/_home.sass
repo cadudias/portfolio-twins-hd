@@ -1,34 +1,25 @@
 .home
     padding: 60px 0 0 0
 
-.title
-    opacity: 0
-    margin-bottom: 10px
-    //@include animate("fade-in", 1s, "ease-in-out", 0s, 1, "normal", "forwards")
+    .title
+        opacity: 0
+        margin-bottom: 10px
 
-    -moz-animation-duration: $fade-speed
-    -o-animation-duration: $fade-speed
-    -webkit-animation-duration: $fade-speed
-    animation-duration: $fade-speed
+        @include animate()
 
-    -moz-animation-fill-mode: both
-    -o-animation-fill-mode: both
-    -webkit-animation-fill-mode: both
-    animation-fill-mode: both
-
-    @include font-size(48px)
-    font-family: "SSF4 ABUKET", Open Sans, sans-serif
-    text-transform: uppercase
-    text-align: center
-    -webkit-text-stroke: 2px $color_dark_orange
+        @include font-size(48px)
+        font-family: "SSF4 ABUKET", Open Sans, sans-serif
+        text-transform: uppercase
+        text-align: center
+        -webkit-text-stroke: 2px $color_dark_orange
 
 
-.text-about
-    //opacity: 0
-    //@include animate("popIn", 1s, "ease-in-out", 0.5s, 1, "normal", "forwards")
+    .text-about
+        //opacity: 0
+        //@include animate("popIn", 1s, "ease-in-out", 0.5s, 1, "normal", "forwards")
 
-    @include font-size(18px)
-    //margin-top: 10px
-    text-align: center
-    line-height: 22px
+        @include font-size(18px)
+        //margin-top: 10px
+        text-align: center
+        line-height: 22px
     

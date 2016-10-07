@@ -15,6 +15,7 @@
         top: 3px
 
     > .row .square
+        position: relative
         cursor: pointer
         height: 122px
         margin-bottom: 2%
@@ -26,6 +27,14 @@
         @include rounded()
         //@include animate("popIn", 2s, "ease-in-out", 0.8s, 1, "normal", "forwards")
         
+        .player-one-tag
+            opacity: 0
+            font-family: "Futura", Open Sans, sans-serif
+            @include font-weight("bold")
+            top: -12px
+            position: absolute
+            color: $color_light_blue
+
         &.is-selectable:hover 
             -webkit-animation: c-glowing 300ms ease-in-out infinite
             -webkit-animation-direction: alternate
@@ -38,13 +47,9 @@
 
             animation: c-glowing 300ms ease-in-out infinite
             animation-direction: alternate
+            
 
         &.is-active
-            //$name, $duration, $timing-function, $delay, $iteration-count, $direction, $fill-mode
-            //The animation-fill-mode property specifies a style for the element when the animation is 
-            //not playing (when it is finished, or when it has a delay).
-
-            //@include animate("glowing", 700ms, "ease-in-out", 0s, infinite, "alternate", "fowards")
             -webkit-animation: c-glowing 300ms ease-in-out infinite
             -webkit-animation-direction: alternate
 
@@ -61,6 +66,7 @@
                 opacity: 0.7
                 //filter: alpha(opacity=70)
                 //box-shadow: 5px 5px 5px 1px $color_black
+
 
 /*animations*/
 @-webkit-keyframes c-glowing 
