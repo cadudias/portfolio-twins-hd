@@ -20,7 +20,9 @@
 
     <body>
         @yield('content')
-
-        <script src="/js/all.js"></script>     
+        <!-- particles.js container --> 
+        <div id="particles-js"></div>
+        
+        <script src="/js/all.js"></script>             
     </body>        
 </html>
