@@ -228,7 +228,7 @@
                                 <a href="http://whygowild.com" target="_blank" class="access-link">Acessar</a>
                             </div>
                             <div class="twelve columns">
-                                <p class="text">Desenvolvi a parte de backend do site em .NET MVC, também desenvolvemos um CMS personalizado para lidar com o conteúdo em seis idiomas: Inglês, polonês, húngaro, esloveno, checo e romani</p>
+                                <p class="text">Trabalhei no desenvolvimento do CMS e na integração do site em C# .NET / MVC. Desenvolvemos um CMS personalizado para lidar com o conteúdo em seis idiomas: Inglês, polonês, húngaro, esloveno, checo e romani</p>
                             </div>                            
                             <div class="twelve columns">
                                 <h5 class="subtitle">Envolvimento</h5>
@@ -236,7 +236,8 @@
                                     <li class="list-item">C#</li>
                                     <li class="list-item">.NET</li>
                                     <li class="list-item">Backbone JS</li>
-                                    <li class="list-item">Require JS</li>                                                                       
+                                    <li class="list-item">Require JS</li>
+                                    <li class="list-item">MVC</li>                                                                       
                                 </ul>
                             </div>                        
                         </div>                        
@@ -253,7 +254,7 @@
                                 <a href="http://perverte.me" target="_blank" class="access-link">Acessar</a>
                             </div>
                             <div class="twelve columns">
-                                <p class="text">Desenvolvi a parte de Backend do site em .NET MVC, dois idiomas</p>
+                                <p class="text">Trabalhei no desenvolvimento do CMS e na integração do site em C# .NET / MVC, site dois idiomas</p>
                             </div>                            
                             <div class="twelve columns">
                                 <h5 class="subtitle">Envolvimento</h5>
@@ -261,7 +262,8 @@
                                     <li class="list-item">C#</li>
                                     <li class="list-item">.NET</li>
                                     <li class="list-item">Backbone JS</li>
-                                    <li class="list-item">Require JS</li>                                                                       
+                                    <li class="list-item">Require JS</li>       
+                                    <li class="list-item">MVC</li>                                                                
                                 </ul>
                             </div>                        
                         </div>                        
