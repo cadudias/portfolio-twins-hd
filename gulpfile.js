@@ -4,6 +4,7 @@ require('laravel-elixir-imagemin');
 
 elixir(function(mix) {
   mix.sass('*.sass')
+  .styles('*.css')
   .scripts('*.js')
   .scripts([
     'domready.js', 'home.js', 'particles.min.js', 'particles-snow.js', 'portfolio.js'  
