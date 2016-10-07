@@ -4,9 +4,11 @@ require('laravel-elixir-imagemin');
 
 elixir(function(mix) {
   mix.sass('*.sass')
+  .scripts('*.js')
   .scripts([
     'domready.js', 'home.js', 'particles.min.js', 'particles-snow.js', 'portfolio.js'  
   ])
+  .rollup('all.js')
   .imagemin()
   .browserSync({
         proxy: 'localhost:8000'
