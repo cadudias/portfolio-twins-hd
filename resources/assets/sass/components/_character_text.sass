@@ -4,8 +4,8 @@
     font-size: 18px
     padding-top: 10px    
 
-    #character-frontend
-            background-color: rgba(0,0,0, 0.3)
+    #character-frontend, #character-backend, #character-tools, #character-dbs, #character-works 
+        background-color: rgba(0,0,0, 0.3)
 
     .character-text-content
         padding-top: 20px
@@ -14,7 +14,7 @@
         &.visible
             display: block
     
-            .list-languages
+            .list-languages, .list-tools
                 list-style: none
                             
                 .list-languages-item                    
@@ -29,4 +29,33 @@
                     .list-item-title
                         text-transform: uppercase
                         font-size: 20px
-                        margin-bottom: 10px                   
+                        margin-bottom: 10px  
+
+        .list-works
+            .title-link
+                text-decoration: none
+                color: $color_yellow
+                &:hover
+                    text-decoration: underline
+
+                .title
+                    font-size: 20px                    
+                    font-weight: bold
+                    letter-spacing: 2px
+
+
+            .subtitle
+                font-size: 18px
+                font-weight: bold
+
+            .text
+                font-size: 17px
+
+            .list
+                list-style: none
+                .list-item
+                    background-color: black
+                    color: white
+                    padding: 10px
+                    float: left
+                    margin: 5px 5px
