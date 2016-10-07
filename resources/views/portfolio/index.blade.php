@@ -218,30 +218,54 @@
                 <div class="list-works twelve columns">
                     <div class="list-works-item twelve columns">
                         
-                        <div class="four columns">
-                            <a href="http://whygowild.com" target="_blank"><img src="../images/trabalhos/roberto/wwf.jpg" class="u-max-full-width" /></a>
+                        <div class="four columns container-image">
+                            <a href="http://whygowild.com" target="_blank" class="image"><img src="../images/trabalhos/roberto/wwf.jpg" class="u-max-full-width" /></a>                            
                         </div>
                         
                         <div class="eight columns">                                                    
-                            <a href="http://whygowild.com" target="_blank" class="title-link"><h4 class="title">Why Go Wild</h4></a>
-                            <p class="text">Desenvolvi a parte de backend do site em .NET MVC, também desenvolvemos um CMS personalizado para lidar com o conteúdo em seis idiomas: Inglês, polonês, húngaro, esloveno, checo e romani</p>
-                            <h5 class="subtitle">Envolvimento</h5>
-                            <ul class="list">
-                                <li class="list-item">C#</li>
-                                <li class="list-item">.NET</li>
-                                <li class="list-item">Backbone JS</li>
-                                <li class="list-item">Require JS</li>
-                                <li class="list-item">C#</li>
-                                <li class="list-item">.NET</li>
-                                <li class="list-item">Backbone JS</li>
-                                <li class="list-item">Require JS</li>
-                                <li class="list-item">C#</li>
-                                <li class="list-item">.NET</li>
-                                <li class="list-item">Backbone JS</li>
-                                
-                            </ul>                        
+                            <div class="twelve columns top">
+                                <a href="http://whygowild.com" target="_blank" class="title-link"><h4 class="title">Why Go Wild</h4></a>
+                                <a href="http://whygowild.com" target="_blank" class="access-link">Acessar</a>
+                            </div>
+                            <div class="twelve columns">
+                                <p class="text">Desenvolvi a parte de backend do site em .NET MVC, também desenvolvemos um CMS personalizado para lidar com o conteúdo em seis idiomas: Inglês, polonês, húngaro, esloveno, checo e romani</p>
+                            </div>                            
+                            <div class="twelve columns">
+                                <h5 class="subtitle">Envolvimento</h5>
+                                <ul class="list">
+                                    <li class="list-item">C#</li>
+                                    <li class="list-item">.NET</li>
+                                    <li class="list-item">Backbone JS</li>
+                                    <li class="list-item">Require JS</li>                                                                       
+                                </ul>
+                            </div>                        
                         </div>                        
-                    </div>                    
+                    </div>     
+                     <div class="list-works-item twelve columns">
+                        
+                        <div class="four columns container-image">
+                            <a href="http://perverte.me" target="_blank" class="image"><img src="../images/trabalhos/roberto/perverte.jpg" class="u-max-full-width" /></a>                            
+                        </div>
+                        
+                        <div class="eight columns">                                                    
+                            <div class="twelve columns top">
+                                <a href="http://perverte.me" target="_blank" class="title-link"><h4 class="title">Perverte</h4></a>
+                                <a href="http://perverte.me" target="_blank" class="access-link">Acessar</a>
+                            </div>
+                            <div class="twelve columns">
+                                <p class="text">Desenvolvi a parte de Backend do site em .NET MVC, dois idiomas</p>
+                            </div>                            
+                            <div class="twelve columns">
+                                <h5 class="subtitle">Envolvimento</h5>
+                                <ul class="list">
+                                    <li class="list-item">C#</li>
+                                    <li class="list-item">.NET</li>
+                                    <li class="list-item">Backbone JS</li>
+                                    <li class="list-item">Require JS</li>                                                                       
+                                </ul>
+                            </div>                        
+                        </div>                        
+                    </div>                 
                 </div>                       
             </div>   
 
