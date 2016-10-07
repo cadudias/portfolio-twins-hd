@@ -1,19 +1,7 @@
-// @keyframes fade-in
-//   from 
-//     opacity: 0
-//   to
-//     opacity: 1
-
-// @keyframes fade-out
-//   from 
-//     opacity: 1
-//   to
-//     opacity: .5
-
 @keyframes fade-in-left
   from
     opacity: 0
-    transform: translateX(-200px)
+    transform: translateX(-$translate-x-initial-position)
   to
     opacity: .5
     transform: translateX(0)
@@ -22,20 +10,24 @@
 @keyframes fade-in-right
   from
     opacity: 0
-    transform: translateX(200px)
+    transform: translateX($translate-x-initial-position)
   to
     opacity: .5
     transform: translateX(0)
 
 .fade-in
   opacity: 1
-  -webkit-transition: opacity 1s
-  transition: opacity 1s
+  -moz-transition: opacity $fade-speed
+  -o-transition: opacity $fade-speed
+  -webkit-transition: opacity $fade-speed
+  transition: opacity $fade-speed
 
 .fade-out
   opacity: 0
-  -webkit-transition: opacity 1s
-  transition: opacity 1s
+  -moz-transition: opacity $fade-speed
+  -o-transition: opacity $fade-speed
+  -webkit-transition: opacity $fade-speed
+  transition: opacity $fade-speed
 
 .fade-in-left
   -moz-animation-name: fade-in-left

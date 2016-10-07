@@ -10,9 +10,10 @@
 
     <div class="row">
         <div id="js-character-ricardo" class="character five columns">
-            <!--div class="photo"></div-->
-            <img src="../images/ricardo.png" class="character-image u-max-full-width" alt="Ricardo H. Dias">
-            <div id="js-character-ricardo-name" class="name">Ricardo</div>
+            <a href="/portfolio/ricardo-hofstetter-dias">
+                <img src="../images/ricardo.png" class="character-image u-max-full-width" alt="Ricardo H. Dias">
+                <div id="js-character-ricardo-name" class="name">Ricardo</div>
+            </a>
         </div>
 
         <div class="two columns">
@@ -20,14 +21,14 @@
         </div>
 
         <div id="js-character-roberto" class="character five columns">
-            <!--div class="photo"></div-->
-            <img src="../images/roberto.png" class="u-max-full-width" alt="Roberto H. Dias">
-            <div id="js-character-roberto-name" class="name">Roberto</div>
+            <a href="/portfolio/roberto-hofstetter-dias">
+                <img src="../images/roberto.png" class="u-max-full-width" alt="Roberto H. Dias">
+                <div id="js-character-roberto-name" class="name">Roberto</div>
+            </a>
         </div>
 
         <div class="selection-area">
             <div class="row">
-
                 <div class="square three columns">
                     <span class="question-mark">)</span>
                 </div>
@@ -43,7 +44,6 @@
                 <div class="square three columns">
                      <span class="question-mark">)</span>
                 </div>
-
             </div>
             
             <div class="row">
@@ -52,11 +52,17 @@
                 </div>
 
                  <div id="js-square-ricardo" class="square three columns is-selectable">
-                    <img src="../images/ricardo-face2.png" class="u-max-full-width" alt="Selecionar Ricardo H. Dias">
+                    <a href="/portfolio/ricardo-hofstetter-dias">
+                        <span class="player-one-tag"> 1P </span>
+                        <img src="../images/ricardo-face2.png" class="u-max-full-width" alt="Selecionar Ricardo H. Dias">
+                    </a>
                 </div>
 
                 <div id="js-square-roberto" class="square three columns is-selectable">
-                    <img src="../images/roberto-face.png" class="u-max-full-width" alt="Selecionar Ricardo H. Dias">
+                    <a href="/portfolio/roberto-hofstetter-dias">
+                        <span class="player-one-tag"> 1P </span>
+                        <img src="../images/roberto-face.png" class="u-max-full-width" alt="Selecionar Ricardo H. Dias">
+                    </a>
                 </div>
 
                 <div class="square three columns">
