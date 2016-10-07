@@ -6,6 +6,8 @@ var characterRicardo = document.getElementById("js-character-ricardo")
 var boxRoberto = document.getElementById("js-square-roberto")
 var characterRoberto = document.getElementById("js-character-roberto")
 
+if(boxRicardo !== null && boxRoberto !== null) {
+
  html[0].addEventListener("keydown", function(event) {
     if (event.which == 37){ //left
       boxRoberto.classList.remove("is-active");
@@ -67,3 +69,4 @@ DomReady.ready(function() {
     document.getElementById('js-character-roberto-name').classList.add('fade-in-right')
   },1400)
 })
+}

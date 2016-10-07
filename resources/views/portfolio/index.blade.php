@@ -285,11 +285,4 @@
         </div>
     </div>        
 </div>
-
-<!-- particles.js container --> 
-<div id="particles-js"></div>
-<script src="/js/particles.min.js" /></script>
-<script src="/js/particles-snow.js" /></script>
-<script src="/js/portfolio.js" /></script>
-
 @stop
