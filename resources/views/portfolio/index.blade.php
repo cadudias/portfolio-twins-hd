@@ -218,52 +218,161 @@
                 <div class="list-works twelve columns">
                     <div class="list-works-item twelve columns">
                         
-                        <div class="four columns container-image">
+                        <div class="three columns container-image">
                             <a href="http://whygowild.com" target="_blank" class="image"><img src="../images/trabalhos/roberto/wwf.jpg" class="u-max-full-width" /></a>                            
                         </div>
                         
-                        <div class="eight columns">                                                    
+                        <div class="nine columns container-right">                                                    
                             <div class="twelve columns top">
                                 <a href="http://whygowild.com" target="_blank" class="title-link"><h4 class="title">Why Go Wild</h4></a>
                                 <a href="http://whygowild.com" target="_blank" class="access-link">Acessar</a>
                             </div>
                             <div class="twelve columns">
-                                <p class="text">Trabalhei no desenvolvimento do CMS e na integração do site em C# .NET / MVC. Desenvolvemos um CMS personalizado para lidar com o conteúdo em seis idiomas: Inglês, polonês, húngaro, esloveno, checo e romani</p>
+                                <p class="text">Trabalhei no desenvolvimento do CMS e na integração do site em C# .NET / MVC. Desenvolvemos um CMS personalizado para lidar com o conteúdo em seis idiomas: Inglês, polonês, húngaro, esloveno, checo e romani.
+                                Também participei do desenvolvimento de várias animações do site.</p>
+                                <p>Agência Perverte</p>
                             </div>                            
                             <div class="twelve columns">
                                 <h5 class="subtitle">Envolvimento</h5>
                                 <ul class="list">
+                                    <li class="list-item">HTML 5</li>
+                                    <li class="list-item">CSS 3</li>
+                                    <li class="list-item">Animações</li>
+                                    <li class="list-item">JQuery</li>
                                     <li class="list-item">C#</li>
                                     <li class="list-item">.NET</li>
                                     <li class="list-item">Backbone JS</li>
                                     <li class="list-item">Require JS</li>
-                                    <li class="list-item">MVC</li>                                                                       
+                                    <li class="list-item">MVC</li>
+                                    <li class="list-item">SQL Server</li>                                                                       
                                 </ul>
                             </div>                        
                         </div>                        
                     </div>     
-                     <div class="list-works-item twelve columns">
+                    <div class="list-works-item twelve columns">
                         
-                        <div class="four columns container-image">
+                        <div class="three columns container-image">
                             <a href="http://perverte.me" target="_blank" class="image"><img src="../images/trabalhos/roberto/perverte.jpg" class="u-max-full-width" /></a>                            
                         </div>
                         
-                        <div class="eight columns">                                                    
+                        <div class="nine columns container-right">                                                    
                             <div class="twelve columns top">
                                 <a href="http://perverte.me" target="_blank" class="title-link"><h4 class="title">Perverte</h4></a>
                                 <a href="http://perverte.me" target="_blank" class="access-link">Acessar</a>
                             </div>
                             <div class="twelve columns">
-                                <p class="text">Trabalhei no desenvolvimento do CMS e na integração do site em C# .NET / MVC, site dois idiomas</p>
+                                <p class="text">Trabalhei no desenvolvimento do CMS e na integração do site em C# .NET / MVC, site dois idiomas.
+                                Também participei do desenvolvimento de várias animações do site.</p>
+                                <p>Agência Perverte</p>
                             </div>                            
                             <div class="twelve columns">
                                 <h5 class="subtitle">Envolvimento</h5>
                                 <ul class="list">
+                                    <li class="list-item">HTML 5</li>
+                                    <li class="list-item">CSS 3</li>
+                                    <li class="list-item">Animações</li>
+                                    <li class="list-item">JQuery</li>
                                     <li class="list-item">C#</li>
                                     <li class="list-item">.NET</li>
                                     <li class="list-item">Backbone JS</li>
                                     <li class="list-item">Require JS</li>       
-                                    <li class="list-item">MVC</li>                                                                
+                                    <li class="list-item">MVC</li>  
+                                    <li class="list-item">Sql Server</li>                                                                 
+                                </ul>
+                            </div>                        
+                        </div>                        
+                    </div>                 
+                    <div class="list-works-item twelve columns">
+                        
+                        <div class="three columns container-image">
+                            <a href="http://www.classadvisor.com.br" target="_blank" class="image"><img src="../images/trabalhos/roberto/classadvisor.jpg" class="u-max-full-width" /></a>                            
+                        </div>
+                        
+                        <div class="nine columns container-right">                                                    
+                            <div class="twelve columns top">
+                                <a href="http://www.classadvisor.com.br" target="_blank" class="title-link"><h4 class="title">ClassAdvisor</h4></a>
+                                <a href="http://www.classadvisor.com.br" target="_blank" class="access-link">Acessar</a>
+                            </div>
+                            <div class="twelve columns">
+                                <p class="text">CTO e Full Stack Developer, fazendo todo o HTML, CSS e JavaScript. Desenvolvemos também a API REST no framework Laravel.</p>
+                            </div>                            
+                            <div class="twelve columns">
+                                <h5 class="subtitle">Envolvimento</h5>
+                                <ul class="list">                                                                        
+                                    <li class="list-item">HTML 5</li>
+                                    <li class="list-item">CSS 3</li>
+                                    <li class="list-item">Sass</li>
+                                    <li class="list-item">JavaScript</li>
+                                    <li class="list-item">AngularJS</li>
+                                    <li class="list-item">PHP</li>       
+                                    <li class="list-item">Laravel</li>
+                                    <li class="list-item">SEO</li>    
+                                    <li class="list-item">Webpack</li>
+                                    <li class="list-item">MySQL</li>                                                                                                  
+                                </ul>
+                            </div>                        
+                        </div>                        
+                    </div> 
+                    <div class="list-works-item twelve columns">
+                        
+                        <div class="three columns container-image">
+                            <a href="http://archplus.promob.com/" target="_blank" class="image"><img src="../images/trabalhos/roberto/archplus.jpg" class="u-max-full-width" /></a>                            
+                        </div>
+                        
+                        <div class="nine columns container-right">                                                    
+                            <div class="twelve columns top">
+                                <a href="http://archplus.promob.com/" target="_blank" class="title-link"><h4 class="title">Promob Arch Plus</h4></a>
+                                <a href="http://archplus.promob.com/" target="_blank" class="access-link">Acessar</a>
+                            </div>
+                            <div class="twelve columns">
+                                <p class="text">Desenvolvimento de animações no site.</p>
+                                <p>Agência Perverte</p>
+                            </div>                            
+                            <div class="twelve columns">
+                                <h5 class="subtitle">Envolvimento</h5>
+                                <ul class="list">                                                                        
+                                    <li class="list-item">HTML 5</li>
+                                    <li class="list-item">CSS 3</li>                                    
+                                    <li class="list-item">JavaScript</li>
+                                    <li class="list-item">JQuery</li>
+                                    <li class="list-item">Animações</li>                                                                                                                                                                                
+                                    <li class="list-item">.NET</li>
+                                    <li class="list-item">C#</li>
+                                </ul>
+                            </div>                        
+                        </div>                        
+                    </div>   
+                    <div class="list-works-item twelve columns">
+                        
+                        <div class="three columns container-image">
+                            <a href="http://archplus.promob.com/" target="_blank" class="image">
+                                <img src="../images/trabalhos/roberto/florense.jpg" class="u-max-full-width" />
+                            </a>                            
+                        </div>
+                        
+                        <div class="nine columns container-right">                                                    
+                            <div class="twelve columns top">
+                                <a href="http://www.florense.com.br" target="_blank" class="title-link"><h4 class="title">Florense</h4></a>
+                                <a href="http://www.florense.com.br" target="_blank" class="access-link">Acessar</a>
+                            </div>
+                            <div class="twelve columns">
+                                <p class="text">Desenvolvimento do CMS de gerenciamento do site em 3 idiomas, fiz também toda a integração do site.</br> 
+                                Na seção Onde Encontrar do site fizemos geolocalização pelo IP do usuário para buscar as lojas mais próximas dele. </br>
+                                Também desenvolvi todas as galerias de imagens do site em JQuery e JavaScript.</p>
+                                <p>Agência Perverte</p>
+                            </div>                            
+                            <div class="twelve columns">
+                                <h5 class="subtitle">Envolvimento</h5>
+                                <ul class="list">                             
+                                    <li class="list-item">CSS</li>                                                                                                                     
+                                    <li class="list-item">JavaScript</li>
+                                    <li class="list-item">JQuery</li>
+                                    <li class="list-item">Animações</li>                                                                                                                                                                                
+                                    <li class="list-item">.NET</li>
+                                    <li class="list-item">C#</li>
+                                    <li class="list-item">SQL Server</li>
+                                    <li class="list-item">Require JS</li>
+                                    <li class="list-item">Google Maps API</li>
                                 </ul>
                             </div>                        
                         </div>                        

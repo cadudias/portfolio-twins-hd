@@ -68,10 +68,14 @@
 
             .container-image           
                 overflow: hidden     
-                position: relative
+                position: relative            
                 
+                &.columns
+                    padding: 0
+
                 .image
                     float: left
+                    margin-left: 
 
                     img
                         vertical-align: middle
@@ -103,6 +107,9 @@
                     100% 
                         left: 125%
             
+            .container-right
+                padding-left: 20px
+
             .subtitle
                 font-size: 18px
                 font-weight: bold
