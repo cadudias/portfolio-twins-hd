@@ -49,3 +49,22 @@
 //     animation-iteration-count: $iteration-count
 //     animation-direction: $direction
 //     animation-fill-mode: "both"
+
+//@mixin hide($)
+
+@mixin breakpoint($point)
+   @if $point == desktop 
+     @media (min-width: 1920px) 
+        @content
+   @else if $point == laptop
+     @media (max-width: $breakpoint-medium-small)
+        @content
+   @else if $point == tablet 
+     @media (min-width: 768px)  
+        @content
+   @else if $point == phablet 
+     @media (max-width: 540px)   
+        @content
+   @else if $point == mobileonly
+     @media (max-width: 380px) 
+        @content

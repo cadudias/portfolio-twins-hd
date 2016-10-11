@@ -10,13 +10,19 @@
         text-align: center
         -webkit-text-stroke: 2px $color_dark_orange
 
+        @include breakpoint(phablet)
+            @include font-size(43px)
 
-    .text-about
-        //opacity: 0
-        //@include animate("popIn", 1s, "ease-in-out", 0.5s, 1, "normal", "forwards")
+    .about
+        @include breakpoint(laptop)
+            margin-top: 40px
 
-        @include font-size(18px)
-        //margin-top: 10px
-        text-align: center
-        line-height: 22px
-    
+        > .text
+            @include font-size(18px)
+            text-align: center
+            line-height: 22px
+
+            @include breakpoint(laptop)
+                width: 80%
+                margin-left: 10%
+        

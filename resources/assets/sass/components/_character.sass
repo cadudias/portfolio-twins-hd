@@ -3,6 +3,9 @@
 
     @include animate()
 
+    @include breakpoint(laptop)
+        display: none
+
     &.is-active
        @include animate-active-transition(1)
        

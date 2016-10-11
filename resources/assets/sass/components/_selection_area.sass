@@ -3,7 +3,18 @@
     position: absolute
     width: 400px
     left: 50%
-    margin-left: -186px
+    margin-left: -200px
+
+    @include breakpoint(laptop)
+        position: relative
+
+    @include breakpoint(phablet)
+        margin-left: 0
+        margin-top: 0
+        margin-bottom: 50px
+        width: 100%
+        left: 0
+        //margin-left: 30%
 
     .question-mark
         font-size: 40px
@@ -14,10 +25,13 @@
         left: 5px
         top: 3px
 
-    > .row .square
+    .square
         position: relative
         cursor: pointer
-        height: 122px
+        width: 23%
+        margin-right: 2%
+        float: left
+        height: 126px
         margin-bottom: 2%
         text-align: center
         background-color: $color_black
@@ -26,6 +40,9 @@
         
         @include rounded()
         //@include animate("popIn", 2s, "ease-in-out", 0.8s, 1, "normal", "forwards")
+
+        @include breakpoint(phablet)
+            width: 48%
         
         .player-one-tag
             opacity: 0
@@ -62,10 +79,12 @@
             animation: c-glowing 300ms ease-in-out infinite
             animation-direction: alternate
         
+        //any square that is not selectable
         &:not(.is-active):not(.is-selectable)
                 opacity: 0.7
-                //filter: alpha(opacity=70)
-                //box-shadow: 5px 5px 5px 1px $color_black
+                
+                @include breakpoint(phablet)
+                    display: none
 
 
 /*animations*/
@@ -86,3 +105,4 @@
         box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 15px #fff, 0 0 20px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow
     to 
         box-shadow: 0 0 2.5px #fff, 0 0 2.5px #fff, 0 0 7.5px #fff, 0 0 10px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 2px $color_light_yellow
+

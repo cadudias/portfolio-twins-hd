@@ -28,44 +28,44 @@
         </div>
 
         <div class="selection-area">
-            <div class="row">
-                <div class="square three columns">
+            <div class="row hidden-sm">
+                <div class="square">
                     <span class="question-mark">)</span>
                 </div>
 
-                 <div class="square three columns">
+                 <div class="square">
                     <span class="question-mark">)</span>
                 </div>
 
-                 <div class="square three columns">
+                 <div class="square">
                     <span class="question-mark">)</span>
                 </div>
 
-                <div class="square three columns">
+                <div class="square">
                      <span class="question-mark">)</span>
                 </div>
             </div>
             
             <div class="row">
-                <div class="square three columns">
+                <div class="square">
                      <span class="question-mark">)</span>
                 </div>
 
-                 <div id="js-square-ricardo" class="square three columns is-selectable">
+                 <div id="js-square-ricardo" class="square is-selectable">
                     <a href="/portfolio/ricardo-hofstetter-dias">
                         <span class="player-one-tag"> 1P </span>
                         <img src="../images/ricardo-face2.png" class="u-max-full-width" alt="Selecionar Ricardo H. Dias">
                     </a>
                 </div>
 
-                <div id="js-square-roberto" class="square three columns is-selectable">
+                <div id="js-square-roberto" class="square is-selectable">
                     <a href="/portfolio/roberto-hofstetter-dias">
                         <span class="player-one-tag"> 1P </span>
                         <img src="../images/roberto-face.png" class="u-max-full-width" alt="Selecionar Ricardo H. Dias">
                     </a>
                 </div>
 
-                <div class="square three columns">
+                <div class="square">
                      <span class="question-mark">)</span>
                 </div>
             </div>
@@ -73,19 +73,19 @@
             
             <div class="row">
 
-                <div class="square three columns">
+                <div class="square">
                      <span class="question-mark">)</span>
                 </div>
 
-                <div class="square three columns">
+                <div class="square">
                      <span class="question-mark">)</span>
                 </div>
                 
-                <div class="square three columns">
+                <div class="square">
                      <span class="question-mark">)</span>
                 </div>
 
-                <div class="square three columns">
+                <div class="square">
                      <span class="question-mark">)</span>
                 </div>
             </div>
@@ -97,11 +97,11 @@
         </div>
    </div>
 
-    <div class="row">
-        <p class="text-about">
+    <div class="row about">
+        <p class="text eight columns offset-by-two">
             Olá! Nós somos os Gêmeos, <strong>Ricardo Hofstetter Dias</strong> e <strong>Roberto Hofstetter Dias</strong>. <br/> 
-            Somos apaixonados por desenvolvimento e, como dá pra perceber, por jogos! <br/>
-            Trabalhamos na área web há mais de 7 anos, em agências, como freelancers e atualmente no <strong>ClassAdvisor</strong>. <br/>
+            Somos <strong>desenvolvedores Full-Stack</strong>. Também somos apaixonados por desenvolvimento e, como dá pra perceber, por jogos! <br/> <br/> 
+            <!--Trabalhamos na área web há mais de 7 anos, em agências, como freelancers e atualmente no <strong>ClassAdvisor</strong>. <br/>-->
             Se quiser conhecer melhor nosso trabalho seleciona um dos personagems acima :) <br/>
             <strong>(já aproveita e tenta adivinhar todas as referências que a gente colocou por aqui!)</strong> 
          </p>
