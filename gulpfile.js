@@ -9,7 +9,7 @@ elixir(function(mix) {
   .scripts([
     'domready.js', 'home.js', 'particles.min.js', 'particles-snow.js', 'portfolio.js'  
   ])
-  .rollup('all.js')
+  // .rollup('all.js')
   .imagemin()
   .browserSync({
         proxy: 'localhost:8000'
