@@ -28,7 +28,7 @@
         </div>
 
         <div class="selection-area invisible">
-            <div class="row hidden-sm">
+            <div class="row">
                 <div class="square">
                     <span class="question-mark">)</span>
                 </div>

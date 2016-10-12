@@ -62,7 +62,7 @@ if(boxRicardo !== null && boxRoberto !== null) {
     setTimeout(() => {
       document.getElementById('js-character-ricardo').classList.add('fade-in-left')
       document.getElementById('js-character-roberto').classList.add('fade-in-right')
-    },1600)
+    },1400)
 
     setTimeout(() => {
       document.getElementById('js-character-ricardo').classList.add("is-animated");
@@ -70,14 +70,10 @@ if(boxRicardo !== null && boxRoberto !== null) {
 
       document.getElementById('js-character-ricardo-name').classList.remove('invisible')
       document.getElementById('js-character-roberto-name').classList.remove('invisible')
-
-      
-      //document.getElementById('js-character-ricardo-name').classList.add('fade-in-left')
-      //document.getElementById('js-character-roberto-name').classList.add('fade-in-right')
-    },1900)
+    },1800)
 
     setTimeout(() => {
       document.querySelector('.about').classList.remove('invisible')
-    },2100)
+    },2000)
   })
 }
