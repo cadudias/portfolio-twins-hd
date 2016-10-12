@@ -38,7 +38,7 @@
      @media (max-width: 540px)   
         @content
    @else if $point == mobileonly
-     @media (max-width: 380px) 
+     @media (max-width: $breakpoint-extra-small) 
         @content
 
 @mixin transition($args...)
