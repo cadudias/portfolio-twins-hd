@@ -14,9 +14,10 @@
             <div class="ten columns">
                 <ul class="list twelve columns">
                     <li class="list-item buffs">buffs</li>
-                    <li class="list-item angular">angular</li>
-                    <li class="list-item js">javascript</li>
-                    <li class="list-item css">css3</li>                            
+                    <li class="list-item angular">Angular</li>
+                    <li class="list-item js">JavaScript</li>
+                    <li class="list-item css3">CSS 3</li>
+                    <li class="list-item html5">Html 5</li>                               
                 </ul>
                 <div class="twelve columns">
                     <h2 class="name">Roberto Hofstetter Dias</h2>
