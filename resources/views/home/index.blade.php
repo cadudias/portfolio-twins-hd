@@ -1,6 +1,7 @@
 @extends('layout')
 
 @section('content')
+@section('body_class', 'home')
 
 <div class="home container container-wide">
 

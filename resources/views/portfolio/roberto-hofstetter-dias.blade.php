@@ -1,6 +1,7 @@
 @extends('layout')
 
 @section('content')
+@section('body_class', 'profile')
 
 <div class="profile container container-wide">
     <div class="row">

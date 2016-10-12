@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="/css/app.css">       
     </head>
 
-    <body>
+    <body class="@yield('body_class')">
         @yield('content')
         <!-- particles.js container --> 
         <div id="particles-js"></div>
