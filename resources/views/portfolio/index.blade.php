@@ -14,9 +14,10 @@
             <div class="ten columns">
                 <ul class="list twelve columns">
                     <li class="list-item buffs">buffs</li>
-                    <li class="list-item angular">angular</li>
-                    <li class="list-item js">javascript</li>
-                    <li class="list-item css">css3</li>                            
+                    <li class="list-item angular">Angular</li>
+                    <li class="list-item js">JavaScript</li>
+                    <li class="list-item css3">CSS 3</li>
+                    <li class="list-item html5">Html 5</li>                               
                 </ul>
                 <div class="twelve columns">
                     <h2 class="name">Roberto Hofstetter Dias</h2>
@@ -60,9 +61,10 @@
         <!-- right column -->
         <div class="nine columns character-text">                      
             <!-- ABOUT -->
-            <div id="character-about" class="row character-text-content">
+            <div id="character-about" class="row character-text-content visible">
                 <p>Atuo no mercado de desenvolvimento há mais de 7 anos, já passei por desenvolvimento focado tanto no Back-end quanto no Front-end, atualmente atuo nas duas áreas como Full Stack Developer. Também já fui lider técnico e de equipe.</p>
-                <p>Tenho perfil de ir atrás das soluções, mesmo as vezes não tendo pleno conhecimento da linguagem, é estranho, mas gosto de resolver bugs hehe</p>
+                <p>Tenho perfil de ir atrás das soluções, mesmo as vezes não tendo pleno conhecimento da linguagem, pode parecer estranho, mas gosto de resolver bugs hehe</p>
+                <p>Atualmente trabalho como Freelancer, mas estou aberto a vagas de desenvolvimento.</p>
             </div>
 
             <!-- FRONTEND -->
@@ -214,7 +216,7 @@
             </div>        
 
             <!-- PORTFOLIO -->
-            <div id="character-works" class="twelve columns character-text-content visible">                                                
+            <div id="character-works" class="twelve columns character-text-content">                                                
                 <div class="list-works twelve columns">
                     <div class="list-works-item twelve columns">
                         
@@ -376,20 +378,102 @@
                                 </ul>
                             </div>                        
                         </div>                        
+                    </div> 
+                    <div class="list-works-item twelve columns">
+                        
+                        <div class="three columns container-image">
+                            <a href="http://www.novamarcaimoveis.com/" target="_blank" class="image">
+                                <img src="../images/trabalhos/roberto/novamarca.jpg" class="u-max-full-width" />
+                            </a>                            
+                        </div>
+                        
+                        <div class="nine columns container-right">                                                    
+                            <div class="twelve columns top">
+                                <a href="http://www.novamarcaimoveis.com/" target="_blank" class="title-link"><h4 class="title">Nova Marca Imóveis</h4></a>
+                                <a href="http://www.novamarcaimoveis.com/" target="_blank" class="access-link">Acessar</a>
+                            </div>
+                            <div class="twelve columns">
+                                <p class="text">Repaginação de todo o Front-end do site.</p>                                
+                            </div>                            
+                            <div class="twelve columns">
+                                <h5 class="subtitle">Envolvimento</h5>
+                                <ul class="list">              
+                                    <li class="list-item">HTML 5</li>           
+                                    <li class="list-item">CSS 3</li>                                                                                                                     
+                                    <li class="list-item">JavaScript</li>
+                                    <li class="list-item">JQuery</li>
+                                    <li class="list-item">Animações</li>                                                                                                                                                                                
+                                    <li class="list-item">PHP</li>
+                                    <li class="list-item">MySQL</li>                                                                                  
+                                </ul>
+                            </div>                        
+                        </div>                        
                     </div>                 
                 </div>                       
             </div>   
 
             <!-- CONTACTS -->
             <div id="character-contacts" class="row character-text-content">                                                
-                <ul class="list-contacts">
-                    <li class="list-portfolio-item">
-                        linkedin
-                    </li>
-                    <li class="list-portfolio-item">
-                        email
-                    </li>
-                </ul>                       
+                <h3 class="title">Para trabalhos de Freelancer, oportunidades ou me mandar um oi, enviei um contato abaixo </h3>
+                <div class="row">
+                    <div class="list-contacts">                                        
+                        {!! Form::open(['url' => 'portfolio/roberto-hofstetter-dias']) !!}                       
+                            <div class="row form">
+                                <div class="seven columns">
+                                    <input type="hidden" name="Para" value="roberto" />
+
+                                    <label for="input-name">Nome</label>
+                                    <input class="u-full-width" name="Nome" type="text" placeholder="Vivi Ornitier" id="input-name" required />
+
+                                    <label for="input-email">E-mail</label>
+                                    <input class="u-full-width" name="E-mail" type="email" placeholder="vivi@firaga.com" id="input-email" required />
+
+                                    <label for="input-message">Mensagem</label>
+                                    <textarea class="u-full-width" name="Mensagem" rows="10" id="input-message" required></textarea>
+                                    
+                                    <input class="btn-orange" type="submit" value="Enviar">
+                                </div>                            
+                            </div>                        
+                        {!! Form::close() !!}
+                    </div>           
+
+                    @if (isset($errors) && $errors->any())
+                        <div class="alert alert-danger six columns">
+                            <ul class="contact-errors-list">
+                                @foreach ($errors->all() as $error)
+                                    <li class="contact-errors-list-item">{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @endif
+
+                    <!-- will be used to show any messages -->
+                    @if (isset($success))
+                        <div class="alert alert-success seven columns">{{ $success }}</div>
+                    @endif
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="row">
+                    <p>Ou entre em contato pelas redes sociais/e-mail! </p>
+                    <div class="list-portfolio-item">
+                        <a class="facebook-btn" href="https://www.facebook.com/beto.dias.129" target="_blank">                            
+                            <svg class="i-svg" height="50" version="1.1" width="50" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 50 50" space="preserve" data-icon="facebook,"><desc>Created with Snap</desc><defs></defs><path d="M27.845,47.469V27.81h8.426l1.404-8.425h-9.83v-4.213c0-2.81,1.406-4.213,4.213-4.213h4.213V2.531 c-1.405,0-4.55,0-7.021,0c-7.021,0-9.83,4.213-9.83,11.234v5.618h-8.425v8.424h8.425v19.661H27.845L27.845,47.469z" fill="#ffffff"></path></svg>
+                            Facebook
+                        </a>
+                    </div>
+                    
+                    <div class="list-portfolio-item">
+                        <a class="linkedin-btn" href="https://www.linkedin.com/in/robertorhd" target="_blank">                            
+                            <svg class="i-svg" height="50" version="1.1" width="50" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 50 50" space="preserve" data-icon="facebook,"><desc>Created with Snap</desc><defs></defs><path d="M13.83,41.668H5.401V13.571h8.429V41.668z M44.737,41.668h-8.429V26.66c0-3.912-1.394-5.857-4.154-5.857 c-2.189,0-3.577,1.086-4.274,3.273c0,3.545,0,17.592,0,17.592h-8.431c0,0,0.115-25.288,0-28.097h6.656l0.514,5.619h0.175 c1.729-2.81,4.489-4.713,8.275-4.713c2.881,0,5.207,0.801,6.985,2.815c1.794,2.014,2.684,4.713,2.684,8.514V41.668z M9.615,2.333 c2.404,0,4.357,1.888,4.357,4.214c0,2.33-1.953,4.214-4.357,4.214c-2.403,0-4.351-1.885-4.351-4.214 C5.264,4.22,7.212,2.333,9.615,2.333z" fill="#ffffff"></path></svg>
+                            Linkedin                            
+                        </a>
+                    </div>
+                    <div class="list-portfolio-item">
+                        E-mail: <a class="link" href="mailto:roberto.rhd@gmail.com">roberto.rhd@gmail.com</a>
+                    </div>
+                </div>                                           
             </div>      
         </div>
     </div>        
