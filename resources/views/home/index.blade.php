@@ -53,14 +53,14 @@
 
                  <div id="js-square-ricardo" class="square is-selectable">
                     <a href="/portfolio/ricardo-hofstetter-dias">
-                        <span class="player-one-tag"> 1P </span>
+                        <span id="js-tag-ricardo" class="player-one-tag invisible"> 1P </span>
                         <img src="../images/ricardo-face2.png" class="u-max-full-width" alt="Selecionar Ricardo H. Dias">
                     </a>
                 </div>
 
                 <div id="js-square-roberto" class="square is-selectable">
                     <a href="/portfolio/roberto-hofstetter-dias">
-                        <span class="player-one-tag"> 1P </span>
+                        <span id="js-tag-roberto" class="player-one-tag invisible"> 1P </span>
                         <img src="../images/roberto-face.png" class="u-max-full-width" alt="Selecionar Ricardo H. Dias">
                     </a>
                 </div>
