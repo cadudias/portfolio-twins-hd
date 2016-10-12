@@ -28,3 +28,6 @@ function setVisibleContentByElementID(el){
     }
     characterContent.classList.add('visible');
 }
+
+//contact
+

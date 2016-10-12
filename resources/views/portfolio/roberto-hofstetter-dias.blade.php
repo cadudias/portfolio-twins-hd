@@ -10,7 +10,7 @@
         </div>
         <div class="nine columns character-info">
             <div class="two columns">
-                <img class="image" src="../images/profile-image.jpg" />
+                <img class="u-max-full-width" class="image" src="../images/profile-image.jpg" />
             </div>
             <div class="ten columns">
                 <ul class="list twelve columns">
@@ -165,23 +165,23 @@
                 <ul class="list-languages twelve columns">
                     <li class="one-third column list-languages-item">
                         <span class="twelve columns list-item-title">SQL Server</span>
-                        <img src="../images/logos/sqlserver.jpg" width="200" alt="SQL Server" title="SQL Server" />                        
+                        <img class="u-max-full-width" src="../images/logos/sqlserver.jpg" width="200" alt="SQL Server" title="SQL Server" />                        
                     </li>
                     <li class="one-third column list-languages-item">
                         <span class="twelve columns list-item-title">MySQL</span>
-                        <img src="../images/logos/mysql.jpg" width="150" alt="MySQL" title="MySQL" />                        
+                        <img class="u-max-full-width" src="../images/logos/mysql.jpg" width="150" alt="MySQL" title="MySQL" />                        
                     </li> 
                     <li class="one-third column list-languages-item">
                         <span class="twelve columns list-item-title">Oracle</span>
-                        <img src="../images/logos/oracle.jpg" width="200" alt="Oracle" title="Oracle" />                        
+                        <img class="u-max-full-width" src="../images/logos/oracle.jpg" width="200" alt="Oracle" title="Oracle" />                        
                     </li> 
                     <li class="one-third column list-languages-item">
                         <span class="twelve columns list-item-title">IndexDB</span>
-                        <img src="../images/logos/indexdb.png" width="150" alt="IndexDB" title="IndexDB" />                        
+                        <img class="u-max-full-width" src="../images/logos/indexdb.png" width="150" alt="IndexDB" title="IndexDB" />                        
                     </li> 
                     <li class="one-third column list-languages-item">
                         <span class="twelve columns list-item-title">SQLite</span>
-                        <img src="../images/logos/sqlite.png" width="200" alt="SQLite" title="SQLite" />                        
+                        <img class="u-max-full-width" src="../images/logos/sqlite.png" width="200" alt="SQLite" title="SQLite" />                        
                     </li>                      
                 </ul>                       
             </div>
@@ -191,31 +191,31 @@
                 <ul class="list-tools twelve columns">
                     <li class="one-third column list-languages-item">
                         <span class="twelve columns list-item-title">Photoshop</span>
-                        <img src="../images/logos/photoshop.png" width="200" alt="Photoshop" title="Photoshop" />                        
+                        <img class="u-max-full-width" src="../images/logos/photoshop.png" width="200" alt="Photoshop" title="Photoshop" />                        
                     </li>
                     <li class="one-third column list-languages-item">
                         <span class="twelve columns list-item-title">Visual Studio 2010/2015</span>
-                        <img src="../images/logos/visualstudio.png" width="150" alt="Visual Studio 2010/2015" title="Visual Studio" />                        
+                        <img class="u-max-full-width" src="../images/logos/visualstudio.png" width="150" alt="Visual Studio 2010/2015" title="Visual Studio" />                        
                     </li> 
                     <li class="one-third column list-languages-item">
                         <span class="twelve columns list-item-title">Visual Studio Code</span>
-                        <img src="../images/logos/visualstudiocode.png" width="160" alt="Visual Studio Code" title="Visual Studio Code" />                        
+                        <img class="u-max-full-width" src="../images/logos/visualstudiocode.png" width="160" alt="Visual Studio Code" title="Visual Studio Code" />                        
                     </li> 
                     <li class="one-third column list-languages-item">
                         <span class="twelve columns list-item-title">Sublime</span>
-                        <img src="../images/logos/sublime.png" width="160" alt="Sublime" title="Sublime" />                        
+                        <img class="u-max-full-width" src="../images/logos/sublime.png" width="160" alt="Sublime" title="Sublime" />                        
                     </li> 
                     <li class="one-third column list-languages-item">
                         <span class="twelve columns list-item-title">Bitbucket</span>
-                        <img src="../images/logos/bitbucket.png" width="200" alt="Bitbucket" title="Bitbucket" />                        
+                        <img class="u-max-full-width" src="../images/logos/bitbucket.png" width="200" alt="Bitbucket" title="Bitbucket" />                        
                     </li> 
                     <li class="one-third column list-languages-item">
                         <span class="twelve columns list-item-title">Vagrant</span>
-                        <img src="../images/logos/vagrant.jpg" width="170" alt="Vagrant" title="Vagrant" />                        
+                        <img class="u-max-full-width" src="../images/logos/vagrant.jpg" width="170" alt="Vagrant" title="Vagrant" />                        
                     </li> 
                     <li class="one-third column list-languages-item">
                         <span class="twelve columns list-item-title">Wordpress</span>
-                        <img src="../images/logos/wordpress.png" width="200" alt="Wordpress" title="Wordpress" />                        
+                        <img class="u-max-full-width" src="../images/logos/wordpress.png" width="200" alt="Wordpress" title="Wordpress" />                        
                     </li>                      
                 </ul>                       
             </div>        
