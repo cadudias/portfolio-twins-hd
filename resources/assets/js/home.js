@@ -53,11 +53,11 @@ if(boxRicardo !== null && boxRoberto !== null) {
     setTimeout(() => {
       document.getElementById('js-title-character-select').classList.remove('invisible')
       //document.getElementById('js-title-character-select').classList.add('fade-in')
-    },500)
+    },400)
 
     setTimeout(() => {
       document.querySelector(".selection-area").classList.remove('invisible')
-    },1300)
+    },1000)
 
     setTimeout(() => {
       document.getElementById('js-character-ricardo').classList.add('fade-in-left')
@@ -78,6 +78,6 @@ if(boxRicardo !== null && boxRoberto !== null) {
 
     setTimeout(() => {
       document.querySelector('.about').classList.remove('invisible')
-    },2300)
+    },2100)
   })
 }
