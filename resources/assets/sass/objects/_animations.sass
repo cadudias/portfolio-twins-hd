@@ -1,36 +1,36 @@
-@-webkit-keyframes fade-in
+// @-webkit-keyframes fade
+//     from
+//         opacity: 0
+//     to
+//         opacity: 1
+
+// @-moz-keyframes fade-in
+//     from
+//         opacity: 0
+//     to
+//         opacity: 1
+
+@keyframes fade
     from
         opacity: 0
     to
         opacity: 1
 
-@-moz-keyframes fade-in
-    from
-        opacity: 0
-    to
-        opacity: 1
+// @-webkit-keyframes fade-in-left
+//   from
+//     opacity: 0
+//     transform: translateX(-$translate-x-initial-position)
+//   to
+//     opacity: .5
+//     transform: translateX(0)
 
-@keyframes fade-in
-    from
-        opacity: 0
-    to
-        opacity: 1
-
-@-webkit-keyframes fade-in-left
-  from
-    opacity: 0
-    transform: translateX(-$translate-x-initial-position)
-  to
-    opacity: .5
-    transform: translateX(0)
-
-@-moz-keyframes fade-in-left
-  from
-    opacity: 0
-    transform: translateX(-$translate-x-initial-position)
-  to
-    opacity: .5
-    transform: translateX(0)
+// @-moz-keyframes fade-in-left
+//   from
+//     opacity: 0
+//     transform: translateX(-$translate-x-initial-position)
+//   to
+//     opacity: .5
+//     transform: translateX(0)
 
 @keyframes fade-in-left
   from
@@ -41,21 +41,21 @@
     transform: translateX(0)
     
     
-@-webkit-keyframes fade-in-right
-  from
-    opacity: 0
-    transform: translateX($translate-x-initial-position)
-  to
-    opacity: .5
-    transform: translateX(0)
+// @-webkit-keyframes fade-in-right
+//   from
+//     opacity: 0
+//     transform: translateX($translate-x-initial-position)
+//   to
+//     opacity: .5
+//     transform: translateX(0)
 
-@-moz-keyframes fade-in-right
-  from
-    opacity: 0
-    transform: translateX($translate-x-initial-position)
-  to
-    opacity: .5
-    transform: translateX(0)
+// @-moz-keyframes fade-in-right
+//   from
+//     opacity: 0
+//     transform: translateX($translate-x-initial-position)
+//   to
+//     opacity: .5
+//     transform: translateX(0)
 
 @keyframes fade-in-right
   from
@@ -66,21 +66,16 @@
     transform: translateX(0)
 
 .fade-in
-	@include animate-fade-in()
-
-.fade-out
-  opacity: 0
-  -webkit-transition: opacity 1s
-  transition: opacity 1s
+  @include fade(1)
 
 .fade-in-left
-  -moz-animation-name: fade-in-left
-  -o-animation-name: fade-in-left
-  -webkit-animation-name: fade-in-left
+  // -moz-animation-name: fade-in-left
+  // -o-animation-name: fade-in-left
+  // -webkit-animation-name: fade-in-left
   animation-name: fade-in-left
   
 .fade-in-right
-  -moz-animation-name: fade-in-right
-  -o-animation-name: fade-in-right
-  -webkit-animation-name: fade-in-right
+  // -moz-animation-name: fade-in-right
+  // -o-animation-name: fade-in-right
+  // -webkit-animation-name: fade-in-right
   animation-name: fade-in-right

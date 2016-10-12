@@ -5,7 +5,7 @@
 <div class="home container container-wide">
 
     <div class="row">
-        <h2 id="js-title-character-select" class="title">Character Select</h2>
+        <h2 id="js-title-character-select" class="title invisible">Character Select</h2>
     </div>
 
     <div class="row">
@@ -27,7 +27,7 @@
             </a>
         </div>
 
-        <div class="selection-area">
+        <div class="selection-area invisible">
             <div class="row hidden-sm">
                 <div class="square">
                     <span class="question-mark">)</span>
@@ -97,7 +97,7 @@
         </div>
    </div>
 
-    <div class="row about">
+    <div class="row about invisible">
         <p class="text eight columns offset-by-two">
             Olá! Nós somos os Gêmeos, <strong>Ricardo Hofstetter Dias</strong> e <strong>Roberto Hofstetter Dias</strong>. <br/> 
             Somos <strong>desenvolvedores Full-Stack</strong>. Também somos apaixonados por desenvolvimento e, como dá pra perceber, por jogos! <br/> <br/> 

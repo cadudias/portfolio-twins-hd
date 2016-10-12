@@ -1,4 +1,5 @@
 .character 
+    opacity: 0
     position: relative
 
     @include animate()
@@ -6,13 +7,18 @@
     @include breakpoint(laptop)
         display: none
 
-    &.is-active
-       @include animate-active-transition(1)
-       
-    &.is-animated:not(.is-active)
-       @include animate-active-transition(.5)
+    &.invisible
+        opacity: 0
 
-    > a .name
+    //when hovered, fade in the character
+    &.is-active
+       @include fade(1)
+       
+    //when is animated but not hovered, fade out the character
+    &.is-animated:not(.is-active)
+       @include fade(.5)
+
+    & .name
         position: absolute
         bottom: 70px
         right: 100px
@@ -22,12 +28,8 @@
         color: $color_light_orange
         -webkit-text-stroke: 2px $color_dark_orange
         @include font-weight("bold")
+        
+        @include transition(opacity $fade-speed ease-in)
 
-        @include animate()
-
-    &.is-animated:not(.is-active) .name
-       @include animate-active-transition(.5)
-
-.is-active a .name  
-  @include animate-active-transition(1)
-     
+        &.invisible
+            opacity: 0

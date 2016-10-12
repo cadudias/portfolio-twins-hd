@@ -9,48 +9,20 @@
         font-weight: 600
 
 @mixin rounded($radius: 0.5em)
-    -webkit-border-radius: $radius
-    -moz-border-radius: $radius
     border-radius: $radius
 
 //TODO change name to something more meaningfull
 @mixin animate()
     opacity: 0
-
-    -moz-animation-duration: $fade-speed
-    -o-animation-duration: $fade-speed
-    -webkit-animation-duration: $fade-speed
+    // -moz-animation-duration: $fade-speed
+    // -o-animation-duration: $fade-speed
+    // -webkit-animation-duration: $fade-speed
     animation-duration: $fade-speed
-
-@mixin animate-fade-in()
-    opacity: 0
-    
-    animation: fade-in ease-in 1
-    -moz-animation: fade-in ease-in 1
-    -o-animation: fade-in ease-in 1
-    
-    animation-fill-mode: forwards
-    -moz-animation-fill-mode: forwards
-    -o-animation-fill-mode: forwards
 	
-    animation-duration: $fade-speed
-    -moz-animation-duration: $fade-speed
-    -o-animation-duration: $fade-speed
-	
-@mixin animate-active-transition($opacity-value)
+@mixin fade($opacity-value)
     opacity: $opacity-value
-    -webkit-transition: opacity $fade-speed
     transition: opacity $fade-speed
-// @mixin animate($name, $duration, $timing-function, $delay, $iteration-count, $direction, "both")
-//     animation-name: $name
-//     animation-duration: $duration
-//     animation-timing-function: $timing-function
-//     animation-delay: $delay
-//     animation-iteration-count: $iteration-count
-//     animation-direction: $direction
-//     animation-fill-mode: "both"
-
-//@mixin hide($)
+    //-webkit-transition: opacity $fade-speed
 
 @mixin breakpoint($point)
    @if $point == desktop 
@@ -68,3 +40,6 @@
    @else if $point == mobileonly
      @media (max-width: 380px) 
         @content
+
+@mixin transition($args...)
+  transition: $args

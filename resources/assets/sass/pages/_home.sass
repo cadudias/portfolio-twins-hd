@@ -2,7 +2,7 @@
     padding: 60px 0 0 0
 
     .title
-        opacity: 0
+        //opacity: 1
         margin-bottom: 10px
         @include font-size(48px)
         font-family: "SSF4 ABUKET", Open Sans, sans-serif
@@ -10,12 +10,22 @@
         text-align: center
         -webkit-text-stroke: 2px $color_dark_orange
 
+        @include transition(opacity $fade-speed ease-in)
+
         @include breakpoint(phablet)
             @include font-size(43px)
+            
+        &.invisible
+            opacity: 0
 
     .about
         @include breakpoint(laptop)
             margin-top: 40px
+
+        @include transition(opacity $fade-speed ease-in)
+        
+        &.invisible
+            opacity: 0
 
         > .text
             @include font-size(18px)

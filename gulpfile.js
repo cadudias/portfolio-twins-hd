@@ -1,13 +1,13 @@
 var elixir = require('laravel-elixir')
 
-require('laravel-elixir-imagemin');
+require('laravel-elixir-imagemin')
 
 elixir(function(mix) {
   mix.sass('*.sass')
   .styles('*.css')
   .scripts('*.js')
   .scripts([
-    'domready.js', 'home.js', 'particles.min.js', 'particles-snow.js', 'portfolio.js'  
+    'particles.min.js', 'particles-snow.js', 'domready.js', 'home.js', 'portfolio.js'  
   ])
   // .rollup('all.js')
   .imagemin()

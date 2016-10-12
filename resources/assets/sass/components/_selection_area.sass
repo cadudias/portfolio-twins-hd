@@ -5,6 +5,8 @@
     left: 50%
     margin-left: -200px
 
+    @include transition(opacity $fade-speed ease-in)
+    
     @include breakpoint(laptop)
         position: relative
 
@@ -15,6 +17,9 @@
         width: 100%
         left: 0
         //margin-left: 30%
+
+    &.invisible
+        opacity: 0
 
     .question-mark
         font-size: 40px
@@ -53,28 +58,28 @@
             color: $color_light_blue
 
         &.is-selectable:hover 
-            -webkit-animation: c-glowing 300ms ease-in-out infinite
-            -webkit-animation-direction: alternate
+            // -webkit-animation: c-glowing 300ms ease-in-out infinite
+            // -webkit-animation-direction: alternate
 
-            -moz-animation: c-glowing 300ms ease-in-out infinite
-            -moz-animation-direction: alternate
+            // -moz-animation: c-glowing 300ms ease-in-out infinite
+            // -moz-animation-direction: alternate
    
-            -o-animation: c-glowing 300ms ease-in-out infinite
-            -o-animation-direction: alternate
+            // -o-animation: c-glowing 300ms ease-in-out infinite
+            // -o-animation-direction: alternate
 
             animation: c-glowing 300ms ease-in-out infinite
             animation-direction: alternate
             
 
         &.is-active
-            -webkit-animation: c-glowing 300ms ease-in-out infinite
-            -webkit-animation-direction: alternate
+            // -webkit-animation: c-glowing 300ms ease-in-out infinite
+            // -webkit-animation-direction: alternate
 
-            -moz-animation: c-glowing 300ms ease-in-out infinite
-            -moz-animation-direction: alternate
+            // -moz-animation: c-glowing 300ms ease-in-out infinite
+            // -moz-animation-direction: alternate
    
-            -o-animation: c-glowing 300ms ease-in-out infinite
-            -o-animation-direction: alternate
+            // -o-animation: c-glowing 300ms ease-in-out infinite
+            // -o-animation-direction: alternate
 
             animation: c-glowing 300ms ease-in-out infinite
             animation-direction: alternate
@@ -88,17 +93,17 @@
 
 
 /*animations*/
-@-webkit-keyframes c-glowing 
-    from
-        box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 15px #fff, 0 0 20px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow
-    to 
-        box-shadow: 0 0 2.5px #fff, 0 0 2.5px #fff, 0 0 7.5px #fff, 0 0 10px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 2px $color_light_yellow
+// @-webkit-keyframes c-glowing 
+//     from
+//         box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 15px #fff, 0 0 20px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow
+//     to 
+//         box-shadow: 0 0 2.5px #fff, 0 0 2.5px #fff, 0 0 7.5px #fff, 0 0 10px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 2px $color_light_yellow
 
-@-moz-keyframes c-glowing
-    from
-        box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 15px #fff, 0 0 20px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow
-    to 
-        box-shadow: 0 0 2.5px #fff, 0 0 2.5px #fff, 0 0 7.5px #fff, 0 0 10px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 2px $color_light_yellow
+// @-moz-keyframes c-glowing
+//     from
+//         box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 15px #fff, 0 0 20px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow
+//     to 
+//         box-shadow: 0 0 2.5px #fff, 0 0 2.5px #fff, 0 0 7.5px #fff, 0 0 10px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 2px $color_light_yellow
 
 @keyframes c-glowing
     from

@@ -49,23 +49,35 @@ if(boxRicardo !== null && boxRoberto !== null) {
   })
 
   DomReady.ready(() => {
-    //TODO rodar no carregamento das imagens
     //add character animation classes
     setTimeout(() => {
-      document.getElementById('js-title-character-select').classList.add('fade-in')
+      document.getElementById('js-title-character-select').classList.remove('invisible')
+      //document.getElementById('js-title-character-select').classList.add('fade-in')
     },500)
+
+    setTimeout(() => {
+      document.querySelector(".selection-area").classList.remove('invisible')
+    },1300)
 
     setTimeout(() => {
       document.getElementById('js-character-ricardo').classList.add('fade-in-left')
       document.getElementById('js-character-roberto').classList.add('fade-in-right')
-    },1000)
+    },1600)
 
     setTimeout(() => {
       document.getElementById('js-character-ricardo').classList.add("is-animated");
       document.getElementById('js-character-roberto').classList.add("is-animated");
 
-      document.getElementById('js-character-ricardo-name').classList.add('fade-in-left')
-      document.getElementById('js-character-roberto-name').classList.add('fade-in-right')
-    },1400)
+      document.getElementById('js-character-ricardo-name').classList.remove('invisible')
+      document.getElementById('js-character-roberto-name').classList.remove('invisible')
+
+      
+      //document.getElementById('js-character-ricardo-name').classList.add('fade-in-left')
+      //document.getElementById('js-character-roberto-name').classList.add('fade-in-right')
+    },1900)
+
+    setTimeout(() => {
+      document.querySelector('.about').classList.remove('invisible')
+    },2300)
   })
 }
