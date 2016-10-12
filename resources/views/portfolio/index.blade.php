@@ -2,10 +2,10 @@
 
 @section('content')
 
-<div class="portfolio container container-wide">
+<div class="profile container container-wide">
     <div class="row">
         <div class="three columns">
-            <h1 class="heading">Portfolio</h1>
+            <h1 class="heading">Perfil</h1>
         </div>
         <div class="nine columns character-info">
             <div class="two columns">
@@ -62,8 +62,12 @@
         <div class="nine columns character-text">                      
             <!-- ABOUT -->
             <div id="character-about" class="row character-text-content visible">
-                <p>Atuo no mercado de desenvolvimento há mais de 7 anos, já passei por desenvolvimento focado tanto no Back-end quanto no Front-end, atualmente atuo nas duas áreas como Full Stack Developer. Também já fui lider técnico e de equipe.</p>
-                <p>Tenho perfil de ir atrás das soluções, mesmo as vezes não tendo pleno conhecimento da linguagem, pode parecer estranho, mas gosto de resolver bugs hehe</p>
+                <p>Atuo no mercado de desenvolvimento há mais de 7 anos, já passei por desenvolvimento focado tanto no Back-end quanto no Front-end, 
+                atualmente atuo nas duas áreas como Full Stack Developer. <br/>
+                Já fui lider Técnico, de Infraestrutura e lider de equipe, sendo responsável pelo setor de Back-end da Perverte, última empresa que trabalhei, durante mais de 5 anos. </br>
+                Lá desenvolvi também sistemas de grande porte e portais como o Portal de Exames do Cooperado e Beneficiário da Unimed NERS, que têm milhares de usuários e cooperados utilizando a ferramenta.</p>
+                <p>Tenho perfil de ir atrás da solução, mesmo as vezes não tendo pleno conhecimento da linguagem, gosto de resolver bugs.</p>
+                <p>Estou constantemente me aperfeiçoando fazendo cursos e indo em eventos, sou apaixonado pela área.</p>
                 <p>Atualmente trabalho como Freelancer, mas estou aberto a vagas de desenvolvimento.</p>
             </div>
 
@@ -264,15 +268,13 @@
                             </div>
                             <div class="twelve columns">
                                 <p class="text">Trabalhei no desenvolvimento do CMS e na integração do site em C# .NET / MVC, site dois idiomas.
-                                Também participei do desenvolvimento de várias animações do site.</p>
+                                Também fui o responsável pela publicação do site.</p>
                                 <p>Agência Perverte</p>
                             </div>                            
                             <div class="twelve columns">
                                 <h5 class="subtitle">Envolvimento</h5>
                                 <ul class="list">
-                                    <li class="list-item">HTML 5</li>
-                                    <li class="list-item">CSS 3</li>
-                                    <li class="list-item">Animações</li>
+                                    <li class="list-item">HTML 5</li>                                                                        
                                     <li class="list-item">JQuery</li>
                                     <li class="list-item">C#</li>
                                     <li class="list-item">.NET</li>
@@ -327,7 +329,8 @@
                                 <a href="http://archplus.promob.com/" target="_blank" class="access-link">Acessar</a>
                             </div>
                             <div class="twelve columns">
-                                <p class="text">Desenvolvimento de animações no site.</p>
+                                <p class="text">Desenvolvimento das animações.
+                                Também fui o responsável pela publicação do site.</p>
                                 <p>Agência Perverte</p>
                             </div>                            
                             <div class="twelve columns">
@@ -358,9 +361,10 @@
                                 <a href="http://www.florense.com.br" target="_blank" class="access-link">Acessar</a>
                             </div>
                             <div class="twelve columns">
-                                <p class="text">Desenvolvimento do CMS de gerenciamento do site em 3 idiomas, fiz também toda a integração do site.</br> 
-                                Na seção Onde Encontrar do site fizemos geolocalização pelo IP do usuário para buscar as lojas mais próximas dele. </br>
-                                Também desenvolvi todas as galerias de imagens do site em JQuery e JavaScript.</p>
+                                <p class="text">Desenvolvimento do CMS de gerenciamento do site em 3 idiomas, tabalhei também na integração do mesmo.</br> 
+                                Na seção "Onde Encontrar" fizemos geolocalização pelo IP do usuário para buscar as lojas mais próximas dele. </br>
+                                Desenvolvi todas as galerias de imagens do site em JQuery e JavaScript.</p>
+                                Também fui o responsável pela publicação do site.</p>
                                 <p>Agência Perverte</p>
                             </div>                            
                             <div class="twelve columns">
