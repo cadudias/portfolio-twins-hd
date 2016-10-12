@@ -5,7 +5,7 @@
 <div class="profile container container-wide">
     <div class="row">
         <div class="three columns">
-            <h1 class="heading">Perfil</h1>
+            <a class="back-link" href="/">< Home</a>
         </div>
         <div class="nine columns character-info">
             <div class="two columns">
@@ -20,7 +20,7 @@
                     <li class="list-item html5">Html 5</li>                               
                 </ul>
                 <div class="twelve columns">
-                    <h2 class="name">Roberto Hofstetter Dias</h2>
+                    <h1 class="name">Ricardo Hofstetter Dias</h1>
                 </div>
                 <div class="twelve columns">
                     <span class="status">Full Stack Developer</span>
@@ -221,7 +221,7 @@
 
             <!-- PORTFOLIO -->
             <div id="character-works" class="twelve columns character-text-content">                                                
-                <div class="list-works twelve columns">
+                <div class="list-works row">
                     <div class="list-works-item twelve columns">
                         
                         <div class="three columns container-image">
@@ -417,14 +417,14 @@
             </div>   
 
             <!-- CONTACTS -->
-            <div id="character-contacts" class="row character-text-content">                                                
-                <h3 class="title">Para trabalhos de Freelancer, oportunidades ou me mandar um oi, enviei um contato abaixo </h3>
+            <div id="character-contacts" class="character-text-content">                                                                
                 <div class="row">
+                    <h3 class="title">Para trabalhos de Freelancer, oportunidades ou me mandar um oi, enviei um contato abaixo </h3>
                     <div class="list-contacts">                                        
-                        {!! Form::open(['url' => 'portfolio/roberto-hofstetter-dias']) !!}                       
-                            <div class="row form">
+                        {!! Form::open(['url' => 'portfolio/ricardo-hofstetter-dias']) !!}                       
+                            <div class="form">
                                 <div class="seven columns">
-                                    <input type="hidden" name="Para" value="roberto" />
+                                    <input type="hidden" name="Para" value="ricardo" />
 
                                     <label for="input-name">Nome</label>
                                     <input class="u-full-width" name="Nome" type="text" placeholder="Vivi Ornitier" id="input-name" required />

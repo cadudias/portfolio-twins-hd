@@ -10,23 +10,13 @@ use Illuminate\Support\Facades\View;
 use App\Contact;
 
 class PortfolioController extends Controller
-{
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
+{    
+    public function index($name)
     {
-        return view('portfolio.index');
-    }
+        return view('portfolio.' . $name);
+    }    
 
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function sendEmail(Request $request)
+    public function sendEmail(Request $request, $name)
     {        
         $messages = [
             'required' => 'O campo :attribute é obrigatório.',            
@@ -56,7 +46,7 @@ class PortfolioController extends Controller
 
             $success = "Obrigado pelo interesse! O quanto antes entrarei em contato :)";
             
-            return View::make('portfolio.index')->with('success', $success);
+            return View::make('portfolio.' . $name)->with('success', $success);
         }        
     }
 }

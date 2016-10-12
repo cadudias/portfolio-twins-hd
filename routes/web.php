@@ -13,6 +13,6 @@
 
 $app->get('/', 'HomeController@index');
 
-$app->get('/portfolio/roberto-hofstetter-dias', 'PortfolioController@index');
+$app->get('/portfolio/{name}', 'PortfolioController@index');
 
-$app->post('/portfolio/roberto-hofstetter-dias', 'PortfolioController@sendEmail');
+$app->post('/portfolio/{name}', 'PortfolioController@sendEmail');
