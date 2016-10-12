@@ -8,6 +8,7 @@
     @include transition(opacity $fade-speed ease-in)
     
     @include breakpoint(laptop)
+        margin-top: 10px
         position: relative
 
     @include breakpoint(phablet)
@@ -50,12 +51,21 @@
             width: 48%
         
         .player-one-tag
-            opacity: 0
             font-family: "Futura", Open Sans, sans-serif
-            @include font-weight("bold")
-            top: -12px
+            @include font-weight("normal")
+            @include font-size(18px)
+            top: -2px
+            left: 2px
             position: absolute
             color: $color_light_blue
+            
+            @include transition(opacity .15s ease-in-out)
+
+            animation: text-glowing 300ms ease-in-out infinite
+            animation-direction: alternate
+
+            &.invisible
+                opacity: 0
 
         &.is-selectable:hover 
             // -webkit-animation: c-glowing 300ms ease-in-out infinite
@@ -110,4 +120,10 @@
         box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 15px #fff, 0 0 20px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow
     to 
         box-shadow: 0 0 2.5px #fff, 0 0 2.5px #fff, 0 0 7.5px #fff, 0 0 10px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 2px $color_light_yellow
+
+@keyframes text-glowing
+    from
+        text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff, 0 0 1px $color_light_blue, 0 0 5px $color_light_blue, 0 0 2px $color_light_blue, 0 0 10px $color_light_blue, 0 0 10px $color_light_blue
+    to 
+        text-shadow: 0 0 .5px #fff, 0 0 .5px #fff, 0 0 .5px #fff, 0 0 .5px $color_light_blue, 0 0 5px $color_light_blue, 0 0 .5px $color_light_blue, 0 0 5px $color_light_blue, 0 0 2px $color_light_blue
 
