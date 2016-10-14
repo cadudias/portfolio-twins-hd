@@ -32,7 +32,10 @@
     <div class="row">
         <!-- left column -->    
         <div class="three columns">                                
-            <div class="twelve columns character-menu">                
+            <button class="c-hamburger c-hamburger--htx">
+                <span>toggle menu</span>
+            </button>
+            <div class="twelve columns character-menu">                                                        
                 <ul class="list-menu">
                     <li class="list-menu-item active">                                                
                         <a href="javascript:void(0);" id="about" class="name">Sobre</a>
