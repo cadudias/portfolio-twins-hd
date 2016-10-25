@@ -47,7 +47,7 @@
             bottom: -14px    
 
 .c-hamburger--htx 
-    background-color: #ff3264
+    background-color: $color_dark_orange
 
     span 
         transition: background 0s 0.3s
@@ -144,9 +144,10 @@
 
         .c-hamburger 
             display: block
+            z-index: 9999
 
             &.is-active
-                right: 225px
+                right: 0px
 
         .character-menu          
             display: none    

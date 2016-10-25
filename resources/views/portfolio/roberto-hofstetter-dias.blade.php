@@ -1,16 +1,20 @@
 @extends('layout')
 
+@section('title', 'Portfólio Roberto Hofstetter Dias')
+
 @section('content')
 @section('body_class', 'profile')
 
-<div class="profile container container-wide">
+
+<div class="profile container container-wide" id="profile">
+    
     <div class="row">
         <div class="three columns">
             <a class="back-link" href="/">< Home</a>
         </div>
         <div class="nine columns character-info">
             <div class="two columns">
-                <img class="u-max-full-width" class="image" src="../images/profile-image.jpg" />
+                <img class="image" src="../images/profile-image.jpg" />
             </div>
             <div class="ten columns">
                 <ul class="list twelve columns">
@@ -28,39 +32,11 @@
                 </div>
             </div>
         </div>  
-    </div>    
+    </div>  
+
     <div class="row">
-        <!-- left column -->    
-        <div class="three columns">                                
-            <button class="c-hamburger c-hamburger--htx">
-                <span>toggle menu</span>
-            </button>
-            <div class="twelve columns character-menu">                                                        
-                <ul class="list-menu">
-                    <li class="list-menu-item active">                                                
-                        <a href="javascript:void(0);" id="about" class="name">Sobre</a>
-                    </li>
-                    <li class="list-menu-item">                        
-                        <a href="javascript:void(0);" id="frontend" class="name">Front-end</a>
-                    </li>                    
-                     <li class="list-menu-item">                        
-                        <a href="javascript:void(0);" id="backend" class="name">Back-end</a>
-                    </li>              
-                    <li class="list-menu-item">                        
-                        <a href="javascript:void(0);" id="dbs" class="name">Bancos de dados</a>
-                    </li>
-                    <li class="list-menu-item">                        
-                        <a href="javascript:void(0);" id="tools" class="name">Ferramentas</a>
-                    </li>  
-                    <li class="list-menu-item">                        
-                        <a href="javascript:void(0);" id="works" class="name">Trabalhos</a>
-                    </li>   
-                    <li class="list-menu-item">                        
-                        <a href="javascript:void(0);" id="contacts" class="name">Contatos</a>
-                    </li>                                       
-                </ul>
-            </div>        
-        </div>    
+        <!-- left column -->   
+        @include('includes.menu')       
 
         <!-- right column -->
         <div class="nine columns character-text">                      
@@ -457,7 +433,12 @@
 
                     <!-- will be used to show any messages -->
                     @if (isset($success))
-                        <div class="alert alert-success seven columns">{{ $success }}</div>
+                        <div id="msg-success" class="alert alert-success seven columns">{{ $success }}</div>
+                    @endif
+
+                    <!-- will be used to show any messages -->
+                    @if (isset($error))
+                        <div id="msg-error" class="alert alert-danger seven columns">{{ $error }}</div>
                     @endif
                 </div>
 

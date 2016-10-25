@@ -33,7 +33,7 @@ function setActiveItemMenuRight(el){
 
 //remove visible class from all character text then set the clicked menu item to visible
 function setVisibleContentByElementID(el){
-    var characterContent = document.getElementById('character-'+ el.children[0].getAttribute('id'));    
+    var characterContent = document.getElementById('character-'+ el.children[0].getAttribute('id'));  
     for(i = 0; i < characterContents.length; i++) {
         characterContents[i].classList.remove("visible");
     }
@@ -48,3 +48,37 @@ function toggleHandler(toggle) {
     });
 }
 
+var msgError = document.getElementById('msg-error');
+var msgSuccess = document.getElementById('msg-success');
+
+if(msgSuccess != null || msgError != null) {         
+    setActiveItemMenuRight(document.getElementById('contacts'));
+
+    for(i = 0; i < characterContents.length; i++) {
+        characterContents[i].classList.remove("visible");
+    }
+    document.getElementById('character-contacts').classList.add('visible');
+}
+
+if(document.getElementById('profile') != null){
+    $(document).ready(function(){
+      $("#jquery_jplayer_1").jPlayer({
+        ready: function () {
+          $(this).jPlayer("setMedia", {
+            title: "FF",
+            mp3: "/audios/mp3/adventurers.mp3"            
+          }).jPlayer("play").jPlayer("volume", 0.25); // Attempts to Auto-Play the media;
+        },
+        cssSelectorAncestor: "#jp_container_1",
+        swfPath: "/js",
+        supplied: "mp3",
+        useStateClassSkin: true,
+        autoBlur: false,
+        smoothPlayBar: true,
+        keyEnabled: true,
+        remainingDuration: true,
+        toggleDuration: true,
+        loop:true
+      });
+    });
+}

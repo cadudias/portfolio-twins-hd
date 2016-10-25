@@ -1,5 +1,7 @@
 @extends('layout')
 
+@section('title', 'Home')
+
 @section('content')
 @section('body_class', 'home')
 
