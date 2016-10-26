@@ -23,6 +23,12 @@ function changeItem(el){
     (toggles[0].classList.contains("is-active") === true) ? toggles[0].classList.remove("is-active") : toggles[0].classList.add("is-active");
     (menu.classList.contains("is-active") === true) ? menu.classList.remove("is-active") : menu.classList.add("is-active");
     
+    //só vai direto pros items do textos no click se for mobile, pra facilitar a leitura
+    if(window.outerWidth <= 700){
+        setTimeout(function() {
+            document.getElementsByClassName('character-text')[0].scrollIntoView();
+        }, 100);
+    }
 }
 
 //remove item active from all menu item then set the clicked menu item to active
@@ -54,12 +60,24 @@ var msgError = document.getElementById('msg-error');
 var msgSuccess = document.getElementById('msg-success');
 
 if(msgSuccess != null || msgError != null) {         
-    setActiveItemMenuRight(document.getElementById('contacts'));
+    setActiveItemMenuRight(document.getElementById('contacts').parentElement);
 
     for(i = 0; i < characterContents.length; i++) {
         characterContents[i].classList.remove("visible");
     }
-    document.getElementById('character-contacts').classList.add('visible');
+    document.getElementById('character-contacts').classList.add('visible');   
+
+    setTimeout(function() {
+        document.getElementsByClassName('alert')[0].scrollIntoView();
+    }, 100);         
+
+}
+
+function scrollIntoView(eleID) {
+   var e = document.getElementById(eleID);
+   if (!!e && e.scrollIntoView) {
+       e.scrollIntoView();
+   }
 }
 
 if(document.getElementById('profile') != null){
@@ -69,7 +87,7 @@ if(document.getElementById('profile') != null){
           $(this).jPlayer("setMedia", {
             title: "FF",
             mp3: "/audios/mp3/adventurers.mp3"            
-          }).jPlayer("play").jPlayer("volume", 0.15); // Attempts to Auto-Play the media;
+          }).jPlayer("pause").jPlayer("volume", 0.15); // Attempts to Auto-Play the media;
         },
         cssSelectorAncestor: "#jp_container_1",
         swfPath: "/js",

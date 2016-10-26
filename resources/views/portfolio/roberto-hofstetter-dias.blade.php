@@ -42,6 +42,7 @@
         <div class="nine columns character-text">                      
             <!-- ABOUT -->
             <div id="character-about" class="row character-text-content visible">
+                <h2>Sobre</h2>
                 <p>Atuo no mercado de desenvolvimento há mais de 7 anos, já passei por desenvolvimento focado tanto no Back-end quanto no Front-end, 
                 atualmente atuo nas duas áreas como Full Stack Developer. <br/>
                 Já fui lider Técnico, de Infraestrutura e lider de equipe, sendo responsável pelo setor de Back-end da Perverte, última empresa que trabalhei, durante mais de 5 anos. </br>
@@ -52,7 +53,8 @@
             </div>
 
             <!-- FRONTEND -->
-            <div id="character-frontend" class="twelve columns character-text-content">                                                                                                
+            <div id="character-frontend" class="twelve columns character-text-content">    
+                <h2>Front-end</h2>                                                                                            
                 <ul class="list-languages twelve columns">
                     <li class="one-third column list-languages-item">
                         <span class="twelve columns list-item-title">HTML 5</span>
@@ -114,7 +116,8 @@
             </div>      
 
             <!-- BACKEND -->
-            <div id="character-backend" class="twelve columns character-text-content">                                                                                                
+            <div id="character-backend" class="twelve columns character-text-content">
+                <h2>Backend-end</h2>                                                                                                   
                 <ul class="list-languages twelve columns">
                     <li class="one-third column list-languages-item">
                         <span class="twelve columns list-item-title">C#</span>
@@ -140,7 +143,8 @@
             </div>      
 
             <!-- DBS -->
-            <div id="character-dbs" class="twelve columns character-text-content">                                                
+            <div id="character-dbs" class="twelve columns character-text-content">         
+                <h2>Banco de dados</h2>                                          
                 <ul class="list-languages twelve columns">
                     <li class="one-third column list-languages-item">
                         <span class="twelve columns list-item-title">SQL Server</span>
@@ -166,7 +170,8 @@
             </div>
 
             <!-- FERRAMENTAS -->
-            <div id="character-tools" class="twelve columns character-text-content">                                                
+            <div id="character-tools" class="twelve columns character-text-content">
+                <h2>Ferramentas</h2>                                                   
                 <ul class="list-tools twelve columns">
                     <li class="one-third column list-languages-item">
                         <span class="twelve columns list-item-title">Photoshop</span>
@@ -200,7 +205,8 @@
             </div>        
 
             <!-- PORTFOLIO -->
-            <div id="character-works" class="twelve columns character-text-content">                                                
+            <div id="character-works" class="twelve columns character-text-content">
+                <h2>Trabalhos</h2>                                                   
                 <div class="list-works row">
                     <div class="list-works-item twelve columns">
                         
@@ -397,7 +403,8 @@
             </div>   
 
             <!-- CONTACTS -->
-            <div id="character-contacts" class="character-text-content">                                                                
+            <div id="character-contacts" class="character-text-content">                  
+                <h2>Contato</h2>                                                 
                 <div class="row">
                     <h3 class="title">Para trabalhos de Freelancer, oportunidades ou me mandar um oi, enviei um contato abaixo </h3>
                     <div class="list-contacts">                                        

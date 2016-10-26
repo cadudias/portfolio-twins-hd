@@ -16,5 +16,5 @@
         </div>
     </div>
     </div>
-    <p class="nine columns">Feito com <span> <3 </span> por Roberto e Ricardo</p>
+    <p class="nine columns">Feito com <span> <3 </span> por Ricardo e Roberto</p>
 </footer>

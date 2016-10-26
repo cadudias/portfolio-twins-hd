@@ -1,22 +1,17 @@
 .footer
     width: 100%
     bottom: 0
-    position: relative
+    position: absolute
+
+    @include breakpoint(phablet)
+        margin-left: 32px
 
     p
         text-align: right
         padding-top: 20px
 
+        @include breakpoint(phablet)
+            text-align: center
+
     span
-        color: $color_red
-
-    #jp_container_1 
-        width: 242px
-        background-color: black
-        float: right
-
-        .jp-interface
-            height: 35px        
-
-        button
-            padding: 0        
+        color: $color_red    

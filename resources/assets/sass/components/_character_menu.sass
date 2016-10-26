@@ -90,7 +90,10 @@
     margin: 15px 0    
 
     .list-menu
-        list-style: none         
+        list-style: none    
+
+        @include breakpoint(phablet)
+            text-align: left     
 
         .list-menu-item                        
             position: relative        
@@ -139,8 +142,7 @@
             
 @media (max-width: 1000px) 
 
-    .profile
-        padding-top: 10px
+    .profile        
 
         .c-hamburger 
             display: block

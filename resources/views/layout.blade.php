@@ -15,9 +15,13 @@
     </head>
 
     <body class="@yield('body_class')">
-        @yield('content')
         
-        @include('includes.footer')
+        <div class="wrapper">
+            @yield('content')
+        
+            @include('includes.footer')
+
+        </div>
         
         <!-- particles.js container --> 
         <div id="particles-js"></div>
