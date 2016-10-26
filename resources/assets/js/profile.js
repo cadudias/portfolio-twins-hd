@@ -85,9 +85,9 @@ if(document.getElementById('profile') != null){
       $("#jquery_jplayer_1").jPlayer({
         ready: function () {
           $(this).jPlayer("setMedia", {
-            title: "FF",
+            title: "bg",
             mp3: "/audios/mp3/adventurers.mp3"            
-          }).jPlayer("pause").jPlayer("volume", 0.15); // Attempts to Auto-Play the media;
+          }).jPlayer("play").jPlayer("volume", 0.15); // Attempts to Auto-Play the media;
         },
         cssSelectorAncestor: "#jp_container_1",
         swfPath: "/js",
@@ -104,10 +104,11 @@ if(document.getElementById('profile') != null){
       $("#jquery_jplayer_menu_hover").jPlayer({
         ready: function () {
           $(this).jPlayer("setMedia", {
-            title: "FF",
+            title: "hover",
             mp3: "/audios/mp3/hover_sound.mp3"            
           }).jPlayer("volume", 0.15); // Attempts to Auto-Play the media;
         },        
+        cssSelectorAncestor: "#jquery_jplayer_menu_hover_container",
         swfPath: "/js",
         supplied: "mp3",
         useStateClassSkin: false,
@@ -120,7 +121,7 @@ if(document.getElementById('profile') != null){
         preload: "auto"
       });
 
-      $('.list-menu li').mouseover(function(){
+      $('.list-menu li').mouseenter(function(){
           $("#jquery_jplayer_menu_hover").jPlayer("volume", 0.15).jPlayer("play");
       }).mouseout(function(){
           //$("#jquery_jplayer_menu_hover").jPlayer("stop");

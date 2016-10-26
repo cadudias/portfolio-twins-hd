@@ -14,7 +14,7 @@
         </div>
         <div class="nine columns character-info">
             <div class="two columns">
-                <img class="image" src="../images/profile-image.jpg" />
+                <img class="image u-max-full-width" src="../images/profile-image.jpg" />
             </div>
             <div class="ten columns">
                 <ul class="list twelve columns">
@@ -407,24 +407,20 @@
                 <h2>Contato</h2>                                                 
                 <div class="row">
                     <h3 class="title">Para trabalhos de Freelancer, oportunidades ou me mandar um oi, enviei um contato abaixo </h3>
-                    <div class="list-contacts">                                        
-                        {!! Form::open(['url' => 'portfolio/roberto-hofstetter-dias']) !!}                       
-                            <div class="form">
-                                <div class="seven columns">
-                                    <input type="hidden" name="Para" value="roberto" />
+                    <div class="list-contacts seven columns">                                        
+                        {!! Form::open(['url' => 'portfolio/roberto-hofstetter-dias', 'class' => 'form twelve columns']) !!}                                                                               
+                            <input type="hidden" name="Para" value="roberto" />
 
-                                    <label for="input-name">Nome</label>
-                                    <input class="u-full-width" name="Nome" type="text" placeholder="Vivi Ornitier" id="input-name" required />
+                            <label for="input-name">Nome</label>
+                            <input class="u-full-width" name="Nome" type="text" placeholder="Vivi Ornitier" id="input-name" required />
 
-                                    <label for="input-email">E-mail</label>
-                                    <input class="u-full-width" name="E-mail" type="email" placeholder="vivi@firaga.com" id="input-email" required />
+                            <label for="input-email">E-mail</label>
+                            <input class="u-full-width" name="E-mail" type="email" placeholder="vivi@firaga.com" id="input-email" required />
 
-                                    <label for="input-message">Mensagem</label>
-                                    <textarea class="u-full-width" name="Mensagem" rows="10" id="input-message" required></textarea>
-                                    
-                                    <input class="btn-orange" type="submit" value="Enviar">
-                                </div>                            
-                            </div>                        
+                            <label for="input-message">Mensagem</label>
+                            <textarea class="u-full-width" name="Mensagem" rows="10" id="input-message" required></textarea>
+                            
+                            <input class="btn-orange" type="submit" value="Enviar">                                                                                                            
                         {!! Form::close() !!}
                     </div>           
 
@@ -453,21 +449,23 @@
 
                 <div class="row">
                     <p>Ou entre em contato pelas redes sociais/e-mail! </p>
-                    <div class="list-portfolio-item">
-                        <a class="facebook-btn" href="https://www.facebook.com/beto.dias.129" target="_blank">                            
-                            <svg class="i-svg" height="50" version="1.1" width="50" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 50 50" space="preserve" data-icon="facebook,"><desc>Created with Snap</desc><defs></defs><path d="M27.845,47.469V27.81h8.426l1.404-8.425h-9.83v-4.213c0-2.81,1.406-4.213,4.213-4.213h4.213V2.531 c-1.405,0-4.55,0-7.021,0c-7.021,0-9.83,4.213-9.83,11.234v5.618h-8.425v8.424h8.425v19.661H27.845L27.845,47.469z" fill="#ffffff"></path></svg>
-                            Facebook
-                        </a>
-                    </div>
-                    
-                    <div class="list-portfolio-item">
-                        <a class="linkedin-btn" href="https://www.linkedin.com/in/robertorhd" target="_blank">                            
-                            <svg class="i-svg" height="50" version="1.1" width="50" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 50 50" space="preserve" data-icon="facebook,"><desc>Created with Snap</desc><defs></defs><path d="M13.83,41.668H5.401V13.571h8.429V41.668z M44.737,41.668h-8.429V26.66c0-3.912-1.394-5.857-4.154-5.857 c-2.189,0-3.577,1.086-4.274,3.273c0,3.545,0,17.592,0,17.592h-8.431c0,0,0.115-25.288,0-28.097h6.656l0.514,5.619h0.175 c1.729-2.81,4.489-4.713,8.275-4.713c2.881,0,5.207,0.801,6.985,2.815c1.794,2.014,2.684,4.713,2.684,8.514V41.668z M9.615,2.333 c2.404,0,4.357,1.888,4.357,4.214c0,2.33-1.953,4.214-4.357,4.214c-2.403,0-4.351-1.885-4.351-4.214 C5.264,4.22,7.212,2.333,9.615,2.333z" fill="#ffffff"></path></svg>
-                            Linkedin                            
-                        </a>
-                    </div>
-                    <div class="list-portfolio-item">
-                        E-mail: <a class="link" href="mailto:roberto.rhd@gmail.com">roberto.rhd@gmail.com</a>
+                    <div class="social ten columns">
+                        <div class="list-portfolio-item">
+                            <a class="facebook-btn" href="https://www.facebook.com/beto.dias.129" target="_blank">                            
+                                <svg class="i-svg" height="50" version="1.1" width="50" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 50 50" space="preserve" data-icon="facebook,"><desc>Created with Snap</desc><defs></defs><path d="M27.845,47.469V27.81h8.426l1.404-8.425h-9.83v-4.213c0-2.81,1.406-4.213,4.213-4.213h4.213V2.531 c-1.405,0-4.55,0-7.021,0c-7.021,0-9.83,4.213-9.83,11.234v5.618h-8.425v8.424h8.425v19.661H27.845L27.845,47.469z" fill="#ffffff"></path></svg>
+                                Facebook
+                            </a>
+                        </div>
+                        
+                        <div class="list-portfolio-item">
+                            <a class="linkedin-btn" href="https://www.linkedin.com/in/robertorhd" target="_blank">                            
+                                <svg class="i-svg" height="50" version="1.1" width="50" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 50 50" space="preserve" data-icon="facebook,"><desc>Created with Snap</desc><defs></defs><path d="M13.83,41.668H5.401V13.571h8.429V41.668z M44.737,41.668h-8.429V26.66c0-3.912-1.394-5.857-4.154-5.857 c-2.189,0-3.577,1.086-4.274,3.273c0,3.545,0,17.592,0,17.592h-8.431c0,0,0.115-25.288,0-28.097h6.656l0.514,5.619h0.175 c1.729-2.81,4.489-4.713,8.275-4.713c2.881,0,5.207,0.801,6.985,2.815c1.794,2.014,2.684,4.713,2.684,8.514V41.668z M9.615,2.333 c2.404,0,4.357,1.888,4.357,4.214c0,2.33-1.953,4.214-4.357,4.214c-2.403,0-4.351-1.885-4.351-4.214 C5.264,4.22,7.212,2.333,9.615,2.333z" fill="#ffffff"></path></svg>
+                                Linkedin                            
+                            </a>
+                        </div>
+                        <div class="list-portfolio-item">
+                            E-mail: <a class="link" href="mailto:roberto.rhd@gmail.com">roberto.rhd@gmail.com</a>
+                        </div>
                     </div>
                 </div>                                           
             </div>      
