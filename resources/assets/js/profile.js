@@ -16,11 +16,13 @@ for(i = 0; i < listItems.length; i++) {
 
 //set menu item to active on click and show its respective div on the rigth
 function changeItem(el){    
+    //$("#jquery_jplayer_menu_hover").jPlayer("play");
     setActiveItemMenuRight(el);
     setVisibleContentByElementID(el);    
 
     (toggles[0].classList.contains("is-active") === true) ? toggles[0].classList.remove("is-active") : toggles[0].classList.add("is-active");
     (menu.classList.contains("is-active") === true) ? menu.classList.remove("is-active") : menu.classList.add("is-active");
+    
 }
 
 //remove item active from all menu item then set the clicked menu item to active
@@ -67,7 +69,7 @@ if(document.getElementById('profile') != null){
           $(this).jPlayer("setMedia", {
             title: "FF",
             mp3: "/audios/mp3/adventurers.mp3"            
-          }).jPlayer("play").jPlayer("volume", 0.25); // Attempts to Auto-Play the media;
+          }).jPlayer("play").jPlayer("volume", 0.15); // Attempts to Auto-Play the media;
         },
         cssSelectorAncestor: "#jp_container_1",
         swfPath: "/js",
@@ -75,10 +77,35 @@ if(document.getElementById('profile') != null){
         useStateClassSkin: true,
         autoBlur: false,
         smoothPlayBar: true,
-        keyEnabled: true,
-        remainingDuration: true,
-        toggleDuration: true,
+        keyEnabled: false,
+        remainingDuration: false,
+        toggleDuration: false,
         loop:true
+      });
+
+      $("#jquery_jplayer_menu_hover").jPlayer({
+        ready: function () {
+          $(this).jPlayer("setMedia", {
+            title: "FF",
+            mp3: "/audios/mp3/hover_sound.mp3"            
+          }).jPlayer("volume", 0.15); // Attempts to Auto-Play the media;
+        },        
+        swfPath: "/js",
+        supplied: "mp3",
+        useStateClassSkin: false,
+        autoBlur: false,
+        smoothPlayBar: false,
+        keyEnabled: false,
+        remainingDuration: false,
+        toggleDuration: false,
+        loop: false,
+        preload: "auto"
+      });
+
+      $('.list-menu li').mouseover(function(){
+          $("#jquery_jplayer_menu_hover").jPlayer("volume", 0.15).jPlayer("play");
+      }).mouseout(function(){
+          //$("#jquery_jplayer_menu_hover").jPlayer("stop");
       });
     });
 }

@@ -26,5 +26,6 @@
                 <a href="javascript:void(0);" id="contacts" class="name">Contatos</a>
             </li>                                       
         </ul>
-    </div>        
+    </div> 
+    <div id="jquery_jplayer_menu_hover" class="jp-jplayer"></div>       
 </div> 
