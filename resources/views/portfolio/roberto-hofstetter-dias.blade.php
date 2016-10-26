@@ -42,14 +42,14 @@
         <div class="nine columns character-text">                      
             <!-- ABOUT -->
             <div id="character-about" class="row character-text-content visible">
-                <h2>Sobre</h2>
-                <p>Atuo no mercado de desenvolvimento há mais de 7 anos, já passei por desenvolvimento focado tanto no Back-end quanto no Front-end, 
-                atualmente atuo nas duas áreas como Full Stack Developer. <br/>
+                <h2>Sobre</h2>                                
+                <P>Formação em Análise e Desenvolvimento de Sistemas e pós graduação em Tecnologias aplicadas a Sistemas de Informação, ambas pela Faculdade UniRitter. </p>  
                 Já fui lider Técnico, de Infraestrutura e lider de equipe, sendo responsável pelo setor de Back-end da Perverte, última empresa que trabalhei, durante mais de 5 anos. </br>
-                Lá desenvolvi também sistemas de grande porte e portais como o Portal de Exames do Cooperado e Beneficiário da Unimed NERS, que têm milhares de usuários e cooperados utilizando a ferramenta.</p>
-                <p>Tenho perfil de ir atrás da solução, mesmo as vezes não tendo pleno conhecimento da linguagem, gosto de resolver bugs.</p>
-                <p>Estou constantemente me aperfeiçoando fazendo cursos e indo em eventos, sou apaixonado pela área.</p>
-                <p>Atualmente trabalho como Freelancer, mas estou aberto a vagas de desenvolvimento.</p>
+                <p>Atuo no mercado de desenvolvimento há mais de 7 anos, já passei por desenvolvimento focado tanto no Back-end quanto no Front-end, 
+                atualmente atuo nas duas áreas como Full Stack Developer. </p>
+                Lá desenvolvi também sistemas de grande porte e portais como o Portal de Exames do Cooperado e Beneficiário da Unimed NERS, que têm milhares de usuários e cooperados utilizando a ferramenta.</p>                
+                <p>Estou constantemente me aperfeiçoando fazendo cursos e indo em eventos, sou apaixonado pela área. <br/>
+                Atualmente trabalho como Freelancer, mas estou aberto a vagas de desenvolvimento.</p>
             </div>
 
             <!-- FRONTEND -->
@@ -347,7 +347,7 @@
                                 <a href="http://www.florense.com.br" target="_blank" class="access-link">Acessar</a>
                             </div>
                             <div class="twelve columns">
-                                <p class="text">Desenvolvimento do CMS de gerenciamento do site em 3 idiomas, tabalhei também na integração do mesmo.</br> 
+                                <p class="text">Desenvolvimento do CMS de gerenciamento do site em 3 idiomas, trabalhei também na integração.</br> 
                                 Na seção "Onde Encontrar" fizemos geolocalização pelo IP do usuário para buscar as lojas mais próximas dele. </br>
                                 Desenvolvi todas as galerias de imagens do site em JQuery e JavaScript.</p>
                                 Também fui o responsável pela publicação do site.</p>
