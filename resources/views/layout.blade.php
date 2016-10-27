@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8"/>
-        <title>@yield('title') - Twins D.</title>
+        <title>@yield('title') - Full Stack Web Developer</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
         <meta http-equiv="Content-type" content="text/html; charset=utf-8">
@@ -21,10 +21,9 @@
         
             @include('includes.footer')
 
-        </div>
-        
-        <!-- particles.js container --> 
-        <div id="particles-js"></div>
+            <!-- particles.js container --> 
+            <div id="particles-js"></div>
+        </div>            
         
         <script src="/js/all.js"></script>
                          
