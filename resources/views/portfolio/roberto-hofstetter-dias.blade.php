@@ -5,9 +5,9 @@
 @section('content')
 @section('body_class', 'profile')
 
-
 <div class="profile container container-wide" id="profile">
-    
+    <!-- particles.js container --> 
+    <div id="particles-js"></div>    
     <div class="row">
         <div class="three columns">
             <a class="back-link" href="/">< Home</a>

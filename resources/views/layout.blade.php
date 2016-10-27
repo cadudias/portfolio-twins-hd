@@ -19,10 +19,7 @@
         <div class="wrapper">
             @yield('content')
         
-            @include('includes.footer')
-
-            <!-- particles.js container --> 
-            <div id="particles-js"></div>
+            @include('includes.footer')            
         </div>            
         
         <script src="/js/all.js"></script>
