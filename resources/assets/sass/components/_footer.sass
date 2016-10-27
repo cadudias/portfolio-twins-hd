@@ -1,0 +1,17 @@
+.footer
+    width: 100%
+    bottom: 0
+    position: absolute
+
+    @include breakpoint(phablet)
+        margin-left: 32px
+
+    p
+        text-align: right
+        padding-top: 20px
+
+        @include breakpoint(phablet)
+            text-align: center
+
+    span
+        color: $color_red    

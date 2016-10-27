@@ -1,7 +1,21 @@
-.profile
-    padding-top: 40px
+.profile    
+    padding-bottom: 260px
+    
+    @include breakpoint(phablet)
+        text-align: center
 
     .back-link
         color: $color_dark_orange
         text-decoration: none
         font-size: 30px
+
+    .wrapper
+        min-height: 100%
+        position: relative
+        padding-top: 40px        
+        background:url(../images/bg-ff4.jpg) center center fixed
+        -webkit-background-size: cover
+        -moz-background-size: cover
+        -o-background-size: cover
+        background-size: cover    
+        z-index: 9

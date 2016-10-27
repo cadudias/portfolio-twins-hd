@@ -1,5 +1,9 @@
 .character-info   
-    padding-bottom: 10px             
+    padding-bottom: 10px     
+
+    @include breakpoint(phablet)        
+        margin-top: 20px
+
     .name
         font-size: 26px        
         margin: 0 
@@ -10,13 +14,17 @@
         background: linear-gradient(to right, rgba(210,204,144,0.5) 0%,rgba(95,94,93,0.5) 100%)
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2cc90', endColorstr='#55555',GradientType=0.5 )
 
+        @include breakpoint(phablet)
+            margin-bottom: 20px
+
     .status
         color: $color_yellow
         font-size: 19px
-        padding-left: 5px
+        padding-left: 5px        
 
     .list           
         margin-bottom: 3px 
+        
         .list-item
             float: left        
             background-size: 100% auto
@@ -27,9 +35,15 @@
             margin-right: 5px
             list-style: none
 
+            @include breakpoint(phablet)
+                margin-top: 20px
+
         .buffs
             text-indent: 0
             margin-right: 25px
+
+            @include breakpoint(phablet)
+                margin-left: 25px                
 
         .angular
             background-image: url('../images/logos/angular.png')                
