@@ -9,7 +9,8 @@
         "laravel/lumen-framework": "5.3.*",
         "vlucas/phpdotenv": "~2.2",
         "mlntn/lumen-artisan-serve": "~1",
-        "vluzrmos/collective-html": "^1.0"
+        "vluzrmos/collective-html": "^1.0",
+        "illuminate/mail": "^5.3"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

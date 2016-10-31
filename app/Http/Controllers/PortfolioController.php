@@ -9,6 +9,8 @@ use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\View;
 use App\Contact;
 use App\Profile;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Config;
 
 class PortfolioController extends Controller
 {    
@@ -32,7 +34,7 @@ class PortfolioController extends Controller
             $profile = $profile->ricardo;                
         } 
 
-        try{
+        // try{
             $messages = [
                 'required' => 'O campo :attribute é obrigatório.',            
                 'email'   => 'Email inválido',            
@@ -59,12 +61,23 @@ class PortfolioController extends Controller
                 $contact->to = $request->input('Para');        
                 $contact->save();
 
+                Mail::send('forms.contact', 
+                    [   
+                        'email' => Config::get('mail.from.address'), 
+                        'contact' => $contact                        
+                    ], 
+                    function ($m) use ($contact) {
+                        $m->from(Config::get('mail.from.address'), Config::get('mail.from.name'));
+                        $m->to(Config::get('mail.from.address'), Config::get('mail.from.name'))->subject('Portfólio - Formulário de Contato');
+                    }
+                );
+
                 $success = "Obrigado pelo interesse! O quanto antes entrarei em contato :)";
                            
                 return View::make('portfolio.index')->with('success', $success)->with('profile', $profile);
             }        
-        }catch(\Exception $e){
-            return View::make('portfolio.index')->with('error', 'Ocorreu um erro ao tentar enviar seu contato, por favor entre em contato pelas redes sociais abaixo ou tente novamente mais tarde.')->with('profile', $profile);
-        }
+        // }catch(\Exception $e){
+        //     return View::make('portfolio.index')->with('error', 'Ocorreu um erro ao tentar enviar seu contato, por favor entre em contato pelas redes sociais abaixo ou tente novamente mais tarde.')->with('profile', $profile);
+        // }
     }
 }
