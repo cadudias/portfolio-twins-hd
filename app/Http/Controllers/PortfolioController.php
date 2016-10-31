@@ -8,16 +8,30 @@ use Validator;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\View;
 use App\Contact;
+use App\Profile;
 
 class PortfolioController extends Controller
 {    
     public function index($name)
     {
-        return view('portfolio.' . $name);
+        $profile = new Profile;
+        if($name === 'roberto-hofstetter-dias'){            
+            $profile = $profile->roberto;              
+        } else{
+            $profile = $profile->ricardo;
+        }
+        return view('portfolio.index')->with('profile', $profile);
     }    
 
     public function sendEmail(Request $request, $name)
     {        
+        $profile = new Profile;
+        if($name === 'roberto-hofstetter-dias'){            
+            $profile = $profile->roberto;                              
+        } else{
+            $profile = $profile->ricardo;                
+        } 
+
         try{
             $messages = [
                 'required' => 'O campo :attribute é obrigatório.',            
@@ -46,11 +60,11 @@ class PortfolioController extends Controller
                 $contact->save();
 
                 $success = "Obrigado pelo interesse! O quanto antes entrarei em contato :)";
-                
-                return View::make('portfolio.' . $name)->with('success', $success);
+                           
+                return View::make('portfolio.index')->with('success', $success)->with('profile', $profile);
             }        
         }catch(\Exception $e){
-            return View::make('portfolio.' . $name)->with('error', 'Ocorreu um erro ao tentar enviar seu contato, por favor entre em contato pelas redes sociais abaixo ou tente novamente mais tarde.');
+            return View::make('portfolio.index')->with('error', 'Ocorreu um erro ao tentar enviar seu contato, por favor entre em contato pelas redes sociais abaixo ou tente novamente mais tarde.')->with('profile', $profile);
         }
     }
 }
