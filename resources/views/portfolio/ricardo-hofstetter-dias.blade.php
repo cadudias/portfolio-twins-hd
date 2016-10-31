@@ -42,14 +42,27 @@
         <div class="nine columns character-text">                      
             <!-- ABOUT -->
             <div id="character-about" class="row character-text-content visible">
+
                 <h2>Sobre</h2>
-                <p>Atuo no mercado de desenvolvimento há mais de 7 anos, já passei por desenvolvimento focado tanto no Back-end quanto no Front-end, 
-                atualmente atuo nas duas áreas como Full Stack Developer. <br/>
-                Já fui lider Técnico, de Infraestrutura e lider de equipe, sendo responsável pelo setor de Back-end da Perverte, última empresa que trabalhei, durante mais de 5 anos. </br>
-                Lá desenvolvi também sistemas de grande porte e portais como o Portal de Exames do Cooperado e Beneficiário da Unimed NERS, que têm milhares de usuários e cooperados utilizando a ferramenta.</p>
-                <p>Tenho perfil de ir atrás da solução, mesmo as vezes não tendo pleno conhecimento da linguagem, gosto de resolver bugs.</p>
-                <p>Estou constantemente me aperfeiçoando fazendo cursos e indo em eventos, sou apaixonado pela área.</p>
-                <p>Atualmente trabalho como Freelancer, mas estou aberto a vagas de desenvolvimento.</p>
+
+                <p>Já tive a oportunidade de passar por muitas áreas do mercado de desenvolvimento e aprendi muito em cada uma delas.
+                Trabalhei durante 6 anos em agências, 4 anos focado em backend (.NET e PHP) e 2 anos como Front e Backend desenvolvendo desde grandes sistemas 
+                internos até sites institucionais. De qualquer forma sempre me envolvi com os projetos de forma geral, fazendo comportamentos, animações, conversando com o 
+                cliente e fazendo muitas vezes o papel de gerente de projeto além de desenvolvedor. <br/>
+
+                Hoje trabalho na ClassAdvisor como desenvolvedor Full Stack. Participar de uma startup me possibilitou colocar em prática todo o 
+                conhecimento nas áreas de frontend, backend, sysadmin colocando os ambiente na cloud,
+                UI/UX, métricas, testes e outras partes importantes na vida de uma empresa que está começando a crescer.
+                
+                Também estou desenvolvemndo o curso do Estágio Com XP onde vou passar conteúdos sobre desenvolvimento pessoal e profissional 
+                focado na área web pro pessoal que está começando e quer conseguir o primeiro emprego sem ter que passar por toda a dificuldade 
+                que se vê na contratação do profissional iniciante. <br/>
+
+                <p>Sempre que posso faço cursos e participo de eventos de desenvolvimento, participar da comunidade e trocar experiências é uma parte
+                importante da vida do desenvolvedor.</p>
+
+                <p>Trabalho como freelancer, se quiser tirar um projeto do papel é só entrar em contato :)</p>
+                
             </div>
 
             <!-- FRONTEND -->
