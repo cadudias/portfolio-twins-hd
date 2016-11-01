@@ -142,7 +142,7 @@
                 <div class="row">
                     <h3 class="title">@lang('messages.contacts_intro')</h3>
                     <div class="list-contacts seven columns">                                        
-                        {!! Form::open(['url' => 'portfolio/' . $profile['slug'], 'class' => 'form twelve columns']) !!}                                                                               
+                        {!! Form::open(['url' => app('translator')->getLocale() . '/portfolio/' . $profile['slug'], 'class' => 'form twelve columns']) !!}                                                                               
                             <input type="hidden" name="Para" value="{{ $profile['slug'] }}" />
 
                             <label for="input-name">@lang('messages.contacts_name_label')</label>
