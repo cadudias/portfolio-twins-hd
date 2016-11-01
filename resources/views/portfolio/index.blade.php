@@ -14,7 +14,7 @@
         </div>
         <div class="nine columns character-info">
             <div class="two columns">
-                <img class="image u-max-full-width" src="../images/profile-image.jpg" />
+                <img class="image u-max-full-width" src="/../images/profile-image.jpg" />
             </div>
             <div class="ten columns">
                 <ul class="list twelve columns">
@@ -41,7 +41,7 @@
         <div class="nine columns character-text">                      
             <!-- ABOUT -->
             <div id="character-about" class="row character-text-content visible">
-                <h2>Sobre</h2> 
+                <h2>@lang('messages.menu_about')</h2> 
                 {!! $profile['about'] !!}                                             
             </div>
 
@@ -52,7 +52,7 @@
                     @foreach($profile['frontend'] as $key => $value)
                     <li class="one-third column list-languages-item">
                         <span class="twelve columns list-item-title">{{ $value['name'] }}</span>
-                        <img src="../images/logos/{{ $value['image'] }}" class="" width="{{ $value['width'] }}" alt="{{ $value['name'] }}" title="{{ $value['name'] }}" />                                           
+                        <img src="/../images/logos/{{ $value['image'] }}" class="" width="{{ $value['width'] }}" alt="{{ $value['name'] }}" title="{{ $value['name'] }}" />                                           
                     </li>
                     @endforeach          
                 </ul>                
@@ -65,7 +65,7 @@
                     @foreach($profile['backend'] as $key => $value2)
                     <li class="one-third column list-languages-item">
                         <span class="twelve columns list-item-title">{{ $value2['name'] }}</span>
-                        <img src="../images/logos/{{ $value2['image'] }}" width="130" alt="{{ $value2['name'] }}" title="{{ $value2['name'] }}" />                        
+                        <img src="/../images/logos/{{ $value2['image'] }}" width="130" alt="{{ $value2['name'] }}" title="{{ $value2['name'] }}" />                        
                     </li>
                     @endforeach   
                 </ul>              
@@ -73,12 +73,12 @@
 
             <!-- DBS -->
             <div id="character-dbs" class="twelve columns character-text-content">         
-                <h2>Banco de dados</h2>                                          
+                <h2>@lang('messages.menu_databases')</h2>                                          
                 <ul class="list-languages twelve columns">
                     @foreach($profile['bds'] as $key => $value3)
                     <li class="one-third column list-languages-item">
                         <span class="twelve columns list-item-title">{{ $value3['name'] }}</span>
-                        <img class="u-max-full-width" src="../images/logos/{{ $value3['image'] }}" width="{{ $value3['width'] }}" alt="{{ $value3['name'] }}" title="{{ $value3['name'] }}" />                        
+                        <img class="u-max-full-width" src="/../images/logos/{{ $value3['image'] }}" width="{{ $value3['width'] }}" alt="{{ $value3['name'] }}" title="{{ $value3['name'] }}" />                        
                     </li>
                     @endforeach                       
                 </ul>                       
@@ -86,12 +86,12 @@
 
             <!-- FERRAMENTAS -->
             <div id="character-tools" class="twelve columns character-text-content">
-                <h2>Ferramentas</h2>                                                   
+                <h2>@lang('messages.menu_tools')</h2>                                                   
                 <ul class="list-tools twelve columns">
                     @foreach($profile['tools'] as $key => $value4)
                     <li class="one-third column list-languages-item">
                         <span class="twelve columns list-item-title">{{ $value4['name'] }}</span>
-                        <img class="u-max-full-width" src="../images/logos/{{ $value4['image'] }}" width="{{ $value4['width'] }}" alt="{{ $value4['name'] }}" title="{{ $value4['name'] }}" />                        
+                        <img class="u-max-full-width" src="/../images/logos/{{ $value4['image'] }}" width="{{ $value4['width'] }}" alt="{{ $value4['name'] }}" title="{{ $value4['name'] }}" />                        
                     </li>
                     @endforeach                       
                 </ul>                       
@@ -99,14 +99,14 @@
 
             <!-- PORTFOLIO -->
             <div id="character-works" class="twelve columns character-text-content">
-                <h2>Trabalhos</h2>                                                   
+                <h2>@lang('messages.menu_works')</h2>                                                   
                 <div class="list-works row">
                     @foreach($profile['works'] as $key => $value5)
                     <div class="list-works-item twelve columns">
                         
                         <div class="three columns container-image">
                             <a href="{{ $value5['link'] }}" target="_blank" class="image">
-                                <img src="../images/trabalhos/{{$profile['slug']}}/{{ $value5['image'] }}" class="u-max-full-width" />
+                                <img src="/../images/trabalhos/{{$profile['slug']}}/{{ $value5['image'] }}" class="u-max-full-width" />
                             </a>                            
                         </div>
                         
@@ -115,7 +115,7 @@
                                 <a href="{{ $value5['link'] }}" target="_blank" class="title-link">
                                     <h4 class="title">{{ $value5['name'] }}</h4>
                                 </a>
-                                <a href="{{ $value5['link'] }}" target="_blank" class="access-link">Acessar</a>
+                                <a href="{{ $value5['link'] }}" target="_blank" class="access-link">@lang('messages.works_access_link')</a>
                             </div>
                             <div class="twelve columns">
                                 <p class="text">
@@ -123,7 +123,7 @@
                                 </p>
                             </div>                            
                             <div class="twelve columns">
-                                <h5 class="subtitle">Envolvimento</h5>
+                                <h5 class="subtitle">@lang('messages.works_involment')</h5>
                                 <ul class="list">
                                     @foreach($value5['involvement'] as $key => $involvment)
                                     <li class="list-item">{{ $involvment }}</li>
@@ -138,23 +138,23 @@
 
             <!-- CONTACTS -->
             <div id="character-contacts" class="character-text-content">                  
-                <h2>Contato</h2>                                                 
+                <h2>@lang('messages.menu_contacts')</h2>                                                 
                 <div class="row">
-                    <h3 class="title">Para trabalhos de Freelancer, oportunidades ou me mandar um oi, enviei um contato abaixo </h3>
+                    <h3 class="title">@lang('messages.contacts_intro')</h3>
                     <div class="list-contacts seven columns">                                        
                         {!! Form::open(['url' => 'portfolio/' . $profile['slug'], 'class' => 'form twelve columns']) !!}                                                                               
                             <input type="hidden" name="Para" value="{{ $profile['slug'] }}" />
 
-                            <label for="input-name">Nome</label>
+                            <label for="input-name">@lang('messages.contacts_name_label')</label>
                             <input class="u-full-width" name="Nome" type="text" placeholder="Vivi Ornitier" id="input-name" required />
 
                             <label for="input-email">E-mail</label>
                             <input class="u-full-width" name="E-mail" type="email" placeholder="vivi@firaga.com" id="input-email" required />
 
-                            <label for="input-message">Mensagem</label>
+                            <label for="input-message">@lang('messages.contacts_message_label')</label>
                             <textarea class="u-full-width" name="Mensagem" rows="10" id="input-message" required></textarea>
                             
-                            <input class="btn-orange" type="submit" value="Enviar">                                                                                                            
+                            <input class="btn-orange" type="submit" value="@lang('messages.contacts_send_button')">                                                                                                            
                         {!! Form::close() !!}
                     </div>           
 
@@ -182,7 +182,7 @@
                 <div class="divider"></div>
 
                 <div class="row">
-                    <p>Ou entre em contato pelas redes sociais/e-mail! </p>
+                    <p>@lang('messages.contacts_social_text')</p>
                     <div class="social ten columns">
                         <div class="list-portfolio-item">
                             <a class="facebook-btn" href="{{ $profile['facebook'] }}" target="_blank">                            

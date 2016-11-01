@@ -87,7 +87,7 @@ if(document.getElementById('profile') != null){
           $(this).jPlayer("setMedia", {
             title: "bg",
             mp3: "/audios/mp3/adventurers.mp3"            
-          }).jPlayer("play").jPlayer("volume", 0.15); // Attempts to Auto-Play the media;
+          }).jPlayer("pause").jPlayer("volume", 0.15); // Attempts to Auto-Play the media;
         },
         cssSelectorAncestor: "#jp_container_1",
         swfPath: "/js",

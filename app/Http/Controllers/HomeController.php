@@ -9,8 +9,9 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index($locale)
     {
+        app('translator')->setLocale($locale);
         return view('home.index');
     }
 }

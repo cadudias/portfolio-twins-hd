@@ -11,8 +11,12 @@
 |
 */
 
-$app->get('/', 'HomeController@index');
+$app->get('/', function(){    
+    return redirect('/pt');
+});
 
-$app->get('/portfolio/{name}', 'PortfolioController@index');
+$app->get('/{locale}', 'HomeController@index');
 
-$app->post('/portfolio/{name}', 'PortfolioController@sendEmail');
+$app->get('/{locale}/portfolio/{name}', 'PortfolioController@index');
+
+$app->post('/{locale}/portfolio/{name}', 'PortfolioController@sendEmail');

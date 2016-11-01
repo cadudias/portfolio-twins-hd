@@ -6,8 +6,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
         <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-        <meta content="Portfolio Roberto e Ricardo Hofstetter Dias, Full Stack Developer Web, Freelancers" name="description"/>
-        <meta content="" name="author"/>
+        <meta content="@lang('messages.description')" name="description"/>
+        <meta content="roberto hofstetter dias e ricardo hofstetter dias" name="author"/>
 
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
         <link rel="stylesheet" href="/css/all.css">     

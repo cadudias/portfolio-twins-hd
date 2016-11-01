@@ -14,8 +14,9 @@ use Illuminate\Support\Facades\Config;
 
 class PortfolioController extends Controller
 {    
-    public function index($name)
+    public function index($locale, $name)
     {
+        app('translator')->setLocale($locale);
         $profile = new Profile;
         if($name === 'roberto-hofstetter-dias'){            
             $profile = $profile->roberto;              

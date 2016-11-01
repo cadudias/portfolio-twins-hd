@@ -16,5 +16,7 @@
         </div>
     </div>
     </div>
-    <p class="nine columns">Feito com <span> <3 </span> por Ricardo e Roberto</p>
+    <p class="nine columns">
+        @lang('messages.footer')
+    </p>
 </footer>
