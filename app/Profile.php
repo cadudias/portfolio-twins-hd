@@ -12,13 +12,20 @@ class Profile
         'facebook' => 'https://www.facebook.com/beto.dias.129',
         'linkedin' => 'https://www.linkedin.com/in/robertorhd',
         'email' => 'roberto.rhd@gmail.com',
-        'about'     => '<p>Formação em Análise e Desenvolvimento de Sistemas e pós graduação em Tecnologias aplicadas a Sistemas de Informação, ambas pela Faculdade UniRitter. </p>  
+        'about_pt'     => '<p>Formação em Análise e Desenvolvimento de Sistemas e pós graduação em Tecnologias aplicadas a Sistemas de Informação, ambas pela Faculdade UniRitter. </p>  
             Já fui lider Técnico, de Infraestrutura e lider de equipe, sendo responsável pelo setor de Back-end da Perverte, última empresa que trabalhei, durante mais de 5 anos. </br>
             <p>Atuo no mercado de desenvolvimento há mais de 7 anos, já passei por desenvolvimento focado tanto no Back-end quanto no Front-end, 
             atualmente atuo nas duas áreas como Full Stack Developer. </p>
             <p>Lá desenvolvi também sistemas de grande porte e portais como o Portal de Exames do Cooperado e Beneficiário da Unimed NERS, que têm milhares de usuários e cooperados utilizando a ferramenta.</p>                
             <p>Estou constantemente me aperfeiçoando fazendo cursos e indo em eventos, sou apaixonado pela área. <br/>
             Atualmente trabalho como Freelancer, mas estou aberto a vagas de desenvolvimento.</p>',
+        'about_en'     => "<p> Training Analysis and Systems Development and Graduate Technologies Applied to Information Systems, Both For College UniRitter. </p>
+            I have been leader Technical Infrastructure and leader of team, hair Being Responsible Sector Back-end Perverte, Ultima Company que worked for more than five years. </br>
+            <p> I work in the development of the market for over 7 years, I have been through development focused both Backend As the front-end,
+            Currently I work in both areas as Full Stack Developer. </p>
+            <p> There developed Also large systems and portals Because the Exams Portal Cooperative and beneficiary of Unimed NERS, which has thousands of members and cooperators using a tool. </p>
+            <p> I am constantly perfecting me Taking courses and events going on, I'm in love With the area. <br/>
+            Currently Working As Freelancer, but I am open to development spaces. </p>",
         'frontend'  =>  [
             ['name'=> 'HTML 5', 'width'=> '150', 'image'=> 'html.png'],
             ['name'=> 'CSS 3', 'width'=> '110', 'image'=> 'css3.png'],
@@ -62,56 +69,70 @@ class Profile
             [
             'name'=> 'Why Go Wild', 
             'link'=>'http://whygowild.com', 
-            'text' => 'Trabalhei no desenvolvimento do CMS e na integração do site em C# .NET / MVC. Desenvolvemos um CMS personalizado para lidar com o conteúdo em seis idiomas: Inglês, polonês, húngaro, esloveno, checo e romani. Também participei do desenvolvimento de várias       animações do site.<br/><br/>
-            Agência Perverte', 
+            'text_pt' => 'Trabalhei no desenvolvimento do CMS e na integração do site em C# .NET / MVC. Desenvolvemos um CMS personalizado para lidar com o conteúdo em seis idiomas: Inglês, polonês, húngaro, esloveno, checo e romani. Também participei do desenvolvimento de várias       animações do
+                    site.<br/><br/>
+                    Agência Perverte', 
+            'text_en' => 'I worked on the development of CMS and site integration in C # .NET / MVC. We developed a custom CMS to handle content in six languages: English, Polish, Hungarian, Slovenian, Czech and Romany. Also participated in the development of various site animations. <br/>
+                        Agency Perverte', 
             'image'=> 'wwf.jpg',
             'involvement' => ['HTML 5', 'CSS 3', 'Animações', 'JQuery', 'C#', '.NET', 'BackBone JS', 'Require JS', 'MVC', 'SQL Server']
             ],
             [
             'name'=> 'Perverte', 
             'link'=>'http://perverte.me', 
-                'text' => 'Trabalhei no desenvolvimento do CMS e na integração do site em C# .NET / MVC, site dois idiomas. Também fui o responsável pela publicação do site. <br/> <br/>
-            Agência Perverte', 
+            'text_pt' => 'Trabalhei no desenvolvimento do CMS e na integração do site em C# .NET / MVC, site dois idiomas. Também fui o responsável pela publicação do site. <br/> <br/>
+                        Agência Perverte', 
+            'text_en' => "Development of CMS's site in two languages and website integration in C # .NET / MVC. I was also responsible for the website deployment. <br/>
+                        Agency Perverte",
             'image'=> 'perverte.jpg',
             'involvement' => ['HTML 5', 'JQuery', 'C#', '.NET', 'BackBone JS', 'Require JS', 'MVC', 'SQL Server']
             ],
             [
             'name'=> 'Class Advisor', 
             'link'=>'http://www.classadvisor.com.br', 
-            'text' => 'CTO e Full Stack Developer, fazendo todo o HTML, CSS e JavaScript. Desenvolvemos também a API REST no framework Laravel.', 
+            'text_pt' => 'CTO e Full Stack Developer, fazendo todo o HTML, CSS e JavaScript. Desenvolvemos também a API REST no framework Laravel.',
+            'text_en' => 'CTO and Full Stack Developer, doing all the HTML, CSS and JavaScript. We also developed the REST API in Laravel framework', 
             'image'=> 'classadvisor.jpg',
             'involvement' => ['HTML 5', 'CSS 3', 'Sass', 'JavaScript', 'AngularJS', 'PHP', 'Laravel', 'SEO', 'Webpack', 'MySql']
             ],
             [
             'name'=> 'Promob Arch Plus', 
             'link'=>'http://archplus.promob.com/', 
-            'text' => 'Desenvolvimento das animações.Também fui o responsável pela publicação do site. <br/> <br/>
-                        Agência Perverte', 
+            'text_pt' => 'Desenvolvimento das animações.Também fui o responsável pela publicação do site. <br/> <br/>
+                        Agência Perverte',
+            'text_en' => 'Animations Development. I was also responsible for the website deployment. <br/>
+                        Agency Perverte', 
             'image'=> 'archplus.jpg',
             'involvement' => ['HTML 5', 'CSS 3', 'JavaScript', 'JQuery', 'Animações', '.NET', 'C#']
             ],
             [
             'name'=> 'Florense', 
             'link'=>'http://www.florense.com/', 
-            'text' => 'Desenvolvimento do CMS de gerenciamento do site em 3 idiomas, trabalhei também na integração.</br> 
+            'text_pt' => 'Desenvolvimento do CMS de gerenciamento do site em 3 idiomas, trabalhei também na integração.</br> 
                         Na seção "Onde Encontrar" fizemos geolocalização pelo IP do usuário para buscar as lojas mais próximas dele. </br>
                         Desenvolvi todas as galerias de imagens do site em JQuery e JavaScript. <br/><br/>
                         Também fui o responsável pela publicação do site.<br/><br/>
                         Agência Perverte', 
+            'text_en' => "Site management CMS development in 3 languages, also worked on the website's integration. </ br>
+                        In the 'Where to Find' section we did geolocation by user IP to find the nearest stores. </ Br>
+                        Developed all the site's picture galleries using JQuery and JavaScript. <br/>
+                        I was also responsible for the website deployment. <br/>
+                        Agency Perverte",
             'image'=> 'florense.jpg',
             'involvement' => ['CSS', 'JavaScript', 'JQuery', 'Animações', '.NET', 'C#', 'SQL Server', 'Require JS', 'Google Maps API']
             ],
             [
             'name'=> 'Nova Marca', 
             'link'=>'http://www.novamarcaimoveis.com/', 
-            'text' => 'Repaginação de todo o Front-end do site.', 
+            'text_pt' => 'Repaginação de todo o Front-end do site.',
+            'text_en' => 'Website Front-end revamp', 
             'image'=> 'novamarca.jpg',
             'involvement' => ['HTML 5', 'CSS 3', 'JavaScript', 'JQuery', 'Animações', 'PHP', 'MySQL']
             ],                           
         ]    
     ];
 
-    public $ricardo = [
+    public $ricardo = [ 
         'slug'      => 'ricardo-hofstetter-dias',
         'buffs'     => ['html5', 'css3', 'js', 'angular'],
         'name'      => 'Ricardo Hofstetter Dias',
@@ -119,13 +140,20 @@ class Profile
         'facebook' => 'https://www.facebook.com/beto.dias.129',
         'linkedin' => 'https://www.linkedin.com/in/robertorhd',
         'email' => 'roberto.rhd@gmail.com',
-        'about'     => '<p>Formação em Análise e Desenvolvimento de Sistemas e pós graduação em Tecnologias aplicadas a Sistemas de Informação, ambas pela Faculdade UniRitter. </p>  
+        'about_pt'     => '<p>Formação em Análise e Desenvolvimento de Sistemas e pós graduação em Tecnologias aplicadas a Sistemas de Informação, ambas pela Faculdade UniRitter. </p>  
             Já fui lider Técnico, de Infraestrutura e lider de equipe, sendo responsável pelo setor de Back-end da Perverte, última empresa que trabalhei, durante mais de 5 anos. </br>
             <p>Atuo no mercado de desenvolvimento há mais de 7 anos, já passei por desenvolvimento focado tanto no Back-end quanto no Front-end, 
             atualmente atuo nas duas áreas como Full Stack Developer. </p>
             <p>Lá desenvolvi também sistemas de grande porte e portais como o Portal de Exames do Cooperado e Beneficiário da Unimed NERS, que têm milhares de usuários e cooperados utilizando a ferramenta.</p>                
             <p>Estou constantemente me aperfeiçoando fazendo cursos e indo em eventos, sou apaixonado pela área. <br/>
             Atualmente trabalho como Freelancer, mas estou aberto a vagas de desenvolvimento.</p>',
+        'about_en'     => "<p> Training Analysis and Systems Development and Graduate Technologies Applied to Information Systems, Both For College UniRitter. </p>
+            I have been leader Technical Infrastructure and leader of team, hair Being Responsible Sector Back-end Perverte, Ultima Company que worked for more than five years. </br>
+            <p> I work in the development of the market for over 7 years, I have been through development focused both Backend As the front-end,
+            Currently I work in both areas as Full Stack Developer. </p>
+            <p> There developed Also large systems and portals Because the Exams Portal Cooperative and beneficiary of Unimed NERS, which has thousands of members and cooperators using a tool. </p>
+            <p> I am constantly perfecting me Taking courses and events going on, I'm in love With the area. <br/>
+            Currently Working As Freelancer, but I am open to development spaces. </p>",
         'frontend'  =>  [
             ['name'=> 'HTML 5', 'width'=> '150', 'image'=> 'html.png'],
             ['name'=> 'CSS 3', 'width'=> '110', 'image'=> 'css3.png'],
@@ -167,53 +195,67 @@ class Profile
         ],
         'works'      =>  [
             [
-                'name'=> 'Why Go Wild', 
-                'link'=>'http://whygowild.com', 
-                'text' => 'Trabalhei no desenvolvimento do CMS e na integração do site em C# .NET / MVC. Desenvolvemos um CMS personalizado para lidar com o conteúdo em seis idiomas: Inglês, polonês, húngaro, esloveno, checo e romani. Também participei do desenvolvimento de várias       animações do site.<br/><br/>
-                Agência Perverte', 
-                'image'=> 'wwf.jpg',
-                'involvement' => ['HTML 5', 'CSS 3', 'Animações', 'JQuery', 'C#', '.NET', 'BackBone JS', 'Require JS', 'MVC', 'SQL Server']
+            'name'=> 'Why Go Wild', 
+            'link'=>'http://whygowild.com', 
+            'text_pt' => 'Trabalhei no desenvolvimento do CMS e na integração do site em C# .NET / MVC. Desenvolvemos um CMS personalizado para lidar com o conteúdo em seis idiomas: Inglês, polonês, húngaro, esloveno, checo e romani. Também participei do desenvolvimento de várias       animações do
+                    site.<br/><br/>
+                    Agência Perverte', 
+            'text_en' => 'I worked on the development of CMS and site integration in C # .NET / MVC. We developed a custom CMS to handle content in six languages: English, Polish, Hungarian, Slovenian, Czech and Romany. Also participated in the development of various site animations. <br/>
+                        Agency Perverte', 
+            'image'=> 'wwf.jpg',
+            'involvement' => ['HTML 5', 'CSS 3', 'Animações', 'JQuery', 'C#', '.NET', 'BackBone JS', 'Require JS', 'MVC', 'SQL Server']
             ],
             [
-                'name'=> 'Perverte', 
-                'link'=>'http://perverte.me', 
-                    'text' => 'Trabalhei no desenvolvimento do CMS e na integração do site em C# .NET / MVC, site dois idiomas. Também fui o responsável pela publicação do site. <br/> <br/>
-                Agência Perverte', 
-                'image'=> 'perverte.jpg',
-                'involvement' => ['HTML 5', 'JQuery', 'C#', '.NET', 'BackBone JS', 'Require JS', 'MVC', 'SQL Server']
+            'name'=> 'Perverte', 
+            'link'=>'http://perverte.me', 
+            'text_pt' => 'Trabalhei no desenvolvimento do CMS e na integração do site em C# .NET / MVC, site dois idiomas. Também fui o responsável pela publicação do site. <br/> <br/>
+                        Agência Perverte', 
+            'text_en' => "Development of CMS's site in two languages and website integration in C # .NET / MVC. I was also responsible for the website deployment. <br/>
+                        Agency Perverte",
+            'image'=> 'perverte.jpg',
+            'involvement' => ['HTML 5', 'JQuery', 'C#', '.NET', 'BackBone JS', 'Require JS', 'MVC', 'SQL Server']
             ],
             [
-                'name'=> 'Class Advisor', 
-                'link'=>'http://www.classadvisor.com.br', 
-                'text' => 'CTO e Full Stack Developer, fazendo todo o HTML, CSS e JavaScript. Desenvolvemos também a API REST no framework Laravel.', 
-                'image'=> 'classadvisor.jpg',
-                'involvement' => ['HTML 5', 'CSS 3', 'Sass', 'JavaScript', 'AngularJS', 'PHP', 'Laravel', 'SEO', 'Webpack', 'MySql']
+            'name'=> 'Class Advisor', 
+            'link'=>'http://www.classadvisor.com.br', 
+            'text_pt' => 'CTO e Full Stack Developer, fazendo todo o HTML, CSS e JavaScript. Desenvolvemos também a API REST no framework Laravel.',
+            'text_en' => 'CTO and Full Stack Developer, doing all the HTML, CSS and JavaScript. We also developed the REST API in Laravel framework', 
+            'image'=> 'classadvisor.jpg',
+            'involvement' => ['HTML 5', 'CSS 3', 'Sass', 'JavaScript', 'AngularJS', 'PHP', 'Laravel', 'SEO', 'Webpack', 'MySql']
             ],
             [
-                'name'=> 'Promob Arch Plus', 
-                'link'=>'http://archplus.promob.com/', 
-                'text' => 'Desenvolvimento das animações.Também fui o responsável pela publicação do site. <br/> <br/>
-                            Agência Perverte', 
-                'image'=> 'archplus.jpg',
-                'involvement' => ['HTML 5', 'CSS 3', 'JavaScript', 'JQuery', 'Animações', '.NET', 'C#']
+            'name'=> 'Promob Arch Plus', 
+            'link'=>'http://archplus.promob.com/', 
+            'text_pt' => 'Desenvolvimento das animações.Também fui o responsável pela publicação do site. <br/> <br/>
+                        Agência Perverte',
+            'text_en' => 'Animations Development. I was also responsible for the website deployment. <br/>
+                        Agency Perverte', 
+            'image'=> 'archplus.jpg',
+            'involvement' => ['HTML 5', 'CSS 3', 'JavaScript', 'JQuery', 'Animações', '.NET', 'C#']
             ],
             [
-                'name'=> 'Florense', 
-                'link'=>'http://www.florense.com/', 
-                'text' => 'Desenvolvimento do CMS de gerenciamento do site em 3 idiomas, trabalhei também na integração.</br> 
-                            Na seção "Onde Encontrar" fizemos geolocalização pelo IP do usuário para buscar as lojas mais próximas dele. </br>
-                            Desenvolvi todas as galerias de imagens do site em JQuery e JavaScript. <br/><br/>
-                            Também fui o responsável pela publicação do site.<br/><br/>
-                            Agência Perverte', 
-                'image'=> 'florense.jpg',
-                'involvement' => ['CSS', 'JavaScript', 'JQuery', 'Animações', '.NET', 'C#', 'SQL Server', 'Require JS', 'Google Maps API']
+            'name'=> 'Florense', 
+            'link'=>'http://www.florense.com/', 
+            'text_pt' => 'Desenvolvimento do CMS de gerenciamento do site em 3 idiomas, trabalhei também na integração.</br> 
+                        Na seção "Onde Encontrar" fizemos geolocalização pelo IP do usuário para buscar as lojas mais próximas dele. </br>
+                        Desenvolvi todas as galerias de imagens do site em JQuery e JavaScript. <br/><br/>
+                        Também fui o responsável pela publicação do site.<br/><br/>
+                        Agência Perverte', 
+            'text_en' => "Site management CMS development in 3 languages, also worked on the website's integration. </ br>
+                        In the 'Where to Find' section we did geolocation by user IP to find the nearest stores. </ Br>
+                        Developed all the site's picture galleries using JQuery and JavaScript. <br/>
+                        I was also responsible for the website deployment. <br/>
+                        Agency Perverte",
+            'image'=> 'florense.jpg',
+            'involvement' => ['CSS', 'JavaScript', 'JQuery', 'Animações', '.NET', 'C#', 'SQL Server', 'Require JS', 'Google Maps API']
             ],
             [
-                'name'=> 'Nova Marca', 
-                'link'=>'http://www.novamarcaimoveis.com/', 
-                'text' => 'Repaginação de todo o Front-end do site.', 
-                'image'=> 'novamarca.jpg',
-                'involvement' => ['HTML 5', 'CSS 3', 'JavaScript', 'JQuery', 'Animações', 'PHP', 'MySQL']
+            'name'=> 'Nova Marca', 
+            'link'=>'http://www.novamarcaimoveis.com/', 
+            'text_pt' => 'Repaginação de todo o Front-end do site.',
+            'text_en' => 'Website Front-end revamp', 
+            'image'=> 'novamarca.jpg',
+            'involvement' => ['HTML 5', 'CSS 3', 'JavaScript', 'JQuery', 'Animações', 'PHP', 'MySQL']
             ],                           
         ]    
     ];

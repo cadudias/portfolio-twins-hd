@@ -26,7 +26,7 @@ class PortfolioController extends Controller
         return view('portfolio.index')->with('profile', $profile);
     }    
 
-    public function sendEmail(Request $request, $name)
+    public function sendEmail(Request $request, $name, $locale)
     {        
         $profile = new Profile;
         if($name === 'roberto-hofstetter-dias'){            
@@ -35,7 +35,9 @@ class PortfolioController extends Controller
             $profile = $profile->ricardo;                
         } 
 
-        // try{
+        app('translator')->setLocale($locale);
+
+        try{
             $messages = [
                 'required' => 'O campo :attribute é obrigatório.',            
                 'email'   => 'Email inválido',            
@@ -73,12 +75,21 @@ class PortfolioController extends Controller
                     }
                 );
 
-                $success = "Obrigado pelo interesse! O quanto antes entrarei em contato :)";
-                           
+                if(app('translator')->getLocale() === 'pt'){
+                    $success = "Obrigado pelo interesse! O quanto antes entrarei em contato :)";
+                }else{
+                    $success = "Thanks! as soon as possible i'll get in touch with you :)";
+                }
+                
                 return View::make('portfolio.index')->with('success', $success)->with('profile', $profile);
             }        
-        // }catch(\Exception $e){
-        //     return View::make('portfolio.index')->with('error', 'Ocorreu um erro ao tentar enviar seu contato, por favor entre em contato pelas redes sociais abaixo ou tente novamente mais tarde.')->with('profile', $profile);
-        // }
+        }catch(\Exception $e){  
+                if(app('translator')->getLocale() === 'pt'){
+                    $error = "Ocorreu um erro ao tentar enviar seu contato, por favor entre em contato pelas redes sociais abaixo ou tente novamente mais tarde.";
+                }else{
+                    $error = "An error ocurred while sending your contact, please get in touch using my social channels or try again later";
+                }          
+            return View::make('portfolio.index')->with('error', $error)->with('profile', $profile);
+        }
     }
 }

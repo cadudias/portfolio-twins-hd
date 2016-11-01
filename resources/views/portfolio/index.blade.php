@@ -42,7 +42,7 @@
             <!-- ABOUT -->
             <div id="character-about" class="row character-text-content visible">
                 <h2>@lang('messages.menu_about')</h2> 
-                {!! $profile['about'] !!}                                             
+                {!! $profile['about_' . app('translator')->getLocale()] !!}                                             
             </div>
 
             <!-- FRONTEND -->
@@ -119,11 +119,11 @@
                             </div>
                             <div class="twelve columns">
                                 <p class="text">
-                                    {!! $value5['text'] !!}
+                                    {!! $value5['text_'. app('translator')->getLocale()] !!}
                                 </p>
                             </div>                            
                             <div class="twelve columns">
-                                <h5 class="subtitle">@lang('messages.works_involment')</h5>
+                                <h5 class="subtitle">@lang('messages.works_involvment')</h5>
                                 <ul class="list">
                                     @foreach($value5['involvement'] as $key => $involvment)
                                     <li class="list-item">{{ $involvment }}</li>
