@@ -19,9 +19,14 @@
         <div class="wrapper">
             @yield('content')
         
-            @include('includes.footer')            
-        </div>            
-        
+            @include('includes.footer')
+
+            <div id="preloader">
+                <img class="crystal" src="/images/crystal.gif" />
+                <span class="loading">loading...</span>
+            </div>            
+        </div>           
+
         <script src="/js/all.js"></script>
                          
     </body>        

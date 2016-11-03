@@ -80,25 +80,31 @@ function scrollIntoView(eleID) {
    }
 }
 
-if(document.getElementById('profile') != null){
+if(document.getElementById('profile') != null){    
     $(document).ready(function(){
-      $("#jquery_jplayer_1").jPlayer({
-        ready: function () {
-          $(this).jPlayer("setMedia", {
-            title: "bg",
-            mp3: "/audios/mp3/adventurers.mp3"            
-          }).jPlayer("pause").jPlayer("volume", 0.15); // Attempts to Auto-Play the media;
-        },
-        cssSelectorAncestor: "#jp_container_1",
-        swfPath: "/js",
-        supplied: "mp3",
-        useStateClassSkin: true,
-        autoBlur: false,
-        smoothPlayBar: true,
-        keyEnabled: false,
-        remainingDuration: false,
-        toggleDuration: false,
-        loop:true
+        $("#jquery_jplayer_1").jPlayer("destroy");
+        $("#jquery_jplayer_1").jPlayer({    
+            cssSelectorAncestor: "#jp_container_1",
+            useStateClassSkin: true,
+            autoBlur: false,
+            smoothPlayBar: true,
+            keyEnabled: false,
+            remainingDuration: false,
+            toggleDuration: false,
+            loop:true,
+            preload: "auto",
+            ready: function (e) {
+                mediaStatus = $(this).jPlayer("setMedia", {
+                    title: "bg",
+                    mp3: "/audios/mp3/adventurers.mp3"            
+                }); // Attempts to Auto-Play the media;            
+            },
+            swfPath: "/js",
+            supplied: "mp3",
+            loadeddata: function(e){            
+                $("#jquery_jplayer_1").jPlayer("play").jPlayer("volume", 0.15);
+                $('#preloader').fadeOut();
+            }        
       });
 
       $("#jquery_jplayer_menu_hover").jPlayer({

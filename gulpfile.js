@@ -7,7 +7,7 @@ elixir(function(mix) {
   .styles('*.css')
   .scripts('*.js')
   .scripts([
-    'particles.min.js', 'particles-snow.js', 'domready.js', 'home.js', 'profile.js', 'jquery.jplayer.min.js'  
+    'particles.min.js', 'particles-snow.js', 'domready.js', 'home.js', 'profile.js', 'jquery.jplayer.min.js', 'preloader.js'
   ])
   // .rollup('all.js')
   .imagemin()

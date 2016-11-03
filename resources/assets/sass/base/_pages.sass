@@ -21,3 +21,30 @@ body
 .divider
     border: 1px solid #A4A6A5
     margin-bottom: 20px
+
+#preloader
+    position: absolute
+    top: 0
+    left: 0
+    background-color: black    
+    z-index: 9998
+    overflow: hidden
+
+    .crystal
+        position: absolute
+        bottom: 36px
+        right: 59px
+        width: 80px
+        z-index: 9999   
+
+        @include breakpoint(tablet)            
+            right: 19px
+
+    .loading
+        position: absolute
+        bottom: 15px
+        right: 47px
+        z-index: 9999
+
+        @include breakpoint(tablet)            
+            right: 10px
