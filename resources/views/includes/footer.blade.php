@@ -1,4 +1,6 @@
-<footer class="footer container container-wide">    
+<footer class="footer container container-wide">  
+    <span class="credits" id="credits">        
+    </span>  
     <div id="jquery_jplayer_1" class="jp-jplayer"></div>
     <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
     <div class="jp-type-single">

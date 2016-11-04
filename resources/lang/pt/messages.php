@@ -6,7 +6,7 @@ return [
             <!--Trabalhamos na área web há mais de 7 anos, em agências, como freelancers e atualmente no <strong>ClassAdvisor</strong>. <br/>-->
             Se quiser conhecer melhor nosso trabalho seleciona um dos personagems acima :) <br/>
             <strong>(já aproveita e tenta adivinhar todas as referências que a gente colocou por aqui!)</strong>',
-    'footer' => 'Feito com <span> &lt;3 </span> e <span class="coffee">&nbsp;</span> por Ricardo e Roberto',
+    'footer' => 'Feito com <span class="heart"> &lt;3 </span> e <span class="coffee">&nbsp;</span> por Ricardo e Roberto',
     'and' => 'e',
     'description' => 'Portfólio Roberto Hofstetter Dias e Ricardo Hofstetter Dias, Full Stack Developer Web, Freelancers, Full Stack Developer',
     'menu_about' => 'Sobre',    

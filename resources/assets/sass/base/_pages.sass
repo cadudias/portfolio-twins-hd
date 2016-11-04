@@ -1,6 +1,7 @@
 html
     background-color: black    
     height: 100%
+    overflow: hidden
 
 body
     background-color: black        
@@ -17,18 +18,22 @@ body
     color: #FAFCFB
     margin: 0
     height: 100% 
+    overflow: hidden
 
 .divider
     border: 1px solid #A4A6A5
     margin-bottom: 20px
 
 #preloader
-    position: absolute
+    position: fixed
     top: 0
     left: 0
     background-color: black    
     z-index: 9998
     overflow: hidden
+    display: block
+    width: 100%
+    height: 100%
 
     .crystal
         position: absolute

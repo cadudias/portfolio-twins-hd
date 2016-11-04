@@ -87,7 +87,41 @@ DomReady.ready(() => {
         document.getElementById('js-character-roberto').classList.remove('is-active')
       })
 
-    },1550)
-
+    },1550)        
   }
 })
+
+if(document.getElementById('home') != null){    
+    $(document).ready(function(){
+      $('#credits').html('Cool Adventure Intro” by Eric Matyas www.soundimage.org');      
+      $("#jquery_jplayer_1").jPlayer("destroy");
+      $("#jquery_jplayer_1").jPlayer({    
+          cssSelectorAncestor: "#jp_container_1",
+          useStateClassSkin: true,
+          autoBlur: false,
+          smoothPlayBar: true,
+          keyEnabled: false,
+          remainingDuration: false,
+          toggleDuration: false,
+          loop:true,
+          preload: "auto",
+          ready: function (e) {
+              mediaStatus = $(this).jPlayer("setMedia", {
+                  title: "bg",
+                  mp3: "/audios/mp3/Cool-Adventure-Intro.mp3"            
+              }); // Attempts to Auto-Play the media;            
+          },
+          swfPath: "/js",
+          supplied: "mp3",
+          loadeddata: function(e){            
+              
+              setTimeout(function() {
+                  $("#jquery_jplayer_1").jPlayer("play").jPlayer("volume", 0.15);
+                  $('#preloader').fadeOut(function(){
+                    $('html,body').css('overflow',"auto");
+                  });                  
+              }, 500);              
+          }        
+      });
+    });
+  }

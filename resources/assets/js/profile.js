@@ -81,7 +81,7 @@ function scrollIntoView(eleID) {
 }
 
 if(document.getElementById('profile') != null){    
-    $(document).ready(function(){
+    $(document).ready(function(){        
         $("#jquery_jplayer_1").jPlayer("destroy");
         $("#jquery_jplayer_1").jPlayer({    
             cssSelectorAncestor: "#jp_container_1",
@@ -101,9 +101,13 @@ if(document.getElementById('profile') != null){
             },
             swfPath: "/js",
             supplied: "mp3",
-            loadeddata: function(e){            
-                $("#jquery_jplayer_1").jPlayer("play").jPlayer("volume", 0.15);
-                $('#preloader').fadeOut();
+            loadeddata: function(e){                            
+                setTimeout(function() {
+                  $("#jquery_jplayer_1").jPlayer("play").jPlayer("volume", 0.15);
+                  $('#profile').show();
+                  $('html,body').css('overflow',"auto");                  
+                  $('#preloader').fadeOut();
+              }, 500);              
             }        
       });
 
