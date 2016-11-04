@@ -128,6 +128,14 @@ class Profile
             'text_en' => 'Website Front-end revamp', 
             'image'=> 'novamarca.jpg',
             'involvement' => ['HTML 5', 'CSS 3', 'JavaScript', 'JQuery', 'Animações', 'PHP', 'MySQL']
+            ],  
+            [
+            'name'=> 'Curso Estágio Com XP', 
+            'link'=>'http://estagiocomxp.teachable.com/', 
+            'text_pt' => 'Desenvolvimento do Curso Estágio com XP. Curso Online focado pra quem está começando no mercado de trabalho web.',
+            'text_en' => 'Course development Estágio Com XP. Online course focused for those who are starting at web developement.', 
+            'image'=> 'estagiocomxp.png',
+            'involvement' => ['HTML 5', 'CSS 3', 'JavaScript', 'JQuery', 'PHP']
             ],                           
         ]    
     ];
