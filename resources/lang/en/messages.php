@@ -15,7 +15,7 @@ Get to know our work selecting one of the characters above :) <br/>
     'menu_contacts' => 'Contacts',
     'works_access_link' => 'Access',
     'works_involvment' => 'Involvment',
-    'contacts_intro' => 'For Freelancer, oportunities or just say hi, send me an contact below',
+    'contacts_intro' => 'For Freelancer, oportunities or just to say hi, send me a contact below',
     'contacts_name_label' => 'Name',
     'contacts_message_label' => 'Message',
     'contacts_send_button' => 'Send',
