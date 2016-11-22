@@ -12,20 +12,20 @@ class Profile
         'facebook' => 'https://www.facebook.com/beto.dias.129',
         'linkedin' => 'https://www.linkedin.com/in/robertorhd',
         'email' => 'roberto.rhd@gmail.com',
-        'about_pt'     => '<p>Formação em Análise e Desenvolvimento de Sistemas e pós graduação em Tecnologias aplicadas a Sistemas de Informação, ambas pela Faculdade UniRitter. </p>  
+        'about_pt'     => "<p>Formação em Análise e Desenvolvimento de Sistemas e pós graduação em Tecnologias aplicadas a Sistemas de Informação, ambas pela Faculdade UniRitter. </p>  
             Já fui lider Técnico, de Infraestrutura e lider de equipe, sendo responsável pelo setor de Back-end da Perverte, última empresa que trabalhei, durante mais de 5 anos. </br>
             <p>Atuo no mercado de desenvolvimento há mais de 7 anos, já passei por desenvolvimento focado tanto no Back-end quanto no Front-end, 
             atualmente atuo nas duas áreas como Full Stack Developer. </p>
-            <p>Lá desenvolvi também sistemas de grande porte e portais como o Portal de Exames do Cooperado e Beneficiário da Unimed NERS, que têm milhares de usuários e cooperados utilizando a ferramenta.</p>                
-            <p>Estou constantemente me aperfeiçoando fazendo cursos e indo em eventos, sou apaixonado pela área. <br/>
-            Atualmente trabalho como Freelancer, mas estou aberto a vagas de desenvolvimento.</p>',
-        'about_en'     => "<p> Training Analysis and Systems Development and Graduate Technologies Applied to Information Systems, Both For College UniRitter. </p>
-            I have been leader Technical Infrastructure and leader of team, hair Being Responsible Sector Back-end Perverte, Ultima Company que worked for more than five years. </br>
-            <p> I work in the development of the market for over 7 years, I have been through development focused both Backend As the front-end,
-            Currently I work in both areas as Full Stack Developer. </p>
-            <p> There developed Also large systems and portals Because the Exams Portal Cooperative and beneficiary of Unimed NERS, which has thousands of members and cooperators using a tool. </p>
-            <p> I am constantly perfecting me Taking courses and events going on, I'm in love With the area. <br/>
-            Currently Working As Freelancer, but I am open to development spaces. </p>",
+            <p>Na Perverte desenvolvi também sistemas de grande porte e portais como o Portal de Exames do Cooperado e Beneficiário da Unimed NERS, que têm milhares de usuários e cooperados utilizando a ferramenta.</p>                
+            <p>Estou constantemente me aperfeiçoando fazendo cursos e indo em eventos, sou apaixonado pela área. Acredito que a troca de conhecimento é importante para o crescimento profissional. </p>
+            <p>Atualmente trabalho como Freelancer e estou desenvolvendo o curso <a href='http://estagiocomxp.com/' target='_blank'>Estágio Com XP</a> onde vou passar conteúdos sobre desenvolvimento pessoal 
+                e profissional focado na área web, principalmente pra iniciantes que estão buscando o primeiro emprego.</p>",
+        'about_en'     => "<p>Technical leader and Infrastructure leader, i was responsible for the Back-end team on Perverte, the last company i worked for, for more than five years. </br>
+            <p> Working with development for more than 7 years now, I have been through development focused both with Back-end and Front-end.
+            Currently I'm working in both areas as a Full Stack Developer. </p>
+            <p> Developed large systems and portals like the Exams Portal for Cooperatives and beneficiaries for Unimed NERS, a big health company in Brazil, which has thousands of members and cooperators. </p>
+            <p> I am constantly perfecting myself, taking courses and attendign to development events here in Brazil. I love programming and everything about the area. </p>
+            <p>I'm currently working as Freelancer and developing a course called 'Estágio Com XP', to help those who are beginning ont the development market. </p>",
         'frontend'  =>  [
             ['name'=> 'HTML5', 'width'=> '150', 'image'=> 'html.png'],
             ['name'=> 'CSS3', 'width'=> '110', 'image'=> 'css3.png'],
@@ -72,7 +72,7 @@ class Profile
             'text_pt' => 'Trabalhei no desenvolvimento do CMS e na integração do site em C# .NET / MVC. Desenvolvemos um CMS personalizado para lidar com o conteúdo em seis idiomas: Inglês, polonês, húngaro, esloveno, checo e romani. Também participei do desenvolvimento de várias       animações do
                     site.<br/><br/>
                     Agência Perverte', 
-            'text_en' => 'I worked on the development of CMS and site integration in C # .NET / MVC. We developed a custom CMS to handle content in six languages: English, Polish, Hungarian, Slovenian, Czech and Romany. Also participated in the development of various site animations. <br/>
+            'text_en' => 'I worked on the development of the CMS and site integration in C # .NET / MVC. We developed a custom CMS to handle content in six languages: English, Polish, Hungarian, Slovenian, Czech and Romany. Also participated in the development of various site animations. <br/>
                         Agency Perverte', 
             'image'=> 'wwf.jpg',
             'involvement' => ['HTML5', 'CSS3', 'Animações', 'JQuery', 'C#', '.NET', 'BackBone JS', 'Require JS', 'MVC', 'SQL Server']
@@ -91,7 +91,7 @@ class Profile
             'name'=> 'Class Advisor', 
             'link'=>'http://www.classadvisor.com.br', 
             'text_pt' => 'CTO e Full Stack Developer, fazendo todo o HTML, CSS e JavaScript. Desenvolvemos também a API REST no framework Laravel.',
-            'text_en' => 'CTO and Full Stack Developer, doing all the HTML, CSS and JavaScript. We also developed the REST API in Laravel framework', 
+            'text_en' => 'CTO and Full Stack Developer, doing all the HTML, CSS and JavaScript. We also developed the REST API using the Laravel framework', 
             'image'=> 'classadvisor.jpg',
             'involvement' => ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'AngularJS', 'PHP', 'Laravel', 'SEO', 'Webpack', 'MySql']
             ],
@@ -113,7 +113,7 @@ class Profile
                         Desenvolvi todas as galerias de imagens do site em JQuery e JavaScript. <br/><br/>
                         Também fui o responsável pela publicação do site.<br/><br/>
                         Agência Perverte', 
-            'text_en' => "Site management CMS development in 3 languages, also worked on the website's integration. </ br>
+            'text_en' => "site's CMS development in 3 languages, also worked on the website's integration. </ br>
                         In the 'Where to Find' section we did geolocation by user IP to find the nearest stores. </ Br>
                         Developed all the site's picture galleries using JQuery and JavaScript. <br/>
                         I was also responsible for the website deployment. <br/>
