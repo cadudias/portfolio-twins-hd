@@ -14,7 +14,7 @@
         </div>
         <div class="nine columns character-info">
             <div class="two columns">
-                <img class="image u-max-full-width" src="/../images/profile-image.jpg" />
+                <img class="image u-max-full-width" src="/../images/{{ $profile['slug'] }}-profile-face.jpg" />
             </div>
             <div class="ten columns">
                 <ul class="list twelve columns">
