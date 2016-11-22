@@ -14,7 +14,7 @@
     <div class="row">
         <div id="js-character-roberto" class="character five columns">
             <a href="/{{app('translator')->getLocale()}}/portfolio/roberto-hofstetter-dias">
-                <img src="../images/roberto.png" class="character-image u-max-full-width" alt="Roberto H. Dias">
+                <img src="../images/Roberto_sem-fundo-1.png" class="character-image u-max-full-width" alt="Roberto H. Dias">
                 <div id="js-character-roberto-name" class="name">Roberto</div>
             </a>
         </div>
@@ -25,7 +25,7 @@
 
         <div id="js-character-ricardo" class="character five columns">
             <a href="/{{app('translator')->getLocale()}}/portfolio/ricardo-hofstetter-dias">
-                <img src="../images/ricardo.png" class="u-max-full-width" alt="Ricardo H. Dias">
+                <img src="../images/Ricardo_sem-fundo-1.png" class="u-max-full-width" alt="Ricardo H. Dias">
                 <div id="js-character-ricardo-name" class="name">Ricardo</div>
             </a>
         </div>
