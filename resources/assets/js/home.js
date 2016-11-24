@@ -94,7 +94,7 @@ DomReady.ready(() => {
 
 if(document.getElementById('home') != null){    
     $(document).ready(function(){
-      $('#credits').html('Cool Adventure Intro” by Eric Matyas www.soundimage.org');      
+      $('#credits').html('"Cool Adventure Intro" by Eric Matyas www.soundimage.org');      
       $("#jquery_jplayer_1").jPlayer("destroy");
       $("#jquery_jplayer_1").jPlayer({    
           cssSelectorAncestor: "#jp_container_1",
