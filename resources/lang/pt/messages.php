@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'home' => 'Olá! Nós somos os Gêmeos, <strong>Ricardo Hofstetter Dias</strong> e <strong>Roberto Hofstetter Dias</strong>. <br/> 
-            Somos <strong>desenvolvedores Full-Stack</strong>. Também somos apaixonados por desenvolvimento e, como dá pra perceber, por jogos! <br/> <br/> 
+    'home' => 'Olá! Nós somos os gêmeos, <strong>Ricardo Hofstetter Dias</strong> e <strong>Roberto Hofstetter Dias</strong>. <br/> 
+            Somos <strong>desenvolvedores Full-Stack</strong>, apaixonados por desenvolvimento e, como dá pra perceber, por jogos! <br/> <br/> 
             <!--Trabalhamos na área web há mais de 7 anos, em agências, como freelancers e atualmente no <strong>ClassAdvisor</strong>. <br/>-->
             Se quiser conhecer melhor nosso trabalho seleciona um dos personagems acima :) <br/>
             <strong>(já aproveita e tenta adivinhar todas as referências que a gente colocou por aqui!)</strong>',

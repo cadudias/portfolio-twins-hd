@@ -23,8 +23,8 @@ DomReady.ready(() => {
     },800)
 
     setTimeout(() => {
-      document.getElementById('js-character-ricardo').classList.add('fade-in-left')
-      document.getElementById('js-character-roberto').classList.add('fade-in-right')
+      document.getElementById('js-character-ricardo').classList.add('fade-in-right')
+      document.getElementById('js-character-roberto').classList.add('fade-in-left')
     },1200)
 
     setTimeout(() => {
@@ -40,15 +40,6 @@ DomReady.ready(() => {
 
       html[0].addEventListener("keydown", function(event) {
         if (event.which == 37){ //left - ricardo
-          boxRoberto.classList.remove("is-active");
-          characterRoberto.classList.remove("is-active")
-          tagRoberto.classList.add('invisible')
-
-          boxRicardo.classList.add("is-active");
-          characterRicardo.classList.add("is-active") 
-          tagRicardo.classList.remove('invisible')
-          
-        }else if (event.which == 39) { //rigth - roberto
           boxRicardo.classList.remove("is-active");
           characterRicardo.classList.remove("is-active")
           tagRicardo.classList.add('invisible')
@@ -56,6 +47,15 @@ DomReady.ready(() => {
           boxRoberto.classList.add("is-active")
           characterRoberto.classList.add("is-active")
           tagRoberto.classList.remove('invisible')
+          
+        }else if (event.which == 39) { //rigth - roberto
+          boxRoberto.classList.remove("is-active");
+          characterRoberto.classList.remove("is-active")
+          tagRoberto.classList.add('invisible')
+
+          boxRicardo.classList.add("is-active");
+          characterRicardo.classList.add("is-active") 
+          tagRicardo.classList.remove('invisible')
         }
         
         if(event.which == 13){
@@ -63,7 +63,8 @@ DomReady.ready(() => {
           const activeRoberto = document.getElementById("js-square-roberto").classList.contains("is-active")
 
           if(activeRicardo || activeRoberto)
-            window.location.href = "/" + (activeRicardo ? "ricardo" : "roberto")
+            //{{app('translator')->getLocale()}}/portfolio/ricardo-hofstetter-dias
+            window.location.href = "/portfolio/" + (activeRicardo ? "ricardo" : "roberto") + "-hofstetter-dias"
         }
       })
 
@@ -116,7 +117,7 @@ if(document.getElementById('home') != null){
           loadeddata: function(e){            
               
               setTimeout(function() {
-                  $("#jquery_jplayer_1").jPlayer("play").jPlayer("volume", 0.15);
+                  $("#jquery_jplayer_1").jPlayer("pause").jPlayer("volume", 0.15);
                   $('#preloader').fadeOut(function(){
                     $('html,body').css('overflow',"auto");
                   });                  
