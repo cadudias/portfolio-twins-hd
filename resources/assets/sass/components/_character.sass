@@ -4,8 +4,10 @@
 
     @include animate()
 
-    @include breakpoint(laptop)
+    @include breakpoint(tablet)
         display: none
+        position: relative
+        right: -63px
 
     &.invisible
         opacity: 0
@@ -35,3 +37,28 @@
 
         &.invisible
             opacity: 0
+        
+        @include breakpoint(laptop)
+            position: relative
+            top: 300px
+
+
+    .character-image
+        position: relative
+
+        @include breakpoint(laptop)
+            position: absolute
+    
+    @include breakpoint(laptop)
+        .ricardo-image  
+            left: 60px
+    
+        .roberto-image
+            left: -60px
+
+        #js-character-roberto-name
+            left: 100px
+
+        #js-character-ricardo-name
+            left: 230px
+            

@@ -3,6 +3,12 @@
         background-color: black
         float: right
 
+        @include breakpoint('laptop')
+            float: left
+            left: 50%
+            position: relative
+            margin-left: -121px
+
         .jp-interface
             height: 35px       
             background-color: #847c8b 
@@ -15,7 +21,6 @@
 
         .jp-controls-holder
             height: auto
-
 
 .jp-audio, .jp-audio-stream, .jp-video
     border-top: 1px solid $color_dark_gray

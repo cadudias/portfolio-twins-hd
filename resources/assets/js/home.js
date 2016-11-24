@@ -64,7 +64,15 @@ DomReady.ready(() => {
 
           if(activeRicardo || activeRoberto)
             //{{app('translator')->getLocale()}}/portfolio/ricardo-hofstetter-dias
-            window.location.href = "/portfolio/" + (activeRicardo ? "ricardo" : "roberto") + "-hofstetter-dias"
+
+            var lang = 'pt'
+            if(window.location.href.indexOf('/pt') != -1){
+              lang = 'pt'
+            }else{
+              lang = 'en'
+            }
+
+            window.location.href = lang + "/portfolio/" + (activeRicardo ? "ricardo" : "roberto") + "-hofstetter-dias"
         }
       })
 

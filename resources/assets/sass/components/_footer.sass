@@ -4,20 +4,28 @@
     position: relative
 
     @include breakpoint(phablet)
-        margin-left: 32px
+        //margin-left: 32px
 
     p
         text-align: right
-        padding-top: 30px
+        padding: 10px 0
+        margin-bottom: 0
 
-        @include breakpoint(phablet)
+        @include breakpoint('phablet')
             text-align: center
 
     .jp-message
-        float: left
+        font-size: 15px
+        /*float: left*/
+
+        @include breakpoint('laptop')
+            width: 100%
+            text-align: center
 
     .credits
-        text-align: center
+        margin-top: 0
+        font-size: 13px
+        display: block
 
     .heart
         color: $color_red

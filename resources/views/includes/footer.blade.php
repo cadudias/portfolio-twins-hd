@@ -1,12 +1,14 @@
 <footer class="footer">
 
     <div class="container">
-        <div class="offset-by-three seven columns">
+        <div class="offset-by-two eight columns">
 
             <div id="jquery_jplayer_1" class="jp-jplayer"></div>
 
-            <p class="jp-message seven columns">
+            <p class="jp-message eight columns">
                 @lang('messages.footer')
+                
+                <span class="credits" id="credits"></span>  
             </p>
 
             <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
@@ -25,8 +27,6 @@
                     </div>
                 </div>
             </div>
-
-            <span class="credits twelve columns" id="credits"></span>  
         </div>
     </div>
 

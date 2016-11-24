@@ -14,8 +14,8 @@
     <div class="row">
         <div id="js-character-roberto" class="character five columns">
             <a href="/{{app('translator')->getLocale()}}/portfolio/roberto-hofstetter-dias">
-                <img src="../images/Roberto_sem-fundo-1.png" class="character-image u-max-full-width" alt="Roberto H. Dias">
-                <div id="js-character-roberto-name" class="name"><img src="../images/nome_roberto.png" alt="Roberto"></div>
+                <img src="../images/Roberto_sem-fundo-1.png" class="character-image roberto-image u-max-full-width" alt="Roberto H. Dias">
+                <div id="js-character-roberto-name" class="name"><img class="u-max-full-width" src="../images/nome_roberto.png" alt="Roberto"></div>
             </a>
         </div>
 
@@ -25,8 +25,8 @@
 
         <div id="js-character-ricardo" class="character five columns">
             <a href="/{{app('translator')->getLocale()}}/portfolio/ricardo-hofstetter-dias">
-                <img src="../images/Ricardo_sem-fundo-1.png" class="u-max-full-width" alt="Ricardo H. Dias">
-                <div id="js-character-ricardo-name" class="name"><img src="../images/nome_ricardo.png" alt="Ricardo"></div>
+                <img src="../images/Ricardo_sem-fundo-1.png" class="character-image ricardo-image u-max-full-width" alt="Ricardo H. Dias">
+                <div id="js-character-ricardo-name" class="name"><img class="u-max-full-width" src="../images/nome_ricardo.png" alt="Ricardo"></div>
             </a>
         </div>
 

@@ -8,7 +8,7 @@
     @include transition(opacity $fade-speed ease-in)
     
     @include breakpoint(laptop)
-        margin-top: 10px
+        //margin-top: 10px
         position: relative
 
     @include breakpoint(phablet)
@@ -17,7 +17,11 @@
         margin-bottom: 50px
         width: 100%
         left: 0
+        position: relative
         //margin-left: 30%
+    
+    @include breakpoint(mobileonly)
+        padding: 0 53px
 
     &.invisible
         opacity: 0
@@ -45,7 +49,6 @@
         overflow: hidden
 
         @include rounded()
-        //@include animate("popIn", 2s, "ease-in-out", 0.8s, 1, "normal", "forwards")
 
         @include breakpoint(phablet)
             width: 48%
