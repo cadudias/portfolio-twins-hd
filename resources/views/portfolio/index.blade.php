@@ -10,7 +10,10 @@
     <div id="particles-js"></div>    
     <div class="row">
         <div class="three columns">
-            <a class="back-link" href="/">< Home</a>
+            <a class="back-link" href="/{{app('translator')->getLocale()}}">< Home</a>
+            <a class="back-link profile-roberto" href="/{{app('translator')->getLocale()}}/portfolio/{{ $profile['slug'] == 'roberto-hofstetter-dias' ? 'ricardo-hofstetter-dias' : 'roberto-hofstetter-dias' }}">
+                @lang('messages.see_profile') {{ $profile['name'] == "Roberto Hofstetter Dias" ? "Ricardo" : "Roberto" }}
+            </a>
         </div>
         <div class="nine columns character-info">
             <div class="two columns">
