@@ -64,16 +64,16 @@ class PortfolioController extends Controller
                 $contact->to = $request->input('Para');        
                 $contact->save();
 
-                // Mail::send('forms.contact', 
-                //     [   
-                //         'email' => Config::get('mail.from.address'), 
-                //         'contact' => $contact                        
-                //     ], 
-                //     function ($m) use ($contact) {
-                //         $m->from(Config::get('mail.from.address'), Config::get('mail.from.name'));
-                //         $m->to(Config::get('mail.from.address'), Config::get('mail.from.name'))->subject('Portfólio - Formulário de Contato');
-                //     }
-                // );
+                Mail::send('forms.contact', 
+                    [   
+                        'email' => Config::get('mail.from.address'), 
+                        'contact' => $contact                        
+                    ], 
+                    function ($m) use ($contact) {
+                        $m->from(Config::get('mail.from.address'), Config::get('mail.from.name'));
+                        $m->to(['roberto.rhd@gmail.com', 'cadu.hd@gmail.com'], Config::get('mail.from.name'))->subject('Portfólio - Formulário de Contato');
+                    }
+                );
 
                 if(app('translator')->getLocale() === 'pt'){
                     $success = "Obrigado pelo interesse! O quanto antes entrarei em contato :)";
