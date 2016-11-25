@@ -53,19 +53,27 @@
                 <div class="square">
                      <span class="question-mark">)</span>
                 </div>
-
+                
+                <p class="mobile-name roberto">Roberto</p>
                 <div id="js-square-roberto" class="square is-selectable">
                     <a href="/{{app('translator')->getLocale()}}/portfolio/roberto-hofstetter-dias">
+                    
                         <span id="js-tag-roberto" class="player-one-tag invisible"> 1P </span>
-                        <img src="../images/roberto-home-face.jpg" class="u-max-full-width" alt="Selecionar Ricardo H. Dias">
+                        <img src="../images/roberto-home-face.jpg" alt="Selecionar Roberto H. Dias">
+                        
                     </a>
+                    
                 </div>
 
+                 <p class="mobile-name ricardo">Ricardo</p>
                  <div id="js-square-ricardo" class="square is-selectable">
+
                     <a href="/{{app('translator')->getLocale()}}/portfolio/ricardo-hofstetter-dias">
                         <span id="js-tag-ricardo" class="player-one-tag invisible"> 1P </span>
-                        <img src="../images/face-ricardo-maior.jpg" class="u-max-full-width" alt="Selecionar Ricardo H. Dias">
+                        <img src="../images/face-ricardo-maior.jpg" alt="Selecionar Ricardo H. Dias">       
                     </a>
+
+                    
                 </div>
 
                 <div class="square">
@@ -92,6 +100,9 @@
                      <span class="question-mark">)</span>
                 </div>
             </div>
+
+            
+
 
                             <!--div class="infinity-symbol six columns">
                     <img src="../images/infinity-symbol.png" class="image u-max-full-width" alt="Simbolo de Infinito">

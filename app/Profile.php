@@ -11,6 +11,7 @@ class Profile
         'role'      => 'Full Stack Web Developer',
         'facebook' => 'https://www.facebook.com/beto.dias.129',
         'linkedin' => 'https://www.linkedin.com/in/robertorhd',
+        'github' => 'https://github.com/roberto-hofstetter',
         'email' => 'roberto.rhd@gmail.com',
         'about_pt'     => "<p>Formação em Análise e Desenvolvimento de Sistemas e pós graduação em Tecnologias aplicadas a Sistemas de Informação, ambas pela Faculdade UniRitter. </p>  
             Já fui lider Técnico, de Infraestrutura e lider de equipe, sendo responsável pelo setor de Back-end da Perverte, última empresa que trabalhei, durante mais de 5 anos. </br>
@@ -149,6 +150,7 @@ class Profile
         'role'      => 'Full Stack Web Developer',
         'facebook' => 'https://www.facebook.com/caduhd',
         'linkedin' => 'https://www.linkedin.com/in/ricardohdias',
+        'github' => 'https://github.com/kadoohd',
         'email' => 'cadu.hd@gmail.com',
         'about_pt'     => "<p>Já tive a oportunidade de passar por muitas áreas do mercado de desenvolvimento e aprendi muito em cada uma delas.
                 Trabalhei durante 6 anos em agências, 4 anos focado em Back-end (.NET e PHP) e 2 anos como Front e Back-end desenvolvendo desde grandes sistemas 
