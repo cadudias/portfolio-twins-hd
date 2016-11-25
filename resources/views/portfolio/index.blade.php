@@ -144,22 +144,6 @@
                 <h2>@lang('messages.menu_contacts')</h2>                                                 
                 <div class="row">
                     <h3 class="title">@lang('messages.contacts_intro')</h3>
-                    <div class="list-contacts seven columns">                                        
-                        {!! Form::open(['url' => app('translator')->getLocale() . '/portfolio/' . $profile['slug'], 'class' => 'form twelve columns']) !!}                                                                               
-                            <input type="hidden" name="Para" value="{{ $profile['slug'] }}" />
-
-                            <label for="input-name">@lang('messages.contacts_name_label')</label>
-                            <input class="u-full-width" name="Nome" type="text" placeholder="Vivi Ornitier" id="input-name" required />
-
-                            <label for="input-email">E-mail</label>
-                            <input class="u-full-width" name="E-mail" type="email" placeholder="vivi@firaga.com" id="input-email" required />
-
-                            <label for="input-message">@lang('messages.contacts_message_label')</label>
-                            <textarea class="u-full-width" name="Mensagem" rows="10" id="input-message" required></textarea>
-                            
-                            <input class="btn-orange" type="submit" value="@lang('messages.contacts_send_button')">                                                                                                            
-                        {!! Form::close() !!}
-                    </div>           
 
                     @if (isset($errors) && $errors->any())
                         <div class="alert alert-danger six columns">
@@ -180,6 +164,23 @@
                     @if (isset($error))
                         <div id="msg-error" class="alert alert-danger twelve columns">{{ $error }}</div>
                     @endif
+
+                    <div class="list-contacts seven columns">                                        
+                        {!! Form::open(['url' => app('translator')->getLocale() . '/portfolio/' . $profile['slug'], 'class' => 'form twelve columns']) !!}                                                                               
+                            <input type="hidden" name="Para" value="{{ $profile['slug'] }}" />
+
+                            <label for="input-name">@lang('messages.contacts_name_label')</label>
+                            <input class="u-full-width" name="Nome" type="text" placeholder="Vivi Ornitier" id="input-name" required />
+
+                            <label for="input-email">E-mail</label>
+                            <input class="u-full-width" name="E-mail" type="email" placeholder="vivi@firaga.com" id="input-email" required />
+
+                            <label for="input-message">@lang('messages.contacts_message_label')</label>
+                            <textarea class="u-full-width" name="Mensagem" rows="10" id="input-message" required></textarea>
+                            
+                            <input class="btn-orange" type="submit" value="@lang('messages.contacts_send_button')">                                                                                                            
+                        {!! Form::close() !!}
+                    </div>                               
                 </div>
 
                 <div class="divider"></div>
