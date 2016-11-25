@@ -8,6 +8,7 @@
         <meta http-equiv="Content-type" content="text/html; charset=utf-8">
         <meta content="@lang('messages.description')" name="description"/>
         <meta content="roberto hofstetter dias e ricardo hofstetter dias" name="author"/>
+        <link rel="shortcut icon" href="http://rhdevs.us/favicon.ico" />
 
         <meta property="og:site_name" content="@yield('title') - Full Stack Web Developer"/>
         <meta property="og:description" content="@lang('messages.description')">

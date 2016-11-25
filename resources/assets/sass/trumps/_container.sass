@@ -2,4 +2,8 @@
     max-width: 1350px !important
 
 .container
-    width: calc(100% - 4rem)
+    // width: calc(100% - 4rem)
+
+    @include breakpoint(phablet)  
+        padding-left: 15px
+        padding-right: 15px
