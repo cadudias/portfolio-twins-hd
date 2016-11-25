@@ -3,12 +3,22 @@
     right: 100px 
     top: 45px
 
+    @include breakpoint(laptop)
+        right: 15px 
+        top: 15px
+        font-size: 15px
+    
+    @include breakpoint(phablet)
+        position: relative
+        left: 80%
+
+
     a
         font-size: 20px
         color: $color_dark_orange
         font-family: "SSF4 ABUKET"
         text-decoration: none
-        
+
         &:hover
             color: $color_light_orange
         

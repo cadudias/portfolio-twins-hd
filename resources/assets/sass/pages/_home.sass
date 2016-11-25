@@ -21,8 +21,8 @@
         //padding-bottom: 190px
 
     .title
-        padding-top: 40px
-        margin-bottom: 20px
+        padding-top: 60px
+        margin-bottom: 25px
         @include font-size(52px)
         font-family: "SSF4 ABUKET", Open Sans, sans-serif
         text-transform: uppercase
@@ -30,6 +30,9 @@
         -webkit-text-stroke: 2px $color_dark_orange
 
         @include transition(opacity $fade-speed ease-in)
+
+        @include breakpoint(laptop)
+            @include font-size(46px)
 
         @include breakpoint(phablet)
             @include font-size(36px)

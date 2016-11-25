@@ -2,7 +2,7 @@
 
 return [
     'home' => 'Hello! We are the twins, <strong> Ricardo Hofstetter Dias </strong> and <strong> Roberto Hofstetter Dias</strong>. <br/>
-We are <strong> Full-Stack Developers</strong>, passionate for development and as you can tell, games! <br/>
+We are <strong> Full-Stack Developers</strong>, passionate for development and as you can tell, games! <br/> <br/>
 Get to know our work selecting one of the characters above :) <br/>
 <strong> (and try to guess the references used on the site!) </strong>',
     'footer' => 'Made with <span class="heart"> &lt;3 </span> and <span class="coffee">&nbsp;</span> by Ricardo e Roberto',
