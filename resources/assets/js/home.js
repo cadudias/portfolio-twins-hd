@@ -125,7 +125,7 @@ if(document.getElementById('home') != null){
           loadeddata: function(e){            
               
               setTimeout(function() {
-                  $("#jquery_jplayer_1").jPlayer("pause").jPlayer("volume", 0.15);
+                  $("#jquery_jplayer_1").jPlayer("play").jPlayer("volume", 0.15);
                   $('#preloader').fadeOut(function(){
                     $('html,body').css('overflow',"auto");
                   });                  
