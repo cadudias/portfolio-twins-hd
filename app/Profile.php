@@ -204,8 +204,7 @@ class Profile
             ['name'=> 'Bootstrap', 'width'=> '130', 'image'=> 'bootstrap.png'],
             ['name'=> 'Skeleton', 'width'=> '130', 'image'=> 'skeleton.jpg'],
             ['name'=> 'AngularJS', 'width'=> '130', 'image'=> 'angular.png'],
-            ['name'=> 'JQuery', 'width'=> '130', 'image'=> 'jquery.jpg'],
-            ['name'=> 'Apache Cordova', 'width'=> '130', 'image'=> 'cordova.png'],
+            ['name'=> 'JQuery', 'width'=> '130', 'image'=> 'jquery.jpg']
         ],
         'backend'  =>   [
             ['name'=> 'C#', 'image'=> 'csharp.png'],

@@ -1,17 +1,12 @@
 .langs
     position: absolute 
     right: 100px 
-    top: 45px
-
-    @include breakpoint(laptop)
-        right: 15px 
-        top: 15px
-        font-size: 15px
+    top: 45px 
     
-    @include breakpoint(phablet)
+    @include breakpoint(laptop)
         position: relative
-        left: 80%
-
+        right: 0
+        top: -20px
 
     a
         font-size: 20px

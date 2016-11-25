@@ -1,8 +1,10 @@
 .home
     padding-bottom: 0
     /*overflow: hidden*/
+    text-align: center
 
     .wrapper
+        padding-top: 40px
         min-height: 100%
         position: relative 
         background:url(../images/bg-home.jpg) center center fixed
@@ -21,12 +23,10 @@
         //padding-bottom: 190px
 
     .title
-        padding-top: 60px
         margin-bottom: 25px
         @include font-size(52px)
         font-family: "SSF4 ABUKET", Open Sans, sans-serif
         text-transform: uppercase
-        text-align: center
         -webkit-text-stroke: 2px $color_dark_orange
 
         @include transition(opacity $fade-speed ease-in)
@@ -54,7 +54,6 @@
 
         > .text
             @include font-size(18px)
-            text-align: center
             line-height: 22px
 
             @include breakpoint(laptop)
@@ -64,4 +63,4 @@
             @include breakpoint(phablet)
                 width: 95%
                 margin-left: 0
-        
+     
