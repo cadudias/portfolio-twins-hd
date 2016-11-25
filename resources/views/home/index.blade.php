@@ -6,7 +6,7 @@
 @section('body_class', 'home')
 
 <div class="home container container-wide" id="home">
-
+    
     <div class="row">
         <h2 id="js-title-character-select" class="title invisible">Character Select</h2>
     </div>
