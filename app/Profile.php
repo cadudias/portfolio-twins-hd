@@ -219,8 +219,6 @@ class Profile
         'bds'      =>  [
             ['name'=> 'Sql Server', 'width' => '200', 'image'=> 'sqlserver.jpg'],
             ['name'=> 'MySQL', 'width' => '150', 'image'=> 'mysql.jpg'],
-            ['name'=> 'Oracle', 'width' => '200', 'image'=> 'oracle.jpg'],
-            ['name'=> 'IndexDB', 'width' => '150', 'image'=> 'indexdb.png'],
             ['name'=> 'SQLite', 'width' => '200', 'image'=> 'sqlite.png']
         ],
         'tools'      =>  [

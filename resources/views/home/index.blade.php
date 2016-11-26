@@ -54,23 +54,25 @@
                      <span class="question-mark">)</span>
                 </div>
                 
-                <p class="mobile-name roberto">Roberto</p>
+                
                 <div id="js-square-roberto" class="square is-selectable">
                     <a href="/{{app('translator')->getLocale()}}/portfolio/roberto-hofstetter-dias">
                     
                         <span id="js-tag-roberto" class="player-one-tag invisible"> 1P </span>
                         <img src="../images/roberto-home-face.jpg" alt="Selecionar Roberto H. Dias">
-                        
+                        <p class="mobile-name roberto">Roberto</p>
                     </a>
                     
                 </div>
 
-                 <p class="mobile-name ricardo">Ricardo</p>
+                 
                  <div id="js-square-ricardo" class="square is-selectable">
 
                     <a href="/{{app('translator')->getLocale()}}/portfolio/ricardo-hofstetter-dias">
                         <span id="js-tag-ricardo" class="player-one-tag invisible"> 1P </span>
-                        <img src="../images/face-ricardo-maior.jpg" alt="Selecionar Ricardo H. Dias">       
+                        
+                        <img src="../images/face-ricardo-maior.jpg" alt="Selecionar Ricardo H. Dias">  
+                        <p class="mobile-name ricardo">Ricardo</p>     
                     </a>
 
                     
