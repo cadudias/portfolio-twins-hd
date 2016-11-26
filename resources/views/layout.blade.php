@@ -36,9 +36,11 @@
     <body class="@yield('body_class')">
 
         <div class="wrapper">
-            <div class="langs">
-                <a href="/pt" class="{{app('translator')->getLocale() == 'pt' ? 'active' : ''}}">PT</a>
-                <a href="/en" class="{{app('translator')->getLocale() == 'en' ? 'active' : ''}}">EN</a>
+            <div class="container container-wide">
+                <div class="langs">
+                    <a href="/pt" class="{{app('translator')->getLocale() == 'pt' ? 'active' : ''}}">PT</a>
+                    <a href="/en" class="{{app('translator')->getLocale() == 'en' ? 'active' : ''}}">EN</a>
+                </div>
             </div>
 
             @yield('content')

@@ -5,7 +5,7 @@ return [
 We are <strong> Full-Stack Developers</strong>, passionate for development and as you can tell, games! <br/> <br/>
 Get to know our work selecting one of the characters above :) <br/>
 <strong> (and try to guess the references used on the site!) </strong>',
-    'footer' => 'Made with <span class="heart"> &lt;3 </span> and <span class="coffee">&nbsp;</span> by Ricardo e Roberto',
+    'footer' => 'Made with <span class="heart"> &lt;3 </span> and <span class="coffee">&nbsp;</span> by Ricardo and Roberto',
     'and' => 'e',
     'description' => 'Portfolio Roberto Hofstetter Dias and Ricardo Hofstetter Dias, Full Stack Developer Web, Freelancers, Full Stack Developer',
     'menu_about' => 'About',    
@@ -19,6 +19,5 @@ Get to know our work selecting one of the characters above :) <br/>
     'contacts_name_label' => 'Name',
     'contacts_message_label' => 'Message',
     'contacts_send_button' => 'Send',
-    'contacts_social_text' => 'Or get in touch using my social channels/e-mail!',
-    'see_profile' => 'See Profile'
+    'contacts_social_text' => 'Or get in touch using my social channels/e-mail!'        
 ];
