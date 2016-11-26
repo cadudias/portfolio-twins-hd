@@ -19,5 +19,6 @@ Get to know our work selecting one of the characters above :) <br/>
     'contacts_name_label' => 'Name',
     'contacts_message_label' => 'Message',
     'contacts_send_button' => 'Send',
-    'contacts_social_text' => 'Or get in touch using my social channels/e-mail!'        
+    'contacts_social_text' => 'Or get in touch using my social channels/e-mail!',
+    'ilustrations' => 'Characters by <a href="https://www.facebook.com/ughserrano/?pnref=lhc" target="_blank">Gustavo Serrano</a>'        
 ];

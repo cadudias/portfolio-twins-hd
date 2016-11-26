@@ -47,6 +47,10 @@
         
             @include('includes.footer')
 
+            <div class="container container-wide">
+                @lang('messages.ilustrations')
+            </div>
+
             <div id="preloader">
                 <img class="crystal" src="/images/crystal.gif" />
                 <span class="loading">loading...</span>
