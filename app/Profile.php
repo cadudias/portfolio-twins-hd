@@ -287,7 +287,7 @@ class Profile
             O próximo passo é melhorarmos a cobertura de testes do projeto e automatizar mais o deploy pro ambiente de produção na cloud.
             <br/> <br/>
             Pro back-end foi desenvolvido um Rest API em PHP utilizando Laravel 5 e como banco de dados o MySQL.',
-            'text_en' => "I'm currently working as Lead Developer both in Front and in the Back-end. I’m also leading the deployment to the cloud using Locaweb’s Jelastic and Jenkins. I have learned a lot from this project and plan to continue improving the points in which I'm still dissatisfied.
+            'text_en' => "I'm currently working as Lead Developer both in Front and in the Back-end. I’m also leading the deployment to the cloud using Locaweb’s Jelastic. I have learned a lot from this project and plan to continue improving the points in which I'm still dissatisfied.
             <br/> <br/>
             We decided to develop a MVP model of the website using angular because we are more familiar with it and to reduce the delivery time of the site since we are in the validation phase. With that we were able to deliver a 100% working version in 3 months.
             <br/> <br/>
