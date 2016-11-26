@@ -13,9 +13,9 @@
             <a class="back-link" href="/{{app('translator')->getLocale()}}">< Home</a>
             <a class="back-link profile-roberto" href="/{{app('translator')->getLocale()}}/portfolio/{{ $profile['slug'] == 'roberto-hofstetter-dias' ? 'ricardo-hofstetter-dias' : 'roberto-hofstetter-dias' }}">
                 @if(app('translator')->getLocale() == 'en')
-                    Check {{str_replace('Hofstetter Dias', '', $profile['name'])}}'s profile
+                    Check {{str_replace('Hofstetter Dias', '', ($profile['name'] == 'Roberto Hofstetter Dias' ? 'Ricardo' : 'Roberto' )) }}'s profile
                 @else
-                    Ver perfil {{ str_replace('Hofstetter Dias', '', $profile['name']) }}
+                    Ver perfil {{ str_replace('Hofstetter Dias', '', ($profile['name'] == 'Roberto Hofstetter Dias' ? 'Ricardo' : 'Roberto' )) }}
                 @endif
             </a>
         </div>
