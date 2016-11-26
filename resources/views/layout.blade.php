@@ -45,11 +45,7 @@
 
             @yield('content')
         
-            @include('includes.footer')
-
-            <div class="container container-wide">
-                @lang('messages.ilustrations')
-            </div>
+            @include('includes.footer')            
 
             <div id="preloader">
                 <img class="crystal" src="/images/crystal.gif" />

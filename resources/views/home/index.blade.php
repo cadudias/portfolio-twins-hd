@@ -121,4 +121,8 @@
 
 </div>
 
+<div class="container container-wide">
+    @lang('messages.ilustrations')
+</div>
+
 @stop
