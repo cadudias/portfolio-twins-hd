@@ -5,6 +5,13 @@
 @section('content')
 @section('body_class', 'home')
 
+<div class="container container-wide">
+    <div class="langs">
+        <a href="/pt" class="{{app('translator')->getLocale() == 'pt' ? 'active' : ''}}">PT</a>
+        <a href="/en" class="{{app('translator')->getLocale() == 'en' ? 'active' : ''}}">EN</a>
+    </div>
+</div>
+
 <div class="home container container-wide" id="home">
     
     <div class="row">

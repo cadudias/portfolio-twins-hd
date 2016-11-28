@@ -5,6 +5,13 @@
 @section('content')
 @section('body_class', 'profile')
 
+<div class="container container-wide">
+    <div class="langs">
+        <a href="/pt/portfolio/{{ $profile['slug'] == 'roberto-hofstetter-dias' ? 'roberto-hofstetter-dias' : 'ricardo-hofstetter-dias' }}" class="{{app('translator')->getLocale() == 'pt' ? 'active' : ''}}">PT</a>
+        <a href="/en/portfolio/{{ $profile['slug'] == 'roberto-hofstetter-dias' ? 'roberto-hofstetter-dias' : 'ricardo-hofstetter-dias' }}" class="{{app('translator')->getLocale() == 'en' ? 'active' : ''}}">EN</a>
+    </div>
+</div>
+
 <div class="profile container container-wide" id="profile">
     <!-- particles.js container --> 
     <div id="particles-js"></div>    
