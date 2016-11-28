@@ -21,5 +21,5 @@ return [
     'contacts_message_label' => 'Mensagem',
     'contacts_send_button' => 'Enviar',
     'contacts_social_text' => 'Ou entre em contato pelas redes sociais/e-mail!',
-    'see_profile' => 'Ver Perfil'
+    'ilustrations' => 'Personagens por <a href="https://www.facebook.com/ughserrano/?pnref=lhc" target="_blank">Gustavo Serrano</a>'            
 ];

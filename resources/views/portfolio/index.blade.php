@@ -12,7 +12,11 @@
         <div class="three columns">
             <a class="back-link" href="/{{app('translator')->getLocale()}}">< Home</a>
             <a class="back-link profile-roberto" href="/{{app('translator')->getLocale()}}/portfolio/{{ $profile['slug'] == 'roberto-hofstetter-dias' ? 'ricardo-hofstetter-dias' : 'roberto-hofstetter-dias' }}">
-                @lang('messages.see_profile') {{ $profile['name'] == "Roberto Hofstetter Dias" ? "Ricardo" : "Roberto" }}
+                @if(app('translator')->getLocale() == 'en')
+                    Check {{str_replace('Hofstetter Dias', '', ($profile['name'] == 'Roberto Hofstetter Dias' ? 'Ricardo' : 'Roberto' )) }}'s profile
+                @else
+                    Ver perfil {{ str_replace('Hofstetter Dias', '', ($profile['name'] == 'Roberto Hofstetter Dias' ? 'Ricardo' : 'Roberto' )) }}
+                @endif
             </a>
         </div>
         <div class="nine columns character-info">

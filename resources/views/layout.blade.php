@@ -8,16 +8,16 @@
         <meta http-equiv="Content-type" content="text/html; charset=utf-8">
         <meta content="@lang('messages.description')" name="description"/>
         <meta content="roberto hofstetter dias e ricardo hofstetter dias" name="author"/>
-        <link rel="shortcut icon" href="http://rhdevs.us/favicon.ico" />
+        <link rel="shortcut icon" href="https://rhdevs.us/favicon.ico" />
 
         <meta property="og:site_name" content="@yield('title') - Full Stack Web Developer"/>
         <meta property="og:description" content="@lang('messages.description')">
         <meta property="og:type" content="website"/>
         <meta property="og:title" content="@yield('title') - Full Stack Web Developer"/>        
-        <meta property="og:url" content="http://rhdevs.us"/>
+        <meta property="og:url" content="https://rhdevs.us"/>
         <meta property="og:image" content="http://rhdevs.us/images/facebook.jpg" />
 
-        <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
         <link rel="stylesheet" href="/css/all.css">     
         <link rel="stylesheet" href="/css/app.css">       
 
@@ -36,14 +36,16 @@
     <body class="@yield('body_class')">
 
         <div class="wrapper">
-            <div class="langs">
-                <a href="/pt" class="{{app('translator')->getLocale() == 'pt' ? 'active' : ''}}">PT</a>
-                <a href="/en" class="{{app('translator')->getLocale() == 'en' ? 'active' : ''}}">EN</a>
+            <div class="container container-wide">
+                <div class="langs">
+                    <a href="/pt" class="{{app('translator')->getLocale() == 'pt' ? 'active' : ''}}">PT</a>
+                    <a href="/en" class="{{app('translator')->getLocale() == 'en' ? 'active' : ''}}">EN</a>
+                </div>
             </div>
 
             @yield('content')
         
-            @include('includes.footer')
+            @include('includes.footer')            
 
             <div id="preloader">
                 <img class="crystal" src="/images/crystal.gif" />
