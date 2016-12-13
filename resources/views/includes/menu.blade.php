@@ -2,7 +2,7 @@
     <button class="c-hamburger c-hamburger--htx">
         <span>toggle menu</span>
     </button>
-    <div class="twelve columns character-menu">                                                        
+    <nav class="twelve columns character-menu">                                                        
         <ul class="list-menu">
             <li class="list-menu-item active">                                                
                 <a href="javascript:void(0);" id="about" class="name">@lang('messages.menu_about')</a>
@@ -26,6 +26,6 @@
                 <a href="javascript:void(0);" id="contacts" class="name">@lang('messages.menu_contacts')</a>
             </li>                                       
         </ul>
-    </div> 
+    </nav> 
     <div id="jquery_jplayer_menu_hover" class="jp-jplayer"></div>       
 </div> 
