@@ -2,10 +2,13 @@
   "private": true,
   "devDependencies": {
     "bourbon": "^4.2.7",
+    "critical": "^0.8.1",
     "gulp": "^3.8.8",
     "gulp-postcss": "^6.2.0",
     "laravel-elixir-browsersync-official": "^1.0.0",
-    "laravel-elixir-imagemin": "^0.2.3"
+    "laravel-elixir-html-minify": "^1.0.1",
+    "laravel-elixir-imagemin": "^0.2.3",
+    "laravel-elixir-minify-html": "^1.0.5"
   },
   "dependencies": {
     "bootstrap-sass": "^3.3.7",

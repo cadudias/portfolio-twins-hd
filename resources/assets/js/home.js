@@ -1,4 +1,4 @@
-DomReady.ready(() => {
+DomReady.ready(function() {
 
   const html = document.getElementsByTagName('html')
 
@@ -13,21 +13,21 @@ DomReady.ready(() => {
   if(boxRicardo !== null && boxRoberto !== null) {
   
     //add character animation classes
-    setTimeout(() => {
+    setTimeout(function() {
       document.getElementById('js-title-character-select').classList.remove('invisible')
       //document.getElementById('js-title-character-select').classList.add('fade-in')
     },400)
 
-    setTimeout(() => {
+    setTimeout(function() {
       document.querySelector(".selection-area").classList.remove('invisible')
     },800)
 
-    setTimeout(() => {
+    setTimeout(function() {
       document.getElementById('js-character-ricardo').classList.add('fade-in-right')
       document.getElementById('js-character-roberto').classList.add('fade-in-left')
     },1200)
 
-    setTimeout(() => {
+    setTimeout(function() {
       document.getElementById('js-character-ricardo').classList.add("is-animated");
       document.getElementById('js-character-roberto').classList.add("is-animated");
 
@@ -35,7 +35,7 @@ DomReady.ready(() => {
       document.getElementById('js-character-roberto-name').classList.remove('invisible')
     },1400)
 
-    setTimeout(() => {
+    setTimeout(function() {
       document.querySelector('.about').classList.remove('invisible')
 
       html[0].addEventListener("keydown", function(event) {
@@ -76,22 +76,22 @@ DomReady.ready(() => {
         }
       })
 
-      boxRicardo.addEventListener("mouseover", () => {
+      boxRicardo.addEventListener("mouseover", function() {
         document.getElementById('js-tag-ricardo').classList.remove('invisible')
         document.getElementById('js-character-ricardo').classList.add('is-active')
       })
 
-      boxRicardo.addEventListener("mouseleave", () => { 
+      boxRicardo.addEventListener("mouseleave", function() { 
         document.getElementById('js-tag-ricardo').classList.add('invisible')
         document.getElementById('js-character-ricardo').classList.remove('is-active')
       })
 
-      boxRoberto.addEventListener("mouseover", () => { 
+      boxRoberto.addEventListener("mouseover", function() { 
         document.getElementById('js-tag-roberto').classList.remove('invisible')
         document.getElementById('js-character-roberto').classList.add('is-active')
       })
 
-      boxRoberto.addEventListener("mouseleave", () => { 
+      boxRoberto.addEventListener("mouseleave", function() { 
         document.getElementById('js-tag-roberto').classList.add('invisible')
         document.getElementById('js-character-roberto').classList.remove('is-active')
       })

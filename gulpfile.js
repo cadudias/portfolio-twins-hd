@@ -1,16 +1,20 @@
 var elixir = require('laravel-elixir')
 
 require('laravel-elixir-imagemin')
+//require('laravel-elixir-minify-html')
+require('laravel-elixir-html-minify')
 
 elixir(function(mix) {
   mix.sass('*.sass')
   .styles('*.css')
-  .scripts('*.js')
+  //.scripts('*.js')
   .scripts([
-    'particles.min.js', 'particles-snow.js', 'domready.js', 'home.js', 'profile.js', 'jquery.jplayer.min.js'
+    'domready.js', 'cssrelpreload.js', 'loadCSS.js', 'jquery.jplayer.min.js', 'particles.min.js', 'particles-snow.js', 'home.js', 'profile.js'
   ])
   // .rollup('all.js')
   .imagemin()
+  //.html('resources/views/*', 'public/views/*', {collapseWhitespace: true, removeAttributeQuotes: true, removeComments: true})
+  .html('**/*.php', 'public/views', 'resources/views', {quotes: true, loose: true, empty: true, minifyJS: true})
   .browserSync({
         proxy: 'localhost:8000'
     });

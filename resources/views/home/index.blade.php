@@ -61,18 +61,15 @@
                      <span class="question-mark">)</span>
                 </div>
                 
-                
                 <div id="js-square-roberto" class="square is-selectable">
                     <a href="/{{app('translator')->getLocale()}}/portfolio/roberto-hofstetter-dias">
                     
                         <span id="js-tag-roberto" class="player-one-tag invisible"> 1P </span>
                         <img src="../images/roberto-home-face.jpg" alt="Selecionar Roberto H. Dias">
                         <p class="mobile-name roberto">Roberto</p>
-                    </a>
-                    
+                    </a>                    
                 </div>
-
-                 
+  
                  <div id="js-square-ricardo" class="square is-selectable">
 
                     <a href="/{{app('translator')->getLocale()}}/portfolio/ricardo-hofstetter-dias">
@@ -81,8 +78,6 @@
                         <img src="../images/face-ricardo-maior.jpg" alt="Selecionar Ricardo H. Dias">  
                         <p class="mobile-name ricardo">Ricardo</p>     
                     </a>
-
-                    
                 </div>
 
                 <div class="square">
@@ -90,9 +85,7 @@
                 </div>
             </div>
             
-            
             <div class="row">
-
                 <div class="square">
                      <span class="question-mark">)</span>
                 </div>
@@ -109,14 +102,6 @@
                      <span class="question-mark">)</span>
                 </div>
             </div>
-
-            
-
-
-                            <!--div class="infinity-symbol six columns">
-                    <img src="../images/infinity-symbol.png" class="image u-max-full-width" alt="Simbolo de Infinito">
-                </div-->
-
         </div>
    </div>
 
@@ -125,7 +110,6 @@
             @lang('messages.home')
          </p>
     </div>
-
 </div>
 
 <div class="container container-wide">
