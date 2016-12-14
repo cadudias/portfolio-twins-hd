@@ -9,7 +9,7 @@ elixir(function(mix) {
   .styles('*.css')
   //.scripts('*.js')
   .scripts([
-    'domready.js', 'cssrelpreload.js', 'loadCSS.js', 'jquery.jplayer.min.js', 'particles.min.js', 'particles-snow.js', 'home.js', 'profile.js'
+    'jquery-1.11.1.min.js', 'domready.js', 'cssrelpreload.js', 'loadCSS.js', 'jquery.jplayer.min.js', 'particles.min.js', 'particles-snow.js', 'home.js', 'profile.js'
   ])
   // .rollup('all.js')
   .imagemin()
@@ -20,7 +20,7 @@ elixir(function(mix) {
     });
 })
 
-// var gulp = require('gulp');
+// var gulp = require('gulp'); 
 // var gulpif = require('gulp-if');
 // var sprity = require('sprity');
  
