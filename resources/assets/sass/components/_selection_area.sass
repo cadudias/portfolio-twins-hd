@@ -8,7 +8,6 @@
     @include transition(opacity $fade-speed ease-in)
     
     @include breakpoint(laptop)
-        //margin-top: 10px
         position: relative
 
     @include breakpoint(phablet)
@@ -18,15 +17,10 @@
         width: 100%
         left: 0
         position: relative
-        //margin-left: 30%
         padding: 0 25%
 
     @media (max-width: 450px) 
-        //padding: 0 103px
         padding: 0 23%
-
-    @include breakpoint(mobileonly)
-        //padding: 0 86px
 
     &.invisible
         opacity: 0
@@ -83,29 +77,11 @@
                 opacity: 0
 
         &.is-selectable:hover 
-            // -webkit-animation: c-glowing 300ms ease-in-out infinite
-            // -webkit-animation-direction: alternate
-
-            // -moz-animation: c-glowing 300ms ease-in-out infinite
-            // -moz-animation-direction: alternate
-   
-            // -o-animation: c-glowing 300ms ease-in-out infinite
-            // -o-animation-direction: alternate
-
             animation: c-glowing 300ms ease-in-out infinite
             animation-direction: alternate
             
 
         &.is-active
-            // -webkit-animation: c-glowing 300ms ease-in-out infinite
-            // -webkit-animation-direction: alternate
-
-            // -moz-animation: c-glowing 300ms ease-in-out infinite
-            // -moz-animation-direction: alternate
-   
-            // -o-animation: c-glowing 300ms ease-in-out infinite
-            // -o-animation-direction: alternate
-
             animation: c-glowing 300ms ease-in-out infinite
             animation-direction: alternate
         
@@ -115,20 +91,6 @@
                 
                 @include breakpoint(phablet)
                     display: none
-
-
-/*animations*/
-// @-webkit-keyframes c-glowing 
-//     from
-//         box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 15px #fff, 0 0 20px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow
-//     to 
-//         box-shadow: 0 0 2.5px #fff, 0 0 2.5px #fff, 0 0 7.5px #fff, 0 0 10px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 2px $color_light_yellow
-
-// @-moz-keyframes c-glowing
-//     from
-//         box-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 15px #fff, 0 0 20px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow, 0 0 10px $color_light_yellow
-//     to 
-//         box-shadow: 0 0 2.5px #fff, 0 0 2.5px #fff, 0 0 7.5px #fff, 0 0 10px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 5px $color_light_yellow, 0 0 2px $color_light_yellow
 
 @keyframes c-glowing
     from

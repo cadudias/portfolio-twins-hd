@@ -14,15 +14,11 @@
 //TODO change name to something more meaningfull
 @mixin animate()
     opacity: 0
-    // -moz-animation-duration: $fade-speed
-    // -o-animation-duration: $fade-speed
-    // -webkit-animation-duration: $fade-speed
     animation-duration: $fade-speed
 	
 @mixin fade($opacity-value)
     opacity: $opacity-value
     transition: opacity $fade-speed
-    //-webkit-transition: opacity $fade-speed
 
 @mixin breakpoint($point)
    @if $point == desktop 

@@ -15,7 +15,7 @@
 <div class="home container container-wide" id="home">
     
     <div class="row">
-        <h2 id="js-title-character-select" class="title invisible">Character Select</h2>
+        <h2 id="js-title-character-select" class="title">Character Select</h2>
     </div>
 
     <div class="row">
@@ -105,7 +105,7 @@
         </div>
    </div>
 
-    <div class="row about invisible">
+    <div class="row about">
         <p class="text eight columns offset-by-two">
             @lang('messages.home')
          </p>

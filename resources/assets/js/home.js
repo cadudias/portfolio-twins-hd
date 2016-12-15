@@ -15,7 +15,6 @@ DomReady.ready(function() {
     //add character animation classes
     setTimeout(function() {
       document.getElementById('js-title-character-select').classList.remove('invisible')
-      //document.getElementById('js-title-character-select').classList.add('fade-in')
     },400)
 
     setTimeout(function() {
@@ -99,6 +98,7 @@ DomReady.ready(function() {
     },1550)        
   }
 })
+
 
 if(document.getElementById('home') != null){    
     $(document).ready(function(){
