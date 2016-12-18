@@ -489,6 +489,15 @@ body {
     @media (max-width: 540px) {
       #character-contacts .list-contacts {
         margin-left: 0; } }
+    #character-contacts .list-contacts .form .g-recaptcha {
+      margin: 0px;
+      width: 304px;
+      position: relative;
+      float: left; }
+      #character-contacts .list-contacts .form .g-recaptcha iframe {
+        position: absolute;
+        left: 0px;
+        top: 0px; }
     #character-contacts .list-contacts .form .btn-orange {
       background-color: #F77A2C;
       color: white;
