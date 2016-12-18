@@ -189,6 +189,8 @@
                             <label for="input-message">@lang('messages.contacts_message_label')</label>
                             <textarea class="u-full-width" name="Mensagem" rows="10" id="input-message" required></textarea>
                             
+                            <div class="g-recaptcha" data-sitekey="6LcTAg8UAAAAAAAP2uL3Ruu7XzSbglLAEG2BUMAj"></div>
+
                             <input class="btn-orange" type="submit" value="@lang('messages.contacts_send_button')">                                                                                                            
                         {!! Form::close() !!}
                     </div>                               
