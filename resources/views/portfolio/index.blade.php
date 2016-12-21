@@ -6,13 +6,13 @@
 @section('body_class', 'profile')
 
 <div class="container container-wide">
-    <div class="langs">
+    <nav class="langs">
         <a href="/pt/portfolio/{{ $profile['slug'] == 'roberto-hofstetter-dias' ? 'roberto-hofstetter-dias' : 'ricardo-hofstetter-dias' }}" class="{{app('translator')->getLocale() == 'pt' ? 'active' : ''}}">PT</a>
         <a href="/en/portfolio/{{ $profile['slug'] == 'roberto-hofstetter-dias' ? 'roberto-hofstetter-dias' : 'ricardo-hofstetter-dias' }}" class="{{app('translator')->getLocale() == 'en' ? 'active' : ''}}">EN</a>
-    </div>
+    </nav>
 </div>
 
-<div class="profile container container-wide" id="profile">
+<section class="profile container container-wide" id="profile">
     <!-- particles.js container --> 
     <div id="particles-js"></div>    
     <div class="row">
@@ -54,14 +54,14 @@
         <!-- right column -->
         <div class="nine columns character-text">                      
             <!-- ABOUT -->
-            <div id="character-about" class="row character-text-content visible">
+            <section id="character-about" class="row character-text-content visible">
                 <h2>@lang('messages.menu_about')</h2> 
                 {!! $profile['about_' . app('translator')->getLocale()] !!}                                             
-            </div>
+            </section>
 
             <!-- FRONTEND -->
-            <div id="character-frontend" class="twelve columns character-text-content">    
-                <h2>Front-end</h2>                                                                                            
+            <section id="character-frontend" class="twelve columns character-text-content">    
+                <h2>Front End</h2>                                                                                            
                 <ul class="list-languages twelve columns">
                     @foreach($profile['frontend'] as $key => $value)
                     <li class="one-third column list-languages-item">
@@ -70,11 +70,11 @@
                     </li>
                     @endforeach          
                 </ul>                
-            </div>      
+            </section>      
 
             <!-- BACKEND -->
-            <div id="character-backend" class="twelve columns character-text-content">
-                <h2>Back-end</h2>                                                                                                                   
+            <section id="character-backend" class="twelve columns character-text-content">
+                <h2>Back End</h2>                                                                                                                   
                 <ul class="list-languages twelve columns">
                     @foreach($profile['backend'] as $key => $value2)
                     <li class="one-third column list-languages-item">
@@ -83,10 +83,10 @@
                     </li>
                     @endforeach   
                 </ul>              
-            </div>      
+            </section>      
 
             <!-- DBS -->
-            <div id="character-dbs" class="twelve columns character-text-content">         
+            <section id="character-dbs" class="twelve columns character-text-content">         
                 <h2>@lang('messages.menu_databases')</h2>                                          
                 <ul class="list-languages twelve columns">
                     @foreach($profile['bds'] as $key => $value3)
@@ -96,10 +96,10 @@
                     </li>
                     @endforeach                       
                 </ul>                       
-            </div>
+            </section>
 
             <!-- FERRAMENTAS -->
-            <div id="character-tools" class="twelve columns character-text-content">
+            <section id="character-tools" class="twelve columns character-text-content">
                 <h2>@lang('messages.menu_tools')</h2>                                                   
                 <ul class="list-tools twelve columns">
                     @foreach($profile['tools'] as $key => $value4)
@@ -109,10 +109,10 @@
                     </li>
                     @endforeach                       
                 </ul>                       
-            </div>        
+            </section>        
 
             <!-- PORTFOLIO -->
-            <div id="character-works" class="twelve columns character-text-content">
+            <section id="character-works" class="twelve columns character-text-content">
                 <h2>@lang('messages.menu_works')</h2>                                                   
                 <div class="list-works row">
                     @foreach($profile['works'] as $key => $value5)
@@ -148,10 +148,10 @@
                     </div>   
                     @endforeach                                    
                 </div>                       
-            </div>   
+            </section>   
 
             <!-- CONTACTS -->
-            <div id="character-contacts" class="character-text-content">                  
+            <section id="character-contacts" class="character-text-content">                  
                 <h2>@lang('messages.menu_contacts')</h2>                                                 
                 <div class="row">
                     <h3 class="title">@lang('messages.contacts_intro')</h3>
@@ -225,8 +225,8 @@
                         </div>
                     </div>
                 </div>                                           
-            </div>      
+            </section>      
         </div>
     </div>        
-</div>
+</section>
 @stop

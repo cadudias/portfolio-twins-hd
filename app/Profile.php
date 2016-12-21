@@ -14,15 +14,15 @@ class Profile
         'github' => 'https://github.com/roberto-hofstetter',
         'email' => 'roberto.rhd@gmail.com',
         'about_pt'     => "<p>Formação em Análise e Desenvolvimento de Sistemas e pós graduação em Tecnologias aplicadas a Sistemas de Informação, ambas pela Faculdade UniRitter. </p>  
-            Já fui lider Técnico, de Infraestrutura e lider de equipe, sendo responsável pelo setor de Back-end da Perverte, última empresa que trabalhei, durante mais de 5 anos. </br>
-            <p>Atuo no mercado de desenvolvimento há mais de 7 anos, já passei por desenvolvimento focado tanto no Back-end quanto no Front-end, 
+            Já fui lider Técnico, de Infraestrutura e lider de equipe, sendo responsável pelo setor de Back End da Perverte, última empresa que trabalhei, durante mais de 5 anos. </br>
+            <p>Atuo no mercado de desenvolvimento há mais de 7 anos, já passei por desenvolvimento focado tanto no Back End quanto no Front End, 
             atualmente atuo nas duas áreas como Full Stack Developer. </p>
             <p>Na Perverte desenvolvi também sistemas de grande porte e portais como o Portal de Exames do Cooperado e Beneficiário da Unimed NERS, que têm milhares de usuários e cooperados utilizando a ferramenta.</p>                
             <p>Estou constantemente me aperfeiçoando fazendo cursos e indo em eventos, sou apaixonado pela área. Acredito que a troca de conhecimento é importante para o crescimento profissional. </p>
             <p>Atualmente trabalho como Freelancer e estou desenvolvendo o curso <a href='http://estagiocomxp.com/' target='_blank'>Estágio Com XP</a> onde vou passar conteúdos sobre desenvolvimento pessoal 
                 e profissional focado na área web, principalmente pra iniciantes que estão buscando o primeiro emprego.</p>",
-        'about_en'     => "<p>Technical leader and Infrastructure leader, i was responsible for the Back-end team on Perverte, the last company i worked for, for more than five years. </br>
-            <p> Working with development for more than 7 years now, I have been through development focused both with Back-end and Front-end.
+        'about_en'     => "<p>Technical leader and Infrastructure leader, i was responsible for the Back End team on Perverte, the last company i worked for, for more than five years. </br>
+            <p> Working with development for more than 7 years now, I have been through development focused both with Back End and Front End.
             Currently I'm working in both areas as a Full Stack Developer. </p>
             <p> Developed large systems and portals like the Exams Portal for Cooperatives and beneficiaries for Unimed NERS, a big health company in Brazil, which has thousands of members and cooperators. </p>
             <p> I am constantly perfecting myself, taking courses and attendign to development events here in Brazil. I love programming and everything about the area. </p>
@@ -125,8 +125,8 @@ class Profile
             [
             'name'=> 'Nova Marca', 
             'link'=>'http://www.novamarcaimoveis.com/', 
-            'text_pt' => 'Repaginação de todo o Front-end do site.',
-            'text_en' => 'Website Front-end revamp', 
+            'text_pt' => 'Repaginação de todo o Front End do site.',
+            'text_en' => 'Website Front End revamp', 
             'image'=> 'novamarca.jpg',
             'involvement' => ['HTML5', 'CSS3', 'JavaScript', 'JQuery', 'Animações', 'PHP', 'MySQL']
             ],  
@@ -153,12 +153,12 @@ class Profile
         'github' => 'https://github.com/kadoohd',
         'email' => 'cadu.hd@gmail.com',
         'about_pt'     => "<p>Já tive a oportunidade de passar por muitas áreas do mercado de desenvolvimento e aprendi muito em cada uma delas.
-                Trabalhei durante 6 anos em agências, 4 anos focado em Back-end (.NET e PHP) e 2 anos como Front e Back-end desenvolvendo desde grandes sistemas 
+                Trabalhei durante 6 anos em agências, 4 anos focado em Back End (.NET e PHP) e 2 anos como Front e Back End desenvolvendo desde grandes sistemas 
                 internos até sites institucionais. O melhor é que sempre me envolvi com os projetos de forma geral, fazendo comportamentos, animações, conversando com o 
                 cliente e fazendo muitas vezes o papel de gerente de projeto além de desenvolvedor.</p>
 
                 <p>Hoje trabalho na <a href='http://classadvisor.com.br' target='_blank'>ClassAdvisor</a> como desenvolvedor Full Stack. Participar de uma startup me possibilitou colocar em prática todo o 
-                conhecimento nas áreas de Front-end, Back-end, Sysadmin colocando os ambiente na cloud,
+                conhecimento nas áreas de Front End, Back End, Sysadmin colocando os ambiente na cloud,
                 UI/UX, métricas, testes e outras partes importantes na vida de uma empresa que está começando a crescer.</p>
                 
                 <p>Também estou desenvolvendo o curso do <a href='http://estagiocomxp.com/' target='_blank'>Estágio Com XP</a> onde vou passar conteúdos sobre desenvolvimento pessoal 
@@ -173,12 +173,12 @@ class Profile
                 <p>Me formei em Análise e Desenvolvimento de Sistemas pela Ritter dos Reis em 2009. </p>",
 
         'about_en'     => "<p> I've had the opportunity to go through many areas of development and learned a lot in each one of them. 
-        I worked for six years in agencies, four years focused on Back-end (.NET and PHP) and 2 years as Front and Back-end developing from large internal systems to institutional websites. 
+        I worked for six years in agencies, four years focused on Back End (.NET and PHP) and 2 years as Front and Back End developing from large internal systems to institutional websites. 
         The good part is that i was always involved with the projects as a whole, making behaviors, animations, talking to the customer and doing often the project manager role.
         That gave me a lot of experience in many areas. </p>
 
             <p> Now i'm working at <a href='http://classadvisor.com.br' target='_blank'>ClassAdvisor</a> as a Full Stack Developer. Beeing part of a startup from the begining 
-            gave me the opportunity to put into practice all the knowledge i have in Front-end, Back-end, Sysadmin putting the environment on the cloud,
+            gave me the opportunity to put into practice all the knowledge i have in Front End, Back End, Sysadmin putting the environment on the cloud,
                 UI/UX, metrics, testing and other important parts in the life of a company that is starting to grow.</p>
 
             <p> I am also working on a personal project called <a href='http://estagiocomxp.com/' target='_blank'>Estágio com XP</a> (something like Internship with XP). It's a online course where you'll pass content on personal and professional development
@@ -280,14 +280,14 @@ class Profile
             [
             'name'=> 'Class Advisor', 
             'link'=>'http://www.classadvisor.com.br', 
-            'text_pt' => 'Trabalho como Lead Developer tanto no Front quanto no Back-end. Tenho aprendido muito com esse projeto e pretendo continuar melhorando os pontos nos quais ainda estou insatisfeito. 
+            'text_pt' => 'Trabalho como Lead Developer tanto no Front quanto no Back End. Tenho aprendido muito com esse projeto e pretendo continuar melhorando os pontos nos quais ainda estou insatisfeito. 
             <br/> <br/>
             Decidimos por desenvolver um modelo MVP do site em AngularJS por estarmos mais familiarizados e para diminuir ao máximo o tempo de entrega do site já que estamos em fase de validação. Com isso conseguimos entregar uma versão 100% funcional em 3 meses.
             <br/> <br/>
             O próximo passo é melhorarmos a cobertura de testes do projeto e automatizar mais o deploy pro ambiente de produção na cloud.
             <br/> <br/>
             Pro back-end foi desenvolvido um Rest API em PHP utilizando Laravel 5 e como banco de dados o MySQL.',
-            'text_en' => "I'm currently working as Lead Developer both in Front and in the Back-end. I’m also leading the deployment to the cloud using Locaweb’s Jelastic. I have learned a lot from this project and plan to continue improving the points in which I'm still dissatisfied.
+            'text_en' => "I'm currently working as Lead Developer both in Front and in the Back End. I’m also leading the deployment to the cloud using Locaweb’s Jelastic. I have learned a lot from this project and plan to continue improving the points in which I'm still dissatisfied.
             <br/> <br/>
             We decided to develop a MVP model of the website using angular because we are more familiar with it and to reduce the delivery time of the site since we are in the validation phase. With that we were able to deliver a 100% working version in 3 months.
             <br/> <br/>
@@ -301,8 +301,8 @@ class Profile
             [
             'name'=> 'Nova Marca', 
             'link'=>'http://www.novamarcaimoveis.com/', 
-            'text_pt' => 'Repaginação de todo o Front-end do site.',
-            'text_en' => 'Website Front-end revamp', 
+            'text_pt' => 'Repaginação de todo o Front End do site.',
+            'text_en' => 'Website Front End revamp', 
             'image'=> 'novamarca.jpg',
             'involvement' => ['HTML5', 'CSS3', 'PHP', 'MySQL']
             ], 

@@ -34,7 +34,7 @@
 
     <body class="@yield('body_class')">
 
-        <div class="wrapper">
+        <main class="wrapper">
 
             @yield('content')
         
@@ -44,7 +44,7 @@
                 <img class="crystal" src="/images/crystal.gif" />
                 <span class="loading">loading...</span>
             </div>            
-        </div>
+        </main>
 
         <script src="/js/all.js"></script>
 

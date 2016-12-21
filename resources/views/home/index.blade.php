@@ -1,18 +1,18 @@
 @extends('layout')
 
-@section('title', 'Ricardo | Roberto')
+@section('title', 'Ricardo Dias | Roberto Dias')
 
 @section('content')
 @section('body_class', 'home')
 
 <div class="container container-wide">
-    <div class="langs">
+    <nav class="langs">
         <a href="/pt" class="{{app('translator')->getLocale() == 'pt' ? 'active' : ''}}">PT</a>
         <a href="/en" class="{{app('translator')->getLocale() == 'en' ? 'active' : ''}}">EN</a>
-    </div>
+    </nav>
 </div>
 
-<div class="home container container-wide" id="home">
+<section class="home container container-wide" id="home">
     
     <div class="row">
         <h2 id="js-title-character-select" class="title">Character Select</h2>
@@ -105,7 +105,7 @@
         </div>
    </div>
 
-    <div class="row about">
+    <section class="row about">
         <p class="text eight columns offset-by-two">
             @lang('messages.home')
          </p>

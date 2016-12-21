@@ -8,10 +8,10 @@
                 <a href="javascript:void(0);" id="about" class="name">@lang('messages.menu_about')</a>
             </li>
             <li class="list-menu-item">                        
-                <a href="javascript:void(0);" id="frontend" class="name">Front-end</a>
+                <a href="javascript:void(0);" id="frontend" class="name">Front End</a>
             </li>                    
                 <li class="list-menu-item">                        
-                <a href="javascript:void(0);" id="backend" class="name">Back-end</a>
+                <a href="javascript:void(0);" id="backend" class="name">Back End</a>
             </li>              
             <li class="list-menu-item">                        
                 <a href="javascript:void(0);" id="dbs" class="name">@lang('messages.menu_databases')</a>

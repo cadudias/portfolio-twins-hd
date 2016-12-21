@@ -7,6 +7,6 @@
 
             ga('create', 'UA-87985255-1', 'auto');
             ga('send', 'pageview');
-        </script> </head> <body class="@yield('body_class')"> <div class="wrapper"> @yield('content') @include('includes.footer') <div id="preloader"> <img class="crystal" src="/images/crystal.gif"> <span class="loading">loading...</span> </div> </div> <script src="/js/all.js"></script> <script>
+        </script> </head> <body class="@yield('body_class')"> <main class="wrapper"> @yield('content') @include('includes.footer') <div id="preloader"> <img class="crystal" src="/images/crystal.gif"> <span class="loading">loading...</span> </div> </main> <script src="/js/all.js"></script> <script>
 	        loadCSS("/css/all.css");
         </script> </body> </html>
