@@ -11,6 +11,7 @@ use App\Contact;
 use App\Profile;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Config;
+use ReCaptcha\ReCaptcha;
 
 class PortfolioController extends Controller
 {    
@@ -28,6 +29,22 @@ class PortfolioController extends Controller
 
     public function sendEmail(Request $request, $name, $locale)
     {        
+
+        //check captcha
+        //https://www.google.com/recaptcha/api/siteverify
+        $response = $request->input('g-recaptcha-response');
+        $remoteip = $_SERVER['REMOTE_ADDR'];
+        $secret   = "6LcTAg8UAAAAAHqVWz2-p0P9qGKAl0hs1Zt1OIKm";
+        $response_validate_captcha = 0;
+
+        $recaptcha = new ReCaptcha($secret);
+        $resp = $recaptcha->verify($response, $remoteip);
+        if ($resp->isSuccess()) {
+            $response_validate_captcha = 1;
+        } else {
+            $response_validate_captcha = 0;
+        }          
+
         $profile = new Profile;
         if($name === 'roberto-hofstetter-dias'){            
             $profile = $profile->roberto;                              
@@ -36,6 +53,15 @@ class PortfolioController extends Controller
         } 
 
         app('translator')->setLocale($locale);
+
+        if($response_validate_captcha === 0){            
+            if(app('translator')->getLocale() === 'en'){
+                $error = "Please, check the captcha";                
+            }else{
+                $error = "Por favor, marque o captcha";
+            }
+            return View::make('portfolio.index')->with('error', $error)->with('profile', $profile);
+        }          
 
         try{
             $messages = [
