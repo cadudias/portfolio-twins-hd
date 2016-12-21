@@ -20,3 +20,5 @@ $app->get('/{locale}', 'HomeController@index');
 $app->get('/{locale}/portfolio/{name}', 'PortfolioController@index');
 
 $app->post('/{locale}/portfolio/{name}', 'PortfolioController@sendEmail');
+
+$app->get('/sitemap', 'HomeController@sitemap');
