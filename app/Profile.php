@@ -170,7 +170,7 @@ class Profile
 
                 <p>Trabalho como freelancer, se quiser tirar um projeto do papel é só entrar em contato :)</p>
                 
-                <p>Me formei em Análise e Desenvolvimento de Sistemas pela Ritter dos Reis em 2009. </p>",
+                <p>Me formei em Análise e Desenvolvimento de Sistemas pela UniRitter em 2009. </p>",
 
         'about_en'     => "<p> I've had the opportunity to go through many areas of development and learned a lot in each one of them. 
         I worked for six years in agencies, four years focused on Back End (.NET and PHP) and 2 years as Front and Back End developing from large internal systems to institutional websites. 
@@ -191,7 +191,7 @@ class Profile
 
                 <p> I'm also working as a freelancer, if you want to make something cool contact me! :) </p>
 
-                <p>I'm graduated in Analysis and Systems Development at Ritter dos Reis in 2009.</p> 
+                <p>I'm graduated in Analysis and Systems Development at UniRitter in 2009.</p> 
             ",
         'frontend'  =>  [
             ['name'=> 'HTML5', 'width'=> '150', 'image'=> 'html.png'],
