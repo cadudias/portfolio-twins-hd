@@ -12,7 +12,7 @@
     </nav>
 </div>
 
-<section class="profile container container-wide" id="profile">
+<section class="profile container container-wide" id="profile" itemscope itemtype="http://schema.org/Person">
     <!-- particles.js container --> 
     <div id="particles-js"></div>    
     <div class="row">
@@ -38,10 +38,10 @@
                     @endforeach                                                   
                 </ul>
                 <div class="twelve columns">
-                    <h1 class="name">{{ $profile['name'] }}</h1>
+                    <h1 class="name" itemprop="name">{{ $profile['name'] }}</h1>
                 </div>
                 <div class="twelve columns">
-                    <span class="status">{{ $profile['role'] }}</span>
+                    <span class="status" itemprop="jobTitle">{{ $profile['role'] }}</span>
                 </div>
             </div>
         </div>  
@@ -223,7 +223,7 @@
                         </div>
 
                         <div class="list-portfolio-item">
-                            E-mail: <a class="link" href="mailto:{{ $profile['email'] }}">{{ $profile['email'] }}</a>
+                            E-mail: <a class="link" href="mailto:{{ $profile['email'] }}" itemprop="email">{{ $profile['email'] }}</a>
                         </div>
                     </div>
                 </div>                                           
