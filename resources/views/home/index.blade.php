@@ -18,7 +18,7 @@
         <h2 id="js-title-character-select" class="title">Character Select</h2>
     </div>
 
-    <div class="row">
+    <section class="row characters">
         <div id="js-character-roberto" class="character five columns">
             <a href="/{{app('translator')->getLocale()}}/portfolio/roberto-hofstetter-dias">
                 <img src="../images/Roberto_sem-fundo-1.png" class="character-image roberto-image u-max-full-width" alt="Roberto H. Dias">
@@ -103,17 +103,17 @@
                 </div>
             </div>
         </div>
-   </div>
+    </section>
 
     <section class="row about">
         <p class="text eight columns offset-by-two">
             @lang('messages.home')
          </p>
-    </div>
-</div>
+    </section>
+</section>
 
-<div class="container container-wide">
+<section class="container container-wide ilustrations">
     @lang('messages.ilustrations')
-</div>
+</section>
 
 @stop
