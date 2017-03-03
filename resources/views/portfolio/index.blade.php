@@ -61,7 +61,7 @@
 
             <!-- FRONTEND -->
             <section id="character-frontend" class="twelve columns character-text-content">    
-                <h2>Front End</h2>                                                                                            
+                <h2>Front-end</h2>                                                                                            
                 <ul class="list-languages twelve columns">
                     @foreach($profile['frontend'] as $key => $value)
                     <li class="one-third column list-languages-item">
@@ -74,7 +74,7 @@
 
             <!-- BACKEND -->
             <section id="character-backend" class="twelve columns character-text-content">
-                <h2>Back End</h2>                                                                                                                   
+                <h2>Back-end</h2>                                                                                                                   
                 <ul class="list-languages twelve columns">
                     @foreach($profile['backend'] as $key => $value2)
                     <li class="one-third column list-languages-item">

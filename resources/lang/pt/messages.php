@@ -8,7 +8,7 @@ return [
     'footer' => 'Feito com <span class="heart"> &lt;3 </span> e <span class="coffee">&nbsp;</span> por Ricardo e Roberto',
     'and' => 'e',
     'description' => 'Olá! Nós somos os gêmeos, Ricardo Hofstetter Dias e Roberto Hofstetter Dias. 
-            Somos desenvolvedores Full Stack atuando no Front End com HTML5, CSS3 e JS e no Back End com C# e PHP.',
+            Somos desenvolvedores Full Stack atuando no Front-end com HTML5, CSS3 e JS e no Back-end com C# e PHP.',
     'menu_about' => 'Sobre',    
     'menu_databases' => 'Bancos de dados',
     'menu_tools' => 'Ferramentas',

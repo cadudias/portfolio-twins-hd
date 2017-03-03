@@ -7,7 +7,7 @@ Get to know our work selecting one of the characters above :) <br/>
 <strong> (and try to guess the references used on the site!) </strong>',
     'footer' => 'Made with <span class="heart"> &lt;3 </span> and <span class="coffee">&nbsp;</span> by Ricardo and Roberto',
     'and' => 'e',
-    'description' => 'Hello! We are the twins, Ricardo Hofstetter Dias and Roberto Hofstetter Dias. We are Full Stack Web Developers working with HTML5, CSS3 and JS for the Front End and C# / PHP for the Back End.',
+    'description' => 'Hello! We are the twins, Ricardo Hofstetter Dias and Roberto Hofstetter Dias. We are Full Stack Web Developers working with HTML5, CSS3 and JS for the Front-end and C# / PHP for the Back-end.',
     'menu_about' => 'About',    
     'menu_databases' => 'Databases',
     'menu_tools' => 'Tools',
