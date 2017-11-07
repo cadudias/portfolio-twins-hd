@@ -109,6 +109,18 @@
                     </li>
                     @endforeach                       
                 </ul>                       
+            </section>   
+
+            <!-- Soft Skills -->
+            <section id="character-soft-skills" class="twelve columns character-text-content">
+                <h2>Soft Skills</h2>                                                   
+                <ul class="list-tools twelve columns">
+                    @foreach($profile['soft_skills'] as $key => $value6)
+                    <li class="one-third column list-languages-item">
+                        <span class="twelve columns list-item-title">{{ $value6['name_'. app('translator')->getLocale()] }}</span>                        
+                    </li>
+                    @endforeach                       
+                </ul>                       
             </section>        
 
             <!-- PORTFOLIO -->
@@ -119,17 +131,27 @@
                     <div class="list-works-item twelve columns">
                         
                         <div class="three columns container-image">
+                            @if (isset($value5['link']))
                             <a href="{{ $value5['link'] }}" target="_blank" class="image">
                                 <img src="/../images/trabalhos/{{$profile['slug']}}/{{ $value5['image'] }}" class="u-max-full-width" />
-                            </a>                            
+                            </a>                        
+                            @else
+                                <img src="/../images/trabalhos/{{$profile['slug']}}/{{ $value5['image'] }}" class="u-max-full-width" />
+                            @endif  
                         </div>
                         
                         <div class="nine columns container-right">                                                    
                             <div class="twelve columns top">
+                                @if (isset($value5['link']))
                                 <a href="{{ $value5['link'] }}" target="_blank" class="title-link">
                                     <h4 class="title">{{ $value5['name'] }}</h4>
                                 </a>
                                 <a href="{{ $value5['link'] }}" target="_blank" class="access-link">@lang('messages.works_access_link')</a>
+                                @else
+                                <a href="javascript:void(0);" target="_blank" class="title-link">
+                                    <h4 class="title">{{ $value5['name'] }}</h4>
+                                </a>
+                                @endif
                             </div>
                             <div class="twelve columns">
                                 <p class="text">

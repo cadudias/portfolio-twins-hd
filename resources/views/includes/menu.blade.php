@@ -18,7 +18,10 @@
             </li>
             <li class="list-menu-item">                        
                 <a href="javascript:void(0);" id="tools" class="name">@lang('messages.menu_tools')</a>
-            </li>  
+            </li>
+            <li class="list-menu-item">                        
+                <a href="javascript:void(0);" id="soft-skills" class="name">Soft Skills</a>
+            </li>   
             <li class="list-menu-item">                        
                 <a href="javascript:void(0);" id="works" class="name">@lang('messages.menu_works')</a>
             </li>   

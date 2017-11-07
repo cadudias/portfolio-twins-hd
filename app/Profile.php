@@ -66,6 +66,15 @@ class Profile
             ['name'=> 'Vagrant', 'width' => '170', 'image'=> 'vagrant.jpg'],
             ['name'=> 'Wordpress', 'width' => '200', 'image'=> 'wordpress.png']                            
         ],
+        'soft_skills'      =>  [
+            ['name_pt'=> 'Análise de Projeto', 'name_en' => 'Project Analysis'],
+            ['name_pt'=> 'Gerenciar e liderar equipe', 'name_en' => 'Lead and manage team'],
+            ['name_pt'=> 'Acompanhar, gerenciar e testar projetos', 'name_en' => 'Track, manage and test projects'],
+            ['name_pt'=> 'Escolher tecnologias a serem usadas nos projetos', 'name_en' => 'Choose technologies to be used in projects'],
+            ['name_pt'=> 'Atendimento ao cliente', 'name_en' => 'Customer service'],            
+            ['name_pt'=> 'Continuous Deployment','name_en' => 'Continuous Deployment'],
+            ['name_pt'=> 'Amazon AWS','name_en' => 'Amazon AWS']                            
+        ],
         'works'      =>  [
             [
             'name'=> 'Why Go Wild', 
@@ -89,8 +98,7 @@ class Profile
             'involvement' => ['HTML5', 'JQuery', 'C#', '.NET', 'BackBone JS', 'Require JS', 'MVC', 'SQL Server']
             ],
             [
-            'name'=> 'Class Advisor', 
-            'link'=>'http://www.classadvisor.com.br', 
+            'name'=> 'Class Advisor',             
             'text_pt' => 'CTO e Full Stack Developer, fazendo todo o HTML, CSS e JavaScript. Desenvolvemos também a API REST no framework Laravel.',
             'text_en' => 'CTO and Full Stack Developer, doing all the HTML, CSS and JavaScript. We also developed the REST API using the Laravel framework', 
             'image'=> 'classadvisor.jpg',
@@ -131,13 +139,24 @@ class Profile
             'involvement' => ['HTML5', 'CSS3', 'JavaScript', 'JQuery', 'Animações', 'PHP', 'MySQL']
             ],  
             [
-            'name'=> 'Curso Estágio Com XP', 
-            'link'=>'http://estagiocomxp.teachable.com/', 
-            'text_pt' => 'Desenvolvimento do Curso Estágio com XP. Curso Online focado pra quem está começando no mercado de trabalho web.',
-            'text_en' => 'Course development Estágio Com XP. Online course focused for those who are starting at web developement.', 
-            'image'=> 'estagiocomxp.png',
-            'involvement' => ['HTML5', 'CSS3', 'JavaScript', 'JQuery', 'PHP']
-            ],                           
+            'name'=> 'Estágio com XP', 
+            'link'=>'http://estagiocomxp.com/', 
+            'text_pt' => 'Projeto pessoal onde vou passar todo o conhecimento que adquiri como desenvolvedor Full Stack em agências, freelas e projetos paralelos. <br/> <br/>
+
+            Serão mais de 50 vídeos abordando os assuntos básicos necessários para desenvolver para a web, além de dicas de como se portar no mercado. Serão vídeos curtos, de 10 até 30 minutos, por acreditarmos que isso facilita o aprendizado e a vontade de estudar.
+            <br/> <br/>
+
+            Com isso queremos preparar melhor os iniciantes na área pra que eles entrem confiantes no mercado de trabalho e possam ajudar as empresas com eficiência e em menos tempo.
+
+            <br/> <br/>',
+            'text_en' => 'Personal project where I’ll share all the knowledge I acquired as Full Stack Developer in agencies, side projects and as a freelancer. <br/><br/>
+            There will be more than 50 videos covering the basic subjects needed to develop for the web, plus tips on how to behave in any company and with your team. Will be short videos, 10 to 30 minutes, because we believe that it facilitates learning and the desire to study.
+            <br/><br/>
+            By this we’ll better prepare newcomers to the development area increasing their confidence and preparing them to aid companies efficiently and in less time.
+            <br/><br/>', 
+            'image'=> 'estagiocomxp.jpg',
+            'involvement' => ['HTML5', 'CSS3', 'PHP', 'JavaScript']
+            ]                         
         ]    
     ];
 
@@ -230,6 +249,15 @@ class Profile
             ['name'=> 'Vagrant', 'width' => '170', 'image'=> 'vagrant.jpg'],
             ['name'=> 'Wordpress', 'width' => '200', 'image'=> 'wordpress.png']                            
         ],
+        'soft_skills'      =>  [
+            ['name_pt'=> 'Análise de Projeto', 'name_en' => 'Project Analysis'],
+            ['name_pt'=> 'Gerenciar e liderar equipe', 'name_en' => 'Lead and manage team'],
+            ['name_pt'=> 'Acompanhar, gerenciar e testar projetos', 'name_en' => 'Track, manage and test projects'],
+            ['name_pt'=> 'Escolher tecnologias a serem usadas nos projetos', 'name_en' => 'Choose technologies to be used in projects'],
+            ['name_pt'=> 'Atendimento ao cliente', 'name_en' => 'Customer service'],            
+            ['name_pt'=> 'Continuous Deployment','name_en' => 'Continuous Deployment'],
+            ['name_pt'=> 'Amazon AWS','name_en' => 'Amazon AWS']                            
+        ],
         'works'      =>  [
             [
             'name'=> 'Why Go Wild', 
@@ -279,15 +307,14 @@ class Profile
             ],
             [
             'name'=> 'Class Advisor', 
-            'link'=>'http://www.classadvisor.com.br', 
-            'text_pt' => 'Trabalho como Lead Developer tanto no Front quanto no Back End. Tenho aprendido muito com esse projeto e pretendo continuar melhorando os pontos nos quais ainda estou insatisfeito. 
+            'text_pt' => 'Trabalhei como Lead Developer tanto no Front quanto no Back End. Tenho aprendido muito com esse projeto e pretendo continuar melhorando os pontos nos quais ainda estou insatisfeito. 
             <br/> <br/>
             Decidimos por desenvolver um modelo MVP do site em AngularJS por estarmos mais familiarizados e para diminuir ao máximo o tempo de entrega do site já que estamos em fase de validação. Com isso conseguimos entregar uma versão 100% funcional em 3 meses.
             <br/> <br/>
             O próximo passo é melhorarmos a cobertura de testes do projeto e automatizar mais o deploy pro ambiente de produção na cloud.
             <br/> <br/>
             Pro back-end foi desenvolvido um Rest API em PHP utilizando Laravel 5 e como banco de dados o MySQL.',
-            'text_en' => "I'm currently working as Lead Developer both in Front and in the Back End. I’m also leading the deployment to the cloud using Locaweb’s Jelastic. I have learned a lot from this project and plan to continue improving the points in which I'm still dissatisfied.
+            'text_en' => "Worked as Lead Developer both in Front and in the Back End. I’m also leading the deployment to the cloud using Locaweb’s Jelastic. I have learned a lot from this project and plan to continue improving the points in which I'm still dissatisfied.
             <br/> <br/>
             We decided to develop a MVP model of the website using angular because we are more familiar with it and to reduce the delivery time of the site since we are in the validation phase. With that we were able to deliver a 100% working version in 3 months.
             <br/> <br/>
