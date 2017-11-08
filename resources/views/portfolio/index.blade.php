@@ -123,7 +123,7 @@
                 </ul>                       
             </section>        
 
-            <!-- PORTFOLIO -->
+            <!-- PORTFOLIO --> 
             <section id="character-works" class="twelve columns character-text-content">
                 <h2>@lang('messages.menu_works')</h2>                                                   
                 <div class="list-works row">
