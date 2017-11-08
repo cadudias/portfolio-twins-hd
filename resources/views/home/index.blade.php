@@ -68,7 +68,7 @@
                         <img src="../images/roberto-home-face.jpg" alt="Selecionar Roberto H. Dias">
                         <p class="mobile-name roberto">Roberto</p>
                     </a>                    
-                </div>
+                </div> 
   
                  <div id="js-square-ricardo" class="square is-selectable">
 
