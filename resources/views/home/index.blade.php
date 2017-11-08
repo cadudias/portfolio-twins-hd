@@ -65,7 +65,7 @@
                     <a href="/{{app('translator')->getLocale()}}/portfolio/roberto-hofstetter-dias">
                     
                         <span id="js-tag-roberto" class="player-one-tag invisible"> 1P </span>
-                        <img src="../images/roberto-home-face.jpg" alt="Selecionar Roberto H. Dias">
+                        <img src="../images/face-roberto-maior.jpg" alt="Selecionar Roberto H. Dias">
                         <p class="mobile-name roberto">Roberto</p>
                     </a>                    
                 </div> 
