@@ -153,16 +153,12 @@ class Profile
         'github' => 'https://github.com/kadoohd',
         'email' => 'cadu.hd@gmail.com',
         'about_pt'     => "<p>Já tive a oportunidade de passar por muitas áreas do mercado de desenvolvimento e aprendi muito em cada uma delas.
-                Trabalhei durante 6 anos em agências, 4 anos focado em Back End (.NET e PHP) e 2 anos como Front e Back End desenvolvendo desde grandes sistemas 
-                internos até sites institucionais. O melhor é que sempre me envolvi com os projetos de forma geral, fazendo comportamentos, animações, conversando com o 
-                cliente e fazendo muitas vezes o papel de gerente de projeto além de desenvolvedor.</p>
-
-                <p>Hoje trabalho na <a href='http://classadvisor.com.br' target='_blank'>ClassAdvisor</a> como desenvolvedor Full Stack. Participar de uma startup me possibilitou colocar em prática todo o 
-                conhecimento nas áreas de Front End, Back End, Sysadmin colocando os ambiente na cloud,
-                UI/UX, métricas, testes e outras partes importantes na vida de uma empresa que está começando a crescer.</p>
+                Trabalhei durante 6 anos em agências, 4 anos focado em Back End (.NET e PHP) e 2 anos como Front e Back-end desenvolvendo desde sites institucionais até grandes sistemas 
+                internos. O melhor é que sempre me envolvi com os projetos de forma geral, fazendo comportamentos, animações, conversando com o 
+                cliente e fazendo muitas vezes o papel de gerente de projeto além de desenvolvedor. Depois de passar por agências trabalhei com algumas Startups o que me deu uma boa base de trabalho dentro desse mercado.</p>
                 
-                <p>Também estou desenvolvendo o curso do <a href='http://estagiocomxp.com/' target='_blank'>Estágio Com XP</a> onde vou passar conteúdos sobre desenvolvimento pessoal 
-                e profissional focado na área web, principalmente pra iniciantes que estão buscando o primeiro emprego e ainda não sabem ao certo por onde começar ou se sentem incapacitados
+                <p>Também ajudei a criar o curso do <a href='http://estagiocomxp.com/' target='_blank'>Estágio Com XP</a> onde ensino sobre desenvolvimento pessoal 
+                e profissional focado na área web, principalmente para iniciantes que estão buscando o primeiro emprego e ainda não sabem ao certo por onde começar ou se sentem incapacitados
                 diante de todas as demandas por experiência e conhecimento do nosso mercado. </p>
 
                 <p>Sempre que posso escrevo no <a href='https://medium.com/@caduHD' target='_blank'>Medium</a>, faço cursos e participo de eventos de desenvolvimento. 
